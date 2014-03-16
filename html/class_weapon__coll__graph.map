@@ -1,0 +1,7 @@
+<map id="Weapon" name="Weapon">
+<area shape="rect" id="node2" href="$class_equipment.html" title="Equipment" alt="" coords="14,96,97,123"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="5,5,85,32"/>
+<area shape="rect" id="node4" href="$class_hardpoint.html" title="Hardpoint" alt="" coords="132,96,209,123"/>
+<area shape="rect" id="node5" href="$class_world_object_slot.html" title="WorldObjectSlot" alt="" coords="112,5,229,32"/>
+<area shape="rect" id="node6" href="$class_hardpoint_voxel.html" title="HardpointVoxel" alt="" coords="254,5,364,32"/>
+</map>

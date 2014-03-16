@@ -1,0 +1,8 @@
+<map id="GamePlayPaused" name="GamePlayPaused">
+<area shape="rect" id="node4" href="$class_game_play.html" title="GamePlay" alt="" coords="752,204,835,230"/>
+<area shape="rect" id="node2" href="$class_game_state.html" title="GameState" alt="" coords="144,240,232,266"/>
+<area shape="rect" id="node5" href="$class_game.html" title="Game" alt="" coords="1015,153,1073,180"/>
+<area shape="rect" id="node9" href="$class_game_play_running.html" title="GamePlayRunning" alt="" coords="979,312,1109,338"/>
+<area shape="rect" id="node3" href="$class_state.html" title="State" alt="" coords="37,240,91,266"/>
+<area shape="rect" id="node10" href="$class_key_trigger.html" title="KeyTrigger" alt="" coords="146,389,230,416"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="SpecialVoxel" name="SpecialVoxel">
+<area shape="rect" id="node2" href="$class_voxel.html" title="Voxel" alt="" coords="74,109,128,136"/>
+<area shape="rect" id="node5" href="$class_voxel_tree_node.html" title="VoxelTreeNode" alt="" coords="129,200,239,227"/>
+<area shape="rect" id="node3" href="$class_visuals.html" title="Visuals" alt="" coords="11,5,76,32"/>
+<area shape="rect" id="node4" href="$class_property.html" title="Property\&lt; float \&gt;" alt="" coords="101,5,219,32"/>
+</map>

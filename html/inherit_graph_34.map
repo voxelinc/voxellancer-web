@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_faction.html" title="Faction" alt="" coords="6,56,71,83"/>
+<area shape="rect" id="node2" href="$class_pirate_faction.html" title="PirateFaction" alt="" coords="123,5,221,32"/>
+<area shape="rect" id="node3" href="$class_player_faction.html" title="PlayerFaction" alt="" coords="121,56,223,83"/>
+<area shape="rect" id="node4" href="$class_police_faction.html" title="PoliceFaction" alt="" coords="121,107,223,133"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Gun" name="Gun">
+<area shape="rect" id="node4" href="$class_generic_gun.html" title="GenericGun" alt="" coords="5,229,96,256"/>
+<area shape="rect" id="node2" href="$class_weapon.html" title="Weapon" alt="" coords="15,80,85,107"/>
+<area shape="rect" id="node3" href="$class_equipment.html" title="Equipment" alt="" coords="9,5,92,32"/>
+</map>

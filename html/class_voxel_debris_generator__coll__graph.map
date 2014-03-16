@@ -1,0 +1,5 @@
+<map id="VoxelDebrisGenerator" name="VoxelDebrisGenerator">
+<area shape="rect" id="node2" href="$class_voxel_particle_spawn_base.html" title="VoxelParticleSpawnBase" alt="" coords="35,139,203,165"/>
+<area shape="rect" id="node3" href="$class_voxel_cluster.html" title="VoxelCluster" alt="" coords="5,5,101,32"/>
+<area shape="rect" id="node4" href="$class_property.html" title="Property\&lt; float \&gt;" alt="" coords="126,5,244,32"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="AimHelperHudget" name="AimHelperHudget">
+<area shape="rect" id="node5" href="$class_aim_helper_hudget_voxels.html" title="AimHelperHudgetVoxels" alt="" coords="20,264,183,291"/>
+<area shape="rect" id="node2" href="$class_circular_hudget.html" title="CircularHudget" alt="" coords="5,83,112,109"/>
+<area shape="rect" id="node3" href="$class_hudget.html" title="Hudget" alt="" coords="27,5,89,32"/>
+<area shape="rect" id="node6" href="$class_range.html" title="Range" alt="" coords="136,83,195,109"/>
+<area shape="rect" id="node7" href="$class_world_object.html" title="WorldObject" alt="" coords="258,83,352,109"/>
+</map>

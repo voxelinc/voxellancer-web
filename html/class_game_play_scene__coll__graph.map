@@ -1,0 +1,13 @@
+<map id="GamePlayScene" name="GamePlayScene">
+<area shape="rect" id="node2" href="$class_scene.html" title="Scene" alt="" coords="264,204,323,231"/>
+<area shape="rect" id="node3" href="$class_game_play.html" title="GamePlay" alt="" coords="1080,206,1163,232"/>
+<area shape="rect" id="node5" href="$class_game.html" title="Game" alt="" coords="1343,303,1401,330"/>
+<area shape="rect" id="node9" href="$class_player.html" title="Player" alt="" coords="1343,382,1401,408"/>
+<area shape="rect" id="node10" href="$class_game_play_running.html" title="GamePlayRunning" alt="" coords="1307,10,1437,36"/>
+<area shape="rect" id="node11" href="$class_game_play_paused.html" title="GamePlayPaused" alt="" coords="1309,134,1435,160"/>
+<area shape="rect" id="node4" href="$class_game_state.html" title="GameState" alt="" coords="809,118,897,144"/>
+<area shape="rect" id="node13" href="$class_render_pipeline.html" title="RenderPipeline" alt="" coords="5,255,115,282"/>
+<area shape="rect" id="node14" href="$class_property.html" title="Property\&lt; glm::vec3 \&gt;" alt="" coords="218,306,369,332"/>
+<area shape="rect" id="node16" href="$class_frame_buffer.html" title="FrameBuffer" alt="" coords="14,356,106,383"/>
+<area shape="rect" id="node18" href="$class_blitter.html" title="Blitter" alt="" coords="32,407,88,434"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="GenericBullet" name="GenericBullet">
+<area shape="rect" id="node2" href="$class_bullet.html" title="Bullet" alt="" coords="27,80,81,107"/>
+<area shape="rect" id="node3" href="$class_projectile.html" title="Projectile" alt="" coords="17,5,92,32"/>
+</map>

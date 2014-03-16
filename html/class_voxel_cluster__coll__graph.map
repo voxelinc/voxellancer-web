@@ -1,0 +1,5 @@
+<map id="VoxelCluster" name="VoxelCluster">
+<area shape="rect" id="node7" href="$class_voxel_cluster_bounds.html" title="VoxelClusterBounds" alt="" coords="1091,19,1231,45"/>
+<area shape="rect" id="node3" href="$class_voxel_render_data.html" title="VoxelRenderData" alt="" coords="261,43,384,69"/>
+<area shape="rect" id="node5" href="$class_transform.html" title="Transform" alt="" coords="549,108,627,135"/>
+</map>

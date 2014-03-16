@@ -1,0 +1,6 @@
+<map id="src/gamestate/gameplay" name="src/gamestate/gameplay">
+<area shape="rect" id="node2" href="dir_d36ce44270735c2af9cecad87b6631ca.html" title="paused" alt="" coords="133,63,205,111"/>
+<area shape="rect" id="node3" href="dir_16c1766995e8f68dc277f8c93f55d718.html" title="running" alt="" coords="37,63,109,111"/>
+<area shape="rect" id="clust2" href="dir_422bd17afd8af33f87433e9d028687af.html" alt="" coords="27,52,320,121"/>
+<area shape="rect" id="clust1" href="dir_31d4ea8148997abe7a56a5b07f2fed83.html" title="gamestate" alt="" coords="16,16,331,132"/>
+</map>

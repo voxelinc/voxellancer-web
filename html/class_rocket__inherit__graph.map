@@ -1,0 +1,5 @@
+<map id="Rocket" name="Rocket">
+<area shape="rect" id="node4" href="$class_generic_rocket.html" title="GenericRocket" alt="" coords="5,229,112,256"/>
+<area shape="rect" id="node2" href="$class_projectile.html" title="Projectile" alt="" coords="21,80,96,107"/>
+<area shape="rect" id="node3" href="$class_world_object.html" title="WorldObject" alt="" coords="11,5,105,32"/>
+</map>

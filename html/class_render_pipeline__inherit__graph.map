@@ -1,0 +1,4 @@
+<map id="RenderPipeline" name="RenderPipeline">
+<area shape="rect" id="node3" href="$class_default_render_pipeline.html" title="DefaultRenderPipeline" alt="" coords="5,155,155,181"/>
+<area shape="rect" id="node2" href="$class_render_pass.html" title="RenderPass" alt="" coords="33,5,127,32"/>
+</map>

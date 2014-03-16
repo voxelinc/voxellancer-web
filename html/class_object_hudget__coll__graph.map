@@ -1,0 +1,7 @@
+<map id="ObjectHudget" name="ObjectHudget">
+<area shape="rect" id="node6" href="$class_arrow_hudget_voxels.html" title="ArrowHudgetVoxels" alt="" coords="659,5,795,32"/>
+<area shape="rect" id="node8" href="$class_object_hudget_voxels.html" title="ObjectHudgetVoxels" alt="" coords="656,181,797,208"/>
+<area shape="rect" id="node2" href="$class_hudget.html" title="Hudget" alt="" coords="187,64,250,91"/>
+<area shape="rect" id="node3" href="$class_h_u_d.html" title="HUD" alt="" coords="6,89,55,116"/>
+<area shape="rect" id="node4" href="$class_h_u_d_object_delegate.html" title="HUDObjectDelegate" alt="" coords="149,115,288,141"/>
+</map>

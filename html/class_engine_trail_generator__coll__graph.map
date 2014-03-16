@@ -1,0 +1,9 @@
+<map id="EngineTrailGenerator" name="EngineTrailGenerator">
+<area shape="rect" id="node2" href="$class_engine.html" title="Engine" alt="" coords="1161,107,1223,133"/>
+<area shape="rect" id="node3" href="$class_equipment.html" title="Equipment" alt="" coords="877,5,961,32"/>
+<area shape="rect" id="node4" href="$class_engine_slot.html" title="EngineSlot" alt="" coords="876,56,961,83"/>
+<area shape="rect" id="node5" href="$class_abstract_move.html" title="AbstractMove" alt="" coords="868,107,969,133"/>
+<area shape="rect" id="node8" href="$class_voxel_explosion_generator.html" title="VoxelExplosionGenerator" alt="" coords="6,144,175,171"/>
+<area shape="rect" id="node9" href="$class_property.html" title="Property\&lt; float \&gt;" alt="" coords="291,204,410,231"/>
+<area shape="rect" id="node10" href="$class_world_object.html" title="WorldObject" alt="" coords="303,255,398,281"/>
+</map>

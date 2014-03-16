@@ -1,0 +1,4 @@
+<map id="EngineSlotVoxel" name="EngineSlotVoxel">
+<area shape="rect" id="node2" href="$class_special_voxel.html" title="SpecialVoxel" alt="" coords="15,80,113,107"/>
+<area shape="rect" id="node3" href="$class_voxel.html" title="Voxel" alt="" coords="37,5,91,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="CameraHead" name="CameraHead">
+<area shape="rect" id="node2" href="$class_camera_dolly.html" title="CameraDolly" alt="" coords="525,88,621,115"/>
+<area shape="rect" id="node3" href="$class_inertia_follower.html" title="InertiaFollower" alt="" coords="225,119,330,145"/>
+</map>

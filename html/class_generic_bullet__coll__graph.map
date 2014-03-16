@@ -1,0 +1,6 @@
+<map id="GenericBullet" name="GenericBullet">
+<area shape="rect" id="node2" href="$class_bullet.html" title="Bullet" alt="" coords="15,96,69,123"/>
+<area shape="rect" id="node3" href="$class_projectile.html" title="Projectile" alt="" coords="5,5,80,32"/>
+<area shape="rect" id="node4" href="$class_sound_properties.html" title="SoundProperties" alt="" coords="94,96,212,123"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="113,5,193,32"/>
+</map>

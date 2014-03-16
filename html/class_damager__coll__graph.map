@@ -1,0 +1,6 @@
+<map id="Damager" name="Damager">
+<area shape="rect" id="node3" href="$class_damage_impact.html" title="DamageImpact" alt="" coords="504,12,613,39"/>
+<area shape="rect" id="node4" href="$class_voxel.html" title="Voxel" alt="" coords="6,64,61,91"/>
+<area shape="rect" id="node5" href="$class_world_object.html" title="WorldObject" alt="" coords="203,64,298,91"/>
+<area shape="rect" id="node7" href="$class_world_object_modification.html" title="WorldObjectModification" alt="" coords="477,125,640,152"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="Starfield" name="Starfield">
+<area shape="rect" id="node2" href="$class_render_pass.html" title="RenderPass" alt="" coords="308,5,401,32"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="51,56,131,83"/>
+<area shape="rect" id="node5" href="$class_property.html" title="Property\&lt; int \&gt;" alt="" coords="300,56,409,83"/>
+<area shape="rect" id="node6" href="$class_property.html" title="Property\&lt; float \&gt;" alt="" coords="295,107,414,133"/>
+<area shape="rect" id="node4" href="$class_context_dependant.html" title="ContextDependant" alt="" coords="290,159,419,185"/>
+<area shape="rect" id="node8" href="$struct_starfield_1_1_camera_location.html" title="Starfield::CameraLocation" alt="" coords="5,217,176,244"/>
+</map>

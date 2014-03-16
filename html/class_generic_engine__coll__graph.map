@@ -1,0 +1,10 @@
+<map id="GenericEngine" name="GenericEngine">
+<area shape="rect" id="node2" href="$class_engine.html" title="Engine" alt="" coords="610,100,673,127"/>
+<area shape="rect" id="node3" href="$class_equipment.html" title="Equipment" alt="" coords="290,41,374,68"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="5,15,85,41"/>
+<area shape="rect" id="node10" href="$class_sound_properties.html" title="SoundProperties" alt="" coords="449,5,567,32"/>
+<area shape="rect" id="node5" href="$class_engine_slot.html" title="EngineSlot" alt="" coords="289,159,375,185"/>
+<area shape="rect" id="node6" href="$class_abstract_move.html" title="AbstractMove" alt="" coords="281,209,383,236"/>
+<area shape="rect" id="node8" href="$class_visuals.html" title="Visuals" alt="" coords="609,151,674,177"/>
+<area shape="rect" id="node9" href="$class_engine_power.html" title="EnginePower" alt="" coords="592,201,691,228"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="VoxelParticleSpawnBase" name="VoxelParticleSpawnBase">
+<area shape="rect" id="node2" href="$class_voxel_debris_generator.html" title="VoxelDebrisGenerator" alt="" coords="5,80,155,107"/>
+<area shape="rect" id="node3" href="$class_voxel_explosion_generator.html" title="VoxelExplosionGenerator" alt="" coords="179,80,348,107"/>
+</map>

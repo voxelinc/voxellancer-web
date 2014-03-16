@@ -1,0 +1,4 @@
+<map id="CollisionFilterIgnoringCreator" name="CollisionFilterIgnoringCreator">
+<area shape="rect" id="node2" href="$class_collision_filter.html" title="CollisionFilter" alt="" coords="143,96,243,123"/>
+<area shape="rect" id="node3" href="$class_world_object.html" title="WorldObject" alt="" coords="54,5,148,32"/>
+</map>

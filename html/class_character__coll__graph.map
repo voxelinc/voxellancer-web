@@ -1,0 +1,9 @@
+<map id="Character" name="Character">
+<area shape="rect" id="node2" href="$class_faction.html" title="Faction" alt="" coords="254,364,319,391"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="16,339,96,365"/>
+<area shape="rect" id="node5" href="$class_faction_matrix.html" title="FactionMatrix" alt="" coords="5,389,107,416"/>
+<area shape="rect" id="node6" href="$class_ship.html" title="Ship" alt="" coords="1173,191,1221,217"/>
+<area shape="rect" id="node7" href="$class_world_object.html" title="WorldObject" alt="" coords="854,89,949,116"/>
+<area shape="rect" id="node8" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="481,45,639,72"/>
+<area shape="rect" id="node11" href="$class_handle.html" title="Handle\&lt; Ship \&gt;" alt="" coords="845,191,957,217"/>
+</map>

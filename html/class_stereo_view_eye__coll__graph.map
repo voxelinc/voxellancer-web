@@ -1,0 +1,4 @@
+<map id="StereoViewEye" name="StereoViewEye">
+<area shape="rect" id="node3" href="$class_camera.html" title="Camera" alt="" coords="60,5,127,32"/>
+<area shape="rect" id="node5" href="$class_frame_buffer.html" title="FrameBuffer" alt="" coords="262,5,353,32"/>
+</map>

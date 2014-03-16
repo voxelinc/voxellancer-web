@@ -1,0 +1,6 @@
+<map id="TriggeredTransition" name="TriggeredTransition">
+<area shape="rect" id="node2" href="$class_transition.html" title="Transition" alt="" coords="5,232,83,259"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="20,5,100,32"/>
+<area shape="rect" id="node4" href="$class_state.html" title="State" alt="" coords="101,112,155,139"/>
+<area shape="rect" id="node5" href="$class_triggerable.html" title="Triggerable" alt="" coords="108,232,193,259"/>
+</map>

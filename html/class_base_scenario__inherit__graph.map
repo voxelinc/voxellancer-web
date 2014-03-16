@@ -1,0 +1,6 @@
+<map id="BaseScenario" name="BaseScenario">
+<area shape="rect" id="node2" href="$class_battle_scenario.html" title="BattleScenario" alt="" coords="5,80,112,107"/>
+<area shape="rect" id="node3" href="$class_frozen_game_scenario.html" title="FrozenGameScenario" alt="" coords="137,80,284,107"/>
+<area shape="rect" id="node4" href="$class_game_scenario.html" title="GameScenario" alt="" coords="309,80,416,107"/>
+<area shape="rect" id="node5" href="$class_pirate_scenario.html" title="PirateScenario" alt="" coords="441,80,548,107"/>
+</map>

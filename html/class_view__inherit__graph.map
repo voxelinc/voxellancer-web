@@ -1,0 +1,4 @@
+<map id="View" name="View">
+<area shape="rect" id="node2" href="$class_mono_view.html" title="MonoView" alt="" coords="5,80,88,107"/>
+<area shape="rect" id="node3" href="$class_stereo_view.html" title="StereoView" alt="" coords="112,80,200,107"/>
+</map>

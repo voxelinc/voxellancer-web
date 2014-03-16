@@ -1,0 +1,7 @@
+<map id="RenderPass" name="RenderPass">
+<area shape="rect" id="node2" href="$class_post_processing_pass.html" title="PostProcessingPass" alt="" coords="5,80,149,107"/>
+<area shape="rect" id="node4" href="$class_render_pipeline.html" title="RenderPipeline" alt="" coords="173,80,283,107"/>
+<area shape="rect" id="node6" href="$class_starfield.html" title="Starfield" alt="" coords="307,80,376,107"/>
+<area shape="rect" id="node3" href="$class_blitter.html" title="Blitter" alt="" coords="49,155,105,181"/>
+<area shape="rect" id="node5" href="$class_default_render_pipeline.html" title="DefaultRenderPipeline" alt="" coords="153,155,303,181"/>
+</map>

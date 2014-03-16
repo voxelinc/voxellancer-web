@@ -1,0 +1,9 @@
+<map id="FormationMemberTask" name="FormationMemberTask">
+<area shape="rect" id="node2" href="$class_ai_task.html" title="AiTask" alt="" coords="883,5,946,32"/>
+<area shape="rect" id="node11" href="$class_fly_to_task.html" title="FlyToTask" alt="" coords="1187,45,1269,72"/>
+<area shape="rect" id="node3" href="$class_board_computer.html" title="BoardComputer" alt="" coords="520,56,632,83"/>
+<area shape="rect" id="node4" href="$class_world_object.html" title="WorldObject" alt="" coords="275,107,370,133"/>
+<area shape="rect" id="node6" href="$class_ship.html" title="Ship" alt="" coords="1204,159,1252,185"/>
+<area shape="rect" id="node5" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="6,135,165,161"/>
+<area shape="rect" id="node9" href="$class_handle.html" title="Handle\&lt; Ship \&gt;" alt="" coords="859,260,971,287"/>
+</map>

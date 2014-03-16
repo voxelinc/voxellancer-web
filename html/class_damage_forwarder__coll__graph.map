@@ -1,0 +1,5 @@
+<map id="DamageForwarder" name="DamageForwarder">
+<area shape="rect" id="node2" href="$class_voxel_accumulator.html" title="VoxelAccumulator\&lt; Damage\lImpact \&gt;" alt="" coords="138,214,325,255"/>
+<area shape="rect" id="node5" href="$class_voxel.html" title="Voxel" alt="" coords="427,5,481,32"/>
+<area shape="rect" id="node6" href="$class_world_object.html" title="WorldObject" alt="" coords="407,163,501,189"/>
+</map>

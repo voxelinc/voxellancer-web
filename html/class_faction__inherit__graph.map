@@ -1,0 +1,5 @@
+<map id="Faction" name="Faction">
+<area shape="rect" id="node2" href="$class_pirate_faction.html" title="PirateFaction" alt="" coords="5,80,104,107"/>
+<area shape="rect" id="node3" href="$class_player_faction.html" title="PlayerFaction" alt="" coords="129,80,231,107"/>
+<area shape="rect" id="node4" href="$class_police_faction.html" title="PoliceFaction" alt="" coords="256,80,357,107"/>
+</map>

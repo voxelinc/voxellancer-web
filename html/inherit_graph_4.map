@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_ai_group_task.html" title="AiGroupTask" alt="" coords="6,31,103,57"/>
+<area shape="rect" id="node2" href="$class_defend_area_task.html" title="DefendAreaTask" alt="" coords="167,5,284,32"/>
+<area shape="rect" id="node3" href="$class_patrol_waypoints_task.html" title="PatrolWaypointsTask" alt="" coords="152,56,299,83"/>
+</map>

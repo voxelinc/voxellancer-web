@@ -1,0 +1,4 @@
+<map id="AimHelperHudget" name="AimHelperHudget">
+<area shape="rect" id="node2" href="$class_circular_hudget.html" title="CircularHudget" alt="" coords="13,80,120,107"/>
+<area shape="rect" id="node3" href="$class_hudget.html" title="Hudget" alt="" coords="35,5,97,32"/>
+</map>

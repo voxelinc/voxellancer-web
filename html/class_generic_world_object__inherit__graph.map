@@ -1,0 +1,4 @@
+<map id="GenericWorldObject" name="GenericWorldObject">
+<area shape="rect" id="node2" href="$class_world_object.html" title="WorldObject" alt="" coords="27,80,121,107"/>
+<area shape="rect" id="node3" href="$class_voxel_cluster.html" title="VoxelCluster" alt="" coords="27,5,123,32"/>
+</map>

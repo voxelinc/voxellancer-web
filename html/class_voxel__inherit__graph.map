@@ -1,0 +1,8 @@
+<map id="Voxel" name="Voxel">
+<area shape="rect" id="node2" href="$class_special_voxel.html" title="SpecialVoxel" alt="" coords="257,80,356,107"/>
+<area shape="rect" id="node3" href="$class_cockpit_voxel.html" title="CockpitVoxel" alt="" coords="5,155,104,181"/>
+<area shape="rect" id="node4" href="$class_crucial_voxel.html" title="CrucialVoxel" alt="" coords="129,155,223,181"/>
+<area shape="rect" id="node5" href="$class_engine_slot_voxel.html" title="EngineSlotVoxel" alt="" coords="247,155,365,181"/>
+<area shape="rect" id="node6" href="$class_fuel_voxel.html" title="FuelVoxel" alt="" coords="391,155,471,181"/>
+<area shape="rect" id="node7" href="$class_hardpoint_voxel.html" title="HardpointVoxel" alt="" coords="495,155,605,181"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_equipment.html" title="Equipment" alt="" coords="6,31,90,57"/>
+<area shape="rect" id="node2" href="$class_engine.html" title="Engine" alt="" coords="143,5,206,32"/>
+<area shape="rect" id="node4" href="$class_weapon.html" title="Weapon" alt="" coords="139,56,210,83"/>
+<area shape="rect" id="node3" href="$class_generic_engine.html" title="GenericEngine" alt="" coords="264,5,371,32"/>
+<area shape="rect" id="node5" href="$class_gun.html" title="Gun" alt="" coords="294,56,341,83"/>
+<area shape="rect" id="node7" href="$class_rocket_launcher.html" title="RocketLauncher" alt="" coords="259,107,375,133"/>
+<area shape="rect" id="node6" href="$class_generic_gun.html" title="GenericGun" alt="" coords="460,56,551,83"/>
+<area shape="rect" id="node8" href="$class_generic_rocket_launcher.html" title="GenericRocketLauncher" alt="" coords="425,107,586,133"/>
+</map>

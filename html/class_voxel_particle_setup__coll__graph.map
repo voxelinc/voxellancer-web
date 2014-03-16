@@ -1,0 +1,5 @@
+<map id="VoxelParticleSetup" name="VoxelParticleSetup">
+<area shape="rect" id="node2" href="$class_visuals.html" title="Visuals" alt="" coords="5,5,69,32"/>
+<area shape="rect" id="node3" href="$class_transform.html" title="Transform" alt="" coords="94,5,172,32"/>
+<area shape="rect" id="node4" href="$class_abstract_move.html" title="AbstractMove" alt="" coords="197,5,299,32"/>
+</map>

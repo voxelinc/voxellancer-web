@@ -1,0 +1,6 @@
+<map id="EngineSlot" name="EngineSlot">
+<area shape="rect" id="node2" href="$class_world_object_slot.html" title="WorldObjectSlot" alt="" coords="201,112,319,139"/>
+<area shape="rect" id="node4" href="$class_world_object_components.html" title="WorldObjectComponents" alt="" coords="177,13,343,40"/>
+<area shape="rect" id="node5" href="$class_engine_slot_voxel.html" title="EngineSlotVoxel" alt="" coords="350,112,468,139"/>
+<area shape="rect" id="node6" href="$class_special_voxel.html" title="SpecialVoxel" alt="" coords="368,13,467,40"/>
+</map>

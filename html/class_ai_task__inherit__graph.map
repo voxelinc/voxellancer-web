@@ -1,0 +1,6 @@
+<map id="AiTask" name="AiTask">
+<area shape="rect" id="node2" href="$class_direct_suicide_task.html" title="DirectSuicideTask" alt="" coords="5,80,131,107"/>
+<area shape="rect" id="node3" href="$class_fight_task.html" title="FightTask" alt="" coords="155,80,233,107"/>
+<area shape="rect" id="node4" href="$class_fly_to_task.html" title="FlyToTask" alt="" coords="259,80,341,107"/>
+<area shape="rect" id="node5" href="$class_formation_member_task.html" title="FormationMemberTask" alt="" coords="365,80,520,107"/>
+</map>

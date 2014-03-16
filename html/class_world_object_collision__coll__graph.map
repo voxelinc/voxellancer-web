@@ -1,0 +1,4 @@
+<map id="WorldObjectCollision" name="WorldObjectCollision">
+<area shape="rect" id="node3" href="$class_voxel_collision.html" title="VoxelCollision" alt="" coords="39,5,143,32"/>
+<area shape="rect" id="node4" href="$class_world_object.html" title="WorldObject" alt="" coords="201,96,295,123"/>
+</map>

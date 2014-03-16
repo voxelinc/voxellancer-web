@@ -1,0 +1,5 @@
+<map id="VoxelParticleSpawnBase" name="VoxelParticleSpawnBase">
+<area shape="rect" id="node2" href="$class_voxel_cluster.html" title="VoxelCluster" alt="" coords="380,100,476,127"/>
+<area shape="rect" id="node4" href="$class_transform.html" title="Transform" alt="" coords="63,71,142,97"/>
+<area shape="rect" id="node7" href="$class_property.html" title="Property\&lt; float \&gt;" alt="" coords="369,189,487,216"/>
+</map>

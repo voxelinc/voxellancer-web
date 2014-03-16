@@ -1,0 +1,28 @@
+var class_context_provider =
+[
+    [ "ContextProvider", "class_context_provider.html#a52f724c74bb8a3d9bc0a603d4ff1e04a", null ],
+    [ "aspectRatio", "class_context_provider.html#aafe056ee2276a53b55fe225ab0f5ee52", null ],
+    [ "currentMonitor", "class_context_provider.html#aaaeff8082394291917333e3b28c1734c", null ],
+    [ "currentResolution", "class_context_provider.html#a710c11fcf6118939c555dab503fb2bb2", null ],
+    [ "fullScreen", "class_context_provider.html#a6f46d6095bb211ec8e97b35d12cab130", null ],
+    [ "initFullScreen", "class_context_provider.html#a1208c3c90375fb3972d6efd593e42d5d", null ],
+    [ "initWindowed", "class_context_provider.html#ac2a3f09cdeb1ba960f79e1da5804dcfb", null ],
+    [ "initWindowed", "class_context_provider.html#aa8670514f58beef00040f61e17137492", null ],
+    [ "initWindowed", "class_context_provider.html#a53b8e8e2d4d5ccf8a4528394597e5ab7", null ],
+    [ "monitors", "class_context_provider.html#a050fb4d9940df6c97fe6d7d029957f6d", null ],
+    [ "registerContextDependant", "class_context_provider.html#aeda8bba6ea1aae5343ed6b4fca81be4a", null ],
+    [ "resolution", "class_context_provider.html#a62103068217aa592d4c9b738f098b8db", null ],
+    [ "setRequiredGLVersion", "class_context_provider.html#adaa81777d4c47af529cd0d9b005fa324", null ],
+    [ "setWindowHints", "class_context_provider.html#a1e4c8e50f8c89134ffb73c3860385ad9", null ],
+    [ "shutdown", "class_context_provider.html#a7880624984a1723d08058983a96121fa", null ],
+    [ "toggleFullScreen", "class_context_provider.html#abb4ef8860f7baf1444a43280116daa2d", null ],
+    [ "unregisterContextDependant", "class_context_provider.html#a982b20bca6b50ad1af7273299b2ae46d", null ],
+    [ "viewport", "class_context_provider.html#a768dd5a6b5171a34510c968bfe0a7f39", null ],
+    [ "m_contextDependants", "class_context_provider.html#ad527f2d4e159db2fed054b890201b1bb", null ],
+    [ "m_fullScreen", "class_context_provider.html#a39ef95bc92016cefd8d18630672f625d", null ],
+    [ "m_lastFullScreenMonitorIndex", "class_context_provider.html#acbff215b9c8f450c073a625d85de3a20", null ],
+    [ "m_lastWindowedPos", "class_context_provider.html#af79ecb3ba778aa76f575b1f2d37c95a9", null ],
+    [ "m_lastWindowedSize", "class_context_provider.html#a14562a6de1b346dee6a2ecc8c9aff43f", null ],
+    [ "m_majorVersionRequire", "class_context_provider.html#a24f844a9fa3e45d3c37828a58cb5091a", null ],
+    [ "m_minorVersionRequire", "class_context_provider.html#a0212e66ddce727cb168636dbe3d6c338", null ]
+];

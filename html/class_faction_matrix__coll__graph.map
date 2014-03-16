@@ -1,0 +1,6 @@
+<map id="FactionMatrix" name="FactionMatrix">
+<area shape="rect" id="node4" href="$class_faction.html" title="Faction" alt="" coords="562,119,627,145"/>
+<area shape="rect" id="node5" href="$class_police_faction.html" title="PoliceFaction" alt="" coords="800,33,901,60"/>
+<area shape="rect" id="node7" href="$class_pirate_faction.html" title="PirateFaction" alt="" coords="801,160,900,187"/>
+<area shape="rect" id="node8" href="$class_player_faction.html" title="PlayerFaction" alt="" coords="799,249,902,276"/>
+</map>

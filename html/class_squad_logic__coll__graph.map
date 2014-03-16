@@ -1,0 +1,6 @@
+<map id="SquadLogic" name="SquadLogic">
+<area shape="rect" id="node2" href="$class_ship.html" title="Ship" alt="" coords="659,189,707,216"/>
+<area shape="rect" id="node3" href="$class_world_object.html" title="WorldObject" alt="" coords="339,189,434,216"/>
+<area shape="rect" id="node4" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="6,152,165,179"/>
+<area shape="rect" id="node7" href="$class_handle.html" title="Handle\&lt; Ship \&gt;" alt="" coords="331,341,443,368"/>
+</map>

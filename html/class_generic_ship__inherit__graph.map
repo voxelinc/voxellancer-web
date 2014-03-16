@@ -1,0 +1,4 @@
+<map id="GenericShip" name="GenericShip">
+<area shape="rect" id="node2" href="$class_ship.html" title="Ship" alt="" coords="28,80,76,107"/>
+<area shape="rect" id="node3" href="$class_world_object.html" title="WorldObject" alt="" coords="5,5,99,32"/>
+</map>

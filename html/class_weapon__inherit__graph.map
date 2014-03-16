@@ -1,0 +1,7 @@
+<map id="Weapon" name="Weapon">
+<area shape="rect" id="node3" href="$class_gun.html" title="Gun" alt="" coords="38,155,84,181"/>
+<area shape="rect" id="node5" href="$class_rocket_launcher.html" title="RocketLauncher" alt="" coords="131,155,247,181"/>
+<area shape="rect" id="node2" href="$class_equipment.html" title="Equipment" alt="" coords="71,5,155,32"/>
+<area shape="rect" id="node4" href="$class_generic_gun.html" title="GenericGun" alt="" coords="5,229,96,256"/>
+<area shape="rect" id="node6" href="$class_generic_rocket_launcher.html" title="GenericRocketLauncher" alt="" coords="121,229,281,256"/>
+</map>

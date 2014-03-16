@@ -1,0 +1,7 @@
+<map id="Hudget" name="Hudget">
+<area shape="rect" id="node2" href="$class_h_u_d.html" title="HUD" alt="" coords="531,320,581,347"/>
+<area shape="rect" id="node6" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="191,261,350,288"/>
+<area shape="rect" id="node8" href="$class_sphere.html" title="Sphere" alt="" coords="239,379,302,405"/>
+<area shape="rect" id="node11" href="$class_player.html" title="Player" alt="" coords="241,547,300,573"/>
+<area shape="rect" id="node12" href="$class_viewer.html" title="Viewer" alt="" coords="240,597,301,624"/>
+</map>

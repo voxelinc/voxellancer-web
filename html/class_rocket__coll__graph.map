@@ -1,0 +1,8 @@
+<map id="Rocket" name="Rocket">
+<area shape="rect" id="node2" href="$class_projectile.html" title="Projectile" alt="" coords="333,187,408,213"/>
+<area shape="rect" id="node3" href="$class_world_object.html" title="WorldObject" alt="" coords="225,96,319,123"/>
+<area shape="rect" id="node5" href="$class_board_computer.html" title="BoardComputer" alt="" coords="111,187,223,213"/>
+<area shape="rect" id="node4" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="5,5,163,32"/>
+<area shape="rect" id="node8" href="$class_ai_task.html" title="AiTask" alt="" coords="191,277,253,304"/>
+<area shape="rect" id="node6" href="$class_abstract_move.html" title="AbstractMove" alt="" coords="44,96,145,123"/>
+</map>

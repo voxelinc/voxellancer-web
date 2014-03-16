@@ -1,0 +1,7 @@
+<map id="GenericGun" name="GenericGun">
+<area shape="rect" id="node2" href="$class_gun.html" title="Gun" alt="" coords="17,96,63,123"/>
+<area shape="rect" id="node3" href="$class_weapon.html" title="Weapon" alt="" coords="5,5,75,32"/>
+<area shape="rect" id="node4" href="$class_visuals.html" title="Visuals" alt="" coords="87,96,152,123"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="215,5,295,32"/>
+<area shape="rect" id="node6" href="$class_sound_properties.html" title="SoundProperties" alt="" coords="314,96,432,123"/>
+</map>

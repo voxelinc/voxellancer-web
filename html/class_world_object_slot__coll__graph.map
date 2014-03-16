@@ -1,0 +1,6 @@
+<map id="WorldObjectSlot" name="WorldObjectSlot">
+<area shape="rect" id="node3" title="STL class. " alt="" coords="37,5,117,32"/>
+<area shape="rect" id="node4" href="$class_world_object_components.html" title="WorldObjectComponents" alt="" coords="291,123,458,149"/>
+<area shape="rect" id="node6" href="$class_world_object.html" title="WorldObject" alt="" coords="30,123,125,149"/>
+<area shape="rect" id="node8" href="$class_abstract_move.html" title="AbstractMove" alt="" coords="27,240,128,267"/>
+</map>

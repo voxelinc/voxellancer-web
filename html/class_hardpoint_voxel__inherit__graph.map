@@ -1,0 +1,4 @@
+<map id="HardpointVoxel" name="HardpointVoxel">
+<area shape="rect" id="node2" href="$class_special_voxel.html" title="SpecialVoxel" alt="" coords="11,80,109,107"/>
+<area shape="rect" id="node3" href="$class_voxel.html" title="Voxel" alt="" coords="33,5,87,32"/>
+</map>

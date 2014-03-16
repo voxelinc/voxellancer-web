@@ -1,0 +1,9 @@
+<map id="VoxelCluster" name="VoxelCluster">
+<area shape="rect" id="node2" href="$class_cross_hair_element.html" title="CrossHairElement" alt="" coords="5,80,131,107"/>
+<area shape="rect" id="node3" href="$class_letter.html" title="Letter" alt="" coords="155,80,209,107"/>
+<area shape="rect" id="node4" href="$class_world_object.html" title="WorldObject" alt="" coords="234,80,328,107"/>
+<area shape="rect" id="node5" href="$class_generic_world_object.html" title="GenericWorldObject" alt="" coords="36,155,175,181"/>
+<area shape="rect" id="node6" href="$class_projectile.html" title="Projectile" alt="" coords="199,155,275,181"/>
+<area shape="rect" id="node7" href="$class_ship.html" title="Ship" alt="" coords="300,155,348,181"/>
+<area shape="rect" id="node8" href="$class_split.html" title="Split" alt="" coords="372,155,420,181"/>
+</map>

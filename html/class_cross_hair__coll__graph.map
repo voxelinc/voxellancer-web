@@ -1,0 +1,5 @@
+<map id="CrossHair" name="CrossHair">
+<area shape="rect" id="node5" href="$class_cross_hair_voxels.html" title="CrossHairVoxels" alt="" coords="5,264,123,291"/>
+<area shape="rect" id="node2" href="$class_hudget.html" title="Hudget" alt="" coords="91,96,153,123"/>
+<area shape="rect" id="node3" href="$class_h_u_d.html" title="HUD" alt="" coords="98,5,147,32"/>
+</map>

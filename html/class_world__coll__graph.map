@@ -1,0 +1,10 @@
+<map id="World" name="World">
+<area shape="rect" id="node7" href="$class_world_logic.html" title="WorldLogic" alt="" coords="1011,80,1098,107"/>
+<area shape="rect" id="node17" href="$class_god.html" title="God" alt="" coords="1031,256,1078,283"/>
+<area shape="rect" id="node3" href="$class_world_tree.html" title="WorldTree" alt="" coords="213,11,294,37"/>
+<area shape="rect" id="node5" href="$class_world_object.html" title="WorldObject" alt="" coords="6,95,101,121"/>
+<area shape="rect" id="node9" href="$class_ship.html" title="Ship" alt="" coords="229,124,277,151"/>
+<area shape="rect" id="node11" href="$class_skybox.html" title="Skybox" alt="" coords="220,191,287,217"/>
+<area shape="rect" id="node13" href="$class_voxel_particle_engine.html" title="VoxelParticleEngine" alt="" coords="184,249,323,276"/>
+<area shape="rect" id="node15" href="$class_faction_matrix.html" title="FactionMatrix" alt="" coords="203,315,304,341"/>
+</map>

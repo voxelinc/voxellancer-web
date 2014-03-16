@@ -1,0 +1,7 @@
+<map id="VoxelCollisionParticipant" name="VoxelCollisionParticipant">
+<area shape="rect" id="node2" href="$class_voxel.html" title="Voxel" alt="" coords="78,109,132,136"/>
+<area shape="rect" id="node5" href="$class_voxel_tree_node.html" title="VoxelTreeNode" alt="" coords="74,200,184,227"/>
+<area shape="rect" id="node6" href="$class_world_object.html" title="WorldObject" alt="" coords="291,200,385,227"/>
+<area shape="rect" id="node3" href="$class_visuals.html" title="Visuals" alt="" coords="15,5,80,32"/>
+<area shape="rect" id="node4" href="$class_property.html" title="Property\&lt; float \&gt;" alt="" coords="104,5,222,32"/>
+</map>
