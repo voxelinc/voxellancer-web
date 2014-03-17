@@ -1,0 +1,12 @@
+<map id="WorldObject" name="WorldObject">
+<area shape="rect" id="node13" href="$class_physics.html" title="Physics" alt="" coords="1132,8,1201,35"/>
+<area shape="rect" id="node15" href="$class_collision_filter.html" title="CollisionFilter" alt="" coords="1117,184,1217,211"/>
+<area shape="rect" id="node17" href="$class_collision_detector.html" title="CollisionDetector" alt="" coords="1107,235,1227,261"/>
+<area shape="rect" id="node19" href="$class_world_object_components.html" title="WorldObjectComponents" alt="" coords="1083,411,1250,437"/>
+<area shape="rect" id="node2" href="$class_voxel_cluster.html" title="VoxelCluster" alt="" coords="579,157,675,184"/>
+<area shape="rect" id="node4" href="$class_transform.html" title="Transform" alt="" coords="226,187,305,213"/>
+<area shape="rect" id="node6" href="$class_voxel.html" title="Voxel" alt="" coords="6,28,61,55"/>
+<area shape="rect" id="node8" href="$class_scriptable.html" title="Scriptable" alt="" coords="587,208,667,235"/>
+<area shape="rect" id="node10" href="$class_object_info.html" title="ObjectInfo" alt="" coords="225,304,305,331"/>
+<area shape="rect" id="node11" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="547,309,706,336"/>
+</map>

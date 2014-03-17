@@ -1,7 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_base_scenario.html" title="BaseScenario" alt="" coords="6,81,109,108"/>
-<area shape="rect" id="node2" href="$class_battle_scenario.html" title="BattleScenario" alt="" coords="179,5,285,32"/>
-<area shape="rect" id="node3" href="$class_frozen_game_scenario.html" title="FrozenGameScenario" alt="" coords="158,56,306,83"/>
-<area shape="rect" id="node4" href="$class_game_scenario.html" title="GameScenario" alt="" coords="178,107,286,133"/>
-<area shape="rect" id="node5" href="$class_pirate_scenario.html" title="PirateScenario" alt="" coords="179,157,285,184"/>
-</map>

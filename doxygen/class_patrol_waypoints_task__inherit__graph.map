@@ -1,0 +1,4 @@
+<map id="PatrolWaypointsTask" name="PatrolWaypointsTask">
+<area shape="rect" id="node2" href="$class_ai_group_task.html" title="AiGroupTask" alt="" coords="30,80,127,107"/>
+<area shape="rect" id="node3" href="$class_scriptable.html" title="Scriptable" alt="" coords="39,5,119,32"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="Player" name="Player">
+<area shape="rect" id="node5" href="$class_h_u_d.html" title="HUD" alt="" coords="715,77,765,104"/>
+<area shape="rect" id="node3" href="$class_target_selector.html" title="TargetSelector" alt="" coords="5,7,112,33"/>
+<area shape="rect" id="node7" href="$class_camera_dolly.html" title="CameraDolly" alt="" coords="11,57,107,84"/>
+<area shape="rect" id="node9" href="$class_aimer.html" title="Aimer" alt="" coords="31,108,87,135"/>
+<area shape="rect" id="node10" href="$class_handle.html" title="Handle\&lt; Ship \&gt;" alt="" coords="233,159,345,185"/>
+<area shape="rect" id="node11" href="$class_abstract_move.html" title="AbstractMove" alt="" coords="239,209,340,236"/>
+</map>

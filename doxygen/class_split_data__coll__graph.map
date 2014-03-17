@@ -1,0 +1,7 @@
+<map id="SplitData" name="SplitData">
+<area shape="rect" id="node2" href="$class_world_object.html" title="WorldObject" alt="" coords="393,200,487,227"/>
+<area shape="rect" id="node3" href="$class_voxel_cluster.html" title="VoxelCluster" alt="" coords="53,61,149,88"/>
+<area shape="rect" id="node4" href="$class_scriptable.html" title="Scriptable" alt="" coords="61,112,141,139"/>
+<area shape="rect" id="node5" href="$class_voxel.html" title="Voxel" alt="" coords="74,5,129,32"/>
+<area shape="rect" id="node7" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="22,280,181,307"/>
+</map>

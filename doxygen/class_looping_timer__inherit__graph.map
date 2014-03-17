@@ -1,0 +1,4 @@
+<map id="LoopingTimer" name="LoopingTimer">
+<area shape="rect" id="node2" href="$class_timer.html" title="Timer" alt="" coords="27,80,81,107"/>
+<area shape="rect" id="node3" href="$class_event_poll.html" title="EventPoll" alt="" coords="17,5,92,32"/>
+</map>

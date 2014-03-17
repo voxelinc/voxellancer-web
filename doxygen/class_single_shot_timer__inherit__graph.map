@@ -1,0 +1,4 @@
+<map id="SingleShotTimer" name="SingleShotTimer">
+<area shape="rect" id="node2" href="$class_timer.html" title="Timer" alt="" coords="37,80,91,107"/>
+<area shape="rect" id="node3" href="$class_event_poll.html" title="EventPoll" alt="" coords="26,5,101,32"/>
+</map>

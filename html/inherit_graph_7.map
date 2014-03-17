@@ -1,7 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_ai_task.html" title="AiTask" alt="" coords="6,81,69,108"/>
-<area shape="rect" id="node2" href="$class_direct_suicide_task.html" title="DirectSuicideTask" alt="" coords="131,5,258,32"/>
-<area shape="rect" id="node3" href="$class_fight_task.html" title="FightTask" alt="" coords="155,56,234,83"/>
-<area shape="rect" id="node4" href="$class_fly_to_task.html" title="FlyToTask" alt="" coords="153,107,236,133"/>
-<area shape="rect" id="node5" href="$class_formation_member_task.html" title="FormationMemberTask" alt="" coords="117,157,272,184"/>
-</map>

@@ -1,0 +1,6 @@
+<map id="Bindings" name="Bindings">
+<area shape="rect" id="node2" href="$class_ai_bindings.html" title="AiBindings" alt="" coords="5,80,88,107"/>
+<area shape="rect" id="node3" href="$class_common_bindings.html" title="CommonBindings" alt="" coords="113,80,236,107"/>
+<area shape="rect" id="node4" href="$class_squad_bindings.html" title="SquadBindings" alt="" coords="261,80,371,107"/>
+<area shape="rect" id="node5" href="$class_world_object_bindings.html" title="WorldObjectBindings" alt="" coords="395,80,539,107"/>
+</map>

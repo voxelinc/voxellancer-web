@@ -1,5 +1,0 @@
-<map id="DirectSuicideTask" name="DirectSuicideTask">
-<area shape="rect" id="node2" href="$class_ai_task.html" title="AiTask" alt="" coords="30,96,92,123"/>
-<area shape="rect" id="node3" href="$class_board_computer.html" title="BoardComputer" alt="" coords="5,5,117,32"/>
-<area shape="rect" id="node4" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="117,96,275,123"/>
-</map>

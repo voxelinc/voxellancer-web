@@ -1,0 +1,10 @@
+<map id="FightTask" name="FightTask">
+<area shape="rect" id="node2" href="$class_ai_task.html" title="AiTask" alt="" coords="870,121,933,148"/>
+<area shape="rect" id="node3" href="$class_scriptable.html" title="Scriptable" alt="" coords="45,167,125,193"/>
+<area shape="rect" id="node6" href="$class_world_object.html" title="WorldObject" alt="" coords="275,108,370,135"/>
+<area shape="rect" id="node4" href="$class_handle.html" title="Handle\&lt; AiTask \&gt;" alt="" coords="569,112,695,139"/>
+<area shape="rect" id="node5" href="$class_board_computer.html" title="BoardComputer" alt="" coords="576,163,688,189"/>
+<area shape="rect" id="node7" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="6,87,165,113"/>
+<area shape="rect" id="node9" href="$class_state.html" title="State" alt="" coords="875,264,928,291"/>
+<area shape="rect" id="node11" title="STL class. " alt="" coords="592,315,672,341"/>
+</map>

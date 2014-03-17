@@ -1,0 +1,6 @@
+<map id="God" name="God">
+<area shape="rect" id="node5" href="$class_spawn_request.html" title="SpawnRequest" alt="" coords="557,125,667,152"/>
+<area shape="rect" id="node3" href="$class_world_object.html" title="WorldObject" alt="" coords="6,151,101,177"/>
+<area shape="rect" id="node6" href="$class_world.html" title="World" alt="" coords="1672,315,1728,341"/>
+<area shape="rect" id="node16" href="$class_player.html" title="Player" alt="" coords="1384,579,1443,605"/>
+</map>

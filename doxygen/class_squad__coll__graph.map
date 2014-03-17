@@ -1,0 +1,7 @@
+<map id="Squad" name="Squad">
+<area shape="rect" id="node2" href="$class_scriptable.html" title="Scriptable" alt="" coords="45,11,125,37"/>
+<area shape="rect" id="node4" href="$class_world_object.html" title="WorldObject" alt="" coords="339,52,434,79"/>
+<area shape="rect" id="node3" href="$class_ship.html" title="Ship" alt="" coords="659,165,707,192"/>
+<area shape="rect" id="node5" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="6,75,165,101"/>
+<area shape="rect" id="node8" href="$class_handle.html" title="Handle\&lt; Ship \&gt;" alt="" coords="331,267,443,293"/>
+</map>

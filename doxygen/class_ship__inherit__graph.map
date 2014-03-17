@@ -1,0 +1,6 @@
+<map id="Ship" name="Ship">
+<area shape="rect" id="node5" href="$class_generic_ship.html" title="GenericShip" alt="" coords="63,229,156,256"/>
+<area shape="rect" id="node2" href="$class_world_object.html" title="WorldObject" alt="" coords="62,80,156,107"/>
+<area shape="rect" id="node3" href="$class_voxel_cluster.html" title="VoxelCluster" alt="" coords="5,5,101,32"/>
+<area shape="rect" id="node4" href="$class_scriptable.html" title="Scriptable" alt="" coords="125,5,205,32"/>
+</map>

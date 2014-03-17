@@ -1,0 +1,4 @@
+<map id="DefendAreaTask" name="DefendAreaTask">
+<area shape="rect" id="node2" href="$class_ai_group_task.html" title="AiGroupTask" alt="" coords="15,80,112,107"/>
+<area shape="rect" id="node3" href="$class_scriptable.html" title="Scriptable" alt="" coords="24,5,104,32"/>
+</map>

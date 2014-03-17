@@ -1,8 +1,0 @@
-<map id="Faction" name="Faction">
-<area shape="rect" id="node7" href="$class_police_faction.html" title="PoliceFaction" alt="" coords="651,201,752,228"/>
-<area shape="rect" id="node9" href="$class_pirate_faction.html" title="PirateFaction" alt="" coords="652,252,751,279"/>
-<area shape="rect" id="node10" href="$class_player_faction.html" title="PlayerFaction" alt="" coords="650,303,753,329"/>
-<area shape="rect" id="node2" title="STL class. " alt="" coords="184,243,264,269"/>
-<area shape="rect" id="node3" title="STL class. " alt="" coords="6,235,133,277"/>
-<area shape="rect" id="node5" href="$class_faction_matrix.html" title="FactionMatrix" alt="" coords="971,228,1072,255"/>
-</map>

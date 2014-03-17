@@ -1,0 +1,7 @@
+<map id="AiTask" name="AiTask">
+<area shape="rect" id="node2" href="$class_scriptable.html" title="Scriptable" alt="" coords="5,5,85,32"/>
+<area shape="rect" id="node5" href="$class_world_object.html" title="WorldObject" alt="" coords="54,83,148,109"/>
+<area shape="rect" id="node3" href="$class_handle.html" title="Handle\&lt; AiTask \&gt;" alt="" coords="190,173,316,200"/>
+<area shape="rect" id="node4" href="$class_board_computer.html" title="BoardComputer" alt="" coords="53,173,165,200"/>
+<area shape="rect" id="node6" href="$class_abstract_move.html" title="AbstractMove" alt="" coords="173,83,275,109"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="FightTask" name="FightTask">
+<area shape="rect" id="node2" href="$class_ai_task.html" title="AiTask" alt="" coords="14,80,76,107"/>
+<area shape="rect" id="node3" href="$class_scriptable.html" title="Scriptable" alt="" coords="5,5,85,32"/>
+</map>

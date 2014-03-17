@@ -1,0 +1,9 @@
+<map id="EventPoll" name="EventPoll">
+<area shape="rect" id="node3" href="$class_a_a_b_b_entered_poll.html" title="AABBEnteredPoll" alt="" coords="5,155,131,181"/>
+<area shape="rect" id="node4" href="$class_ai_task_finished_poll.html" title="AiTaskFinishedPoll" alt="" coords="155,155,288,181"/>
+<area shape="rect" id="node5" href="$class_timer.html" title="Timer" alt="" coords="313,155,367,181"/>
+<area shape="rect" id="node8" href="$class_world_object_destroyed_poll.html" title="WorldObjectDestroyedPoll" alt="" coords="391,155,565,181"/>
+<area shape="rect" id="node2" href="$class_scriptable.html" title="Scriptable" alt="" coords="240,5,320,32"/>
+<area shape="rect" id="node6" href="$class_looping_timer.html" title="LoopingTimer" alt="" coords="225,229,324,256"/>
+<area shape="rect" id="node7" href="$class_single_shot_timer.html" title="SingleShotTimer" alt="" coords="348,229,465,256"/>
+</map>

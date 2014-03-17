@@ -1,0 +1,8 @@
+<map id="Physics" name="Physics">
+<area shape="rect" id="node2" href="$class_world_object.html" title="WorldObject" alt="" coords="745,237,839,264"/>
+<area shape="rect" id="node3" href="$class_voxel_cluster.html" title="VoxelCluster" alt="" coords="432,5,528,32"/>
+<area shape="rect" id="node4" href="$class_scriptable.html" title="Scriptable" alt="" coords="440,56,520,83"/>
+<area shape="rect" id="node5" href="$class_voxel.html" title="Voxel" alt="" coords="453,107,507,133"/>
+<area shape="rect" id="node7" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="401,208,559,235"/>
+<area shape="rect" id="node12" href="$class_abstract_move.html" title="AbstractMove" alt="" coords="5,487,107,513"/>
+</map>

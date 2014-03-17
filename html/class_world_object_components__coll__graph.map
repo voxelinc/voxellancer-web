@@ -1,7 +1,0 @@
-<map id="WorldObjectComponents" name="WorldObjectComponents">
-<area shape="rect" id="node3" href="$class_world_object.html" title="WorldObject" alt="" coords="889,208,983,235"/>
-<area shape="rect" id="node4" href="$class_voxel_cluster.html" title="VoxelCluster" alt="" coords="576,5,672,32"/>
-<area shape="rect" id="node5" href="$class_voxel.html" title="Voxel" alt="" coords="597,56,651,83"/>
-<area shape="rect" id="node7" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="545,157,703,184"/>
-<area shape="rect" id="node13" href="$class_abstract_move.html" title="AbstractMove" alt="" coords="27,495,128,521"/>
-</map>

@@ -1,0 +1,8 @@
+<map id="VoxelTree" name="VoxelTree">
+<area shape="rect" id="node6" href="$class_voxel_tree_node.html" title="VoxelTreeNode" alt="" coords="225,44,335,71"/>
+<area shape="rect" id="node2" href="$class_world_object.html" title="WorldObject" alt="" coords="851,292,946,319"/>
+<area shape="rect" id="node3" href="$class_voxel_cluster.html" title="VoxelCluster" alt="" coords="539,165,635,192"/>
+<area shape="rect" id="node4" href="$class_scriptable.html" title="Scriptable" alt="" coords="547,216,627,243"/>
+<area shape="rect" id="node5" href="$class_voxel.html" title="Voxel" alt="" coords="559,64,614,91"/>
+<area shape="rect" id="node8" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="507,317,666,344"/>
+</map>

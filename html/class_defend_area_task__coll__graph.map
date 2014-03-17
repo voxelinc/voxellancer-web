@@ -1,5 +1,0 @@
-<map id="DefendAreaTask" name="DefendAreaTask">
-<area shape="rect" id="node2" href="$class_ai_group_task.html" title="AiGroupTask" alt="" coords="309,7,406,33"/>
-<area shape="rect" id="node3" href="$class_squad.html" title="Squad" alt="" coords="56,7,115,33"/>
-<area shape="rect" id="node5" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="6,65,165,92"/>
-</map>

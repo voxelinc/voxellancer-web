@@ -1,0 +1,8 @@
+<map id="AABBEnteredPoll" name="AABBEnteredPoll">
+<area shape="rect" id="node2" href="$class_event_poll.html" title="EventPoll" alt="" coords="142,104,217,131"/>
+<area shape="rect" id="node3" href="$class_scriptable.html" title="Scriptable" alt="" coords="5,5,85,32"/>
+<area shape="rect" id="node4" href="$class_handle.html" title="Handle\&lt; EventPoll \&gt;" alt="" coords="110,5,249,32"/>
+<area shape="rect" id="node5" href="$class_t_a_a_b_b.html" title="TAABB\&lt; glm::mediump\l_float \&gt;" alt="" coords="246,97,404,138"/>
+<area shape="rect" id="node6" href="$class_abstract_shape.html" title="AbstractShape" alt="" coords="274,5,381,32"/>
+<area shape="rect" id="node7" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="429,104,587,131"/>
+</map>

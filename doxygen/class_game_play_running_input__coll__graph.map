@@ -1,0 +1,11 @@
+<map id="GamePlayRunningInput" name="GamePlayRunningInput">
+<area shape="rect" id="node2" href="$struct_secondary_input_values.html" title="SecondaryInputValues" alt="" coords="985,5,1137,32"/>
+<area shape="rect" id="node3" href="$class_action_key_mapping.html" title="ActionKeyMapping" alt="" coords="581,223,712,249"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="5,265,85,292"/>
+<area shape="rect" id="node5" href="$class_property.html" title="Property\&lt; InputMapping \&gt;" alt="" coords="190,265,362,292"/>
+<area shape="rect" id="node6" href="$class_property.html" title="Property\&lt; float \&gt;" alt="" coords="391,316,510,343"/>
+<area shape="rect" id="node8" href="$class_input_configurator.html" title="InputConfigurator" alt="" coords="1002,367,1121,393"/>
+<area shape="rect" id="node9" href="$class_player.html" title="Player" alt="" coords="1032,468,1091,495"/>
+<area shape="rect" id="node14" href="$class_handle.html" title="Handle\&lt; Ship \&gt;" alt="" coords="591,569,703,596"/>
+<area shape="rect" id="node15" href="$class_abstract_move.html" title="AbstractMove" alt="" coords="596,620,697,647"/>
+</map>

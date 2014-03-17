@@ -1,7 +1,0 @@
-<map id="BoardComputer" name="BoardComputer">
-<area shape="rect" id="node2" href="$class_world_object.html" title="WorldObject" alt="" coords="369,183,463,209"/>
-<area shape="rect" id="node3" href="$class_voxel_cluster.html" title="VoxelCluster" alt="" coords="53,5,149,32"/>
-<area shape="rect" id="node4" href="$class_voxel.html" title="Voxel" alt="" coords="74,56,129,83"/>
-<area shape="rect" id="node6" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="22,157,181,184"/>
-<area shape="rect" id="node11" href="$class_abstract_move.html" title="AbstractMove" alt="" coords="365,233,467,260"/>
-</map>

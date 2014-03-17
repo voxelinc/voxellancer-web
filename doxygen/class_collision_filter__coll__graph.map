@@ -1,0 +1,7 @@
+<map id="CollisionFilter" name="CollisionFilter">
+<area shape="rect" id="node2" href="$class_world_object.html" title="WorldObject" alt="" coords="537,260,631,287"/>
+<area shape="rect" id="node3" href="$class_voxel_cluster.html" title="VoxelCluster" alt="" coords="224,133,320,160"/>
+<area shape="rect" id="node4" href="$class_scriptable.html" title="Scriptable" alt="" coords="232,184,312,211"/>
+<area shape="rect" id="node5" href="$class_voxel.html" title="Voxel" alt="" coords="245,235,299,261"/>
+<area shape="rect" id="node7" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="193,336,351,363"/>
+</map>

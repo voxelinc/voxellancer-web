@@ -1,0 +1,6 @@
+<map id="WorldObjectDestroyedPoll" name="WorldObjectDestroyedPoll">
+<area shape="rect" id="node2" href="$class_event_poll.html" title="EventPoll" alt="" coords="74,96,149,123"/>
+<area shape="rect" id="node3" href="$class_scriptable.html" title="Scriptable" alt="" coords="5,5,85,32"/>
+<area shape="rect" id="node4" href="$class_handle.html" title="Handle\&lt; EventPoll \&gt;" alt="" coords="110,5,249,32"/>
+<area shape="rect" id="node5" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="174,96,332,123"/>
+</map>

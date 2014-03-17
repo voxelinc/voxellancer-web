@@ -1,0 +1,5 @@
+<map id="ScriptedScenario" name="ScriptedScenario">
+<area shape="rect" id="node2" href="$class_base_scenario.html" title="BaseScenario" alt="" coords="51,96,153,123"/>
+<area shape="rect" id="node3" href="$class_game_play.html" title="GamePlay" alt="" coords="5,5,88,32"/>
+<area shape="rect" id="node4" href="$class_world.html" title="World" alt="" coords="131,5,187,32"/>
+</map>

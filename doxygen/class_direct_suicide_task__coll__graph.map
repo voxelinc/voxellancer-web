@@ -1,0 +1,7 @@
+<map id="DirectSuicideTask" name="DirectSuicideTask">
+<area shape="rect" id="node2" href="$class_ai_task.html" title="AiTask" alt="" coords="142,96,204,123"/>
+<area shape="rect" id="node3" href="$class_scriptable.html" title="Scriptable" alt="" coords="5,5,85,32"/>
+<area shape="rect" id="node4" href="$class_handle.html" title="Handle\&lt; AiTask \&gt;" alt="" coords="110,5,236,32"/>
+<area shape="rect" id="node5" href="$class_board_computer.html" title="BoardComputer" alt="" coords="261,5,373,32"/>
+<area shape="rect" id="node6" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="229,96,387,123"/>
+</map>

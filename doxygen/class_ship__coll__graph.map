@@ -1,0 +1,11 @@
+<map id="Ship" name="Ship">
+<area shape="rect" id="node13" href="$class_character.html" title="Character" alt="" coords="1337,341,1415,368"/>
+<area shape="rect" id="node18" href="$class_squad_logic.html" title="SquadLogic" alt="" coords="1331,517,1421,544"/>
+<area shape="rect" id="node2" href="$class_world_object.html" title="WorldObject" alt="" coords="366,273,461,300"/>
+<area shape="rect" id="node15" href="$class_board_computer.html" title="BoardComputer" alt="" coords="611,281,723,308"/>
+<area shape="rect" id="node3" href="$class_voxel_cluster.html" title="VoxelCluster" alt="" coords="53,71,149,97"/>
+<area shape="rect" id="node4" href="$class_scriptable.html" title="Scriptable" alt="" coords="61,121,141,148"/>
+<area shape="rect" id="node5" href="$class_voxel.html" title="Voxel" alt="" coords="74,172,129,199"/>
+<area shape="rect" id="node7" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="22,456,181,483"/>
+<area shape="rect" id="node16" href="$class_handle.html" title="Handle\&lt; Ship \&gt;" alt="" coords="859,507,971,533"/>
+</map>
