@@ -27,6 +27,8 @@ $(function() {
 var _paq = _paq || [];
 _paq.push(['trackPageView']);
 _paq.push(['enableLinkTracking']);
+_paq.push(['setDownloadClasses', "download"]);
+_paq.push(['setLinkTrackingTimer', 250]);
 (function() {
 var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.chrdw.de/";
 _paq.push(['setTrackerUrl', u+'piwik.php']);
