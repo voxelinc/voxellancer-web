@@ -9,7 +9,7 @@ function updateNavbar() {
 
 //jQuery to collapse the navbar on scroll
 $(window).scroll(updateNavbar);
-$(document).ready(updateNavbar);
+$(document).ready(setTimeout(updateNavbar, 500));
 
 //jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
