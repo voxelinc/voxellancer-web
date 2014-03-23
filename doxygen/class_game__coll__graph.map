@@ -1,8 +1,8 @@
 <map id="Game" name="Game">
-<area shape="rect" id="node4" href="$class_game_play.html" title="GamePlay" alt="" coords="785,140,868,167"/>
-<area shape="rect" id="node2" href="$class_game_state.html" title="GameState" alt="" coords="205,105,293,132"/>
-<area shape="rect" id="node8" href="$class_game_play_running.html" title="GamePlayRunning" alt="" coords="1012,208,1143,235"/>
-<area shape="rect" id="node9" href="$class_game_play_paused.html" title="GamePlayPaused" alt="" coords="1014,72,1141,99"/>
-<area shape="rect" id="node3" href="$class_state.html" title="State" alt="" coords="37,105,91,132"/>
-<area shape="rect" id="node11" href="$class_viewer.html" title="Viewer" alt="" coords="33,347,95,373"/>
+<area shape="rect" id="node4" href="$class_game_play.html" title="GamePlay" alt="" coords="785,193,868,220"/>
+<area shape="rect" id="node2" href="$class_game_state.html" title="GameState" alt="" coords="205,207,293,233"/>
+<area shape="rect" id="node7" href="$class_game_play_running.html" title="GamePlayRunning" alt="" coords="1012,261,1143,288"/>
+<area shape="rect" id="node8" href="$class_game_play_paused.html" title="GamePlayPaused" alt="" coords="1014,125,1141,152"/>
+<area shape="rect" id="node3" href="$class_state.html" title="State" alt="" coords="37,207,91,233"/>
+<area shape="rect" id="node10" href="$class_viewer.html" title="Viewer" alt="" coords="33,7,95,33"/>
 </map>

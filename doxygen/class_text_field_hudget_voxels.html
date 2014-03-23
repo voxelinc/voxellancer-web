@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_text_field_hudget_voxels.html','
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -117,17 +118,18 @@ $(document).ready(function(){initNavTree('class_text_field_hudget_voxels.html','
 <div class="dynheader">
 Collaboration diagram for TextFieldHudgetVoxels:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_text_field_hudget_voxels__coll__graph.svg" width="100%" height="445"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_text_field_hudget_voxels__coll__graph.svg" width="100%" height="444"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:acd1e9635984bff067e48f6ad6bce90e7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acd1e9635984bff067e48f6ad6bce90e7"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>TextFieldHudgetVoxels</b> (<a class="el" href="class_text_field_hudget.html">TextFieldHudget</a> *textFieldHudget, glm::vec3 direction, float scale=0.5f, std::string content=&quot;&quot;, FontSize fontSize=FontSize::SIZE5x7)</td></tr>
-<tr class="separator:acd1e9635984bff067e48f6ad6bce90e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad96db04640a0db16a3e5d6358d2f3527"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad96db04640a0db16a3e5d6358d2f3527"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setContent</b> (std::string content)</td></tr>
-<tr class="separator:ad96db04640a0db16a3e5d6358d2f3527"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac548aeb6ba3a492b4d4024bec84602a5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac548aeb6ba3a492b4d4024bec84602a5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>TextFieldHudgetVoxels</b> (<a class="el" href="class_text_field_hudget.html">TextFieldHudget</a> *textFieldHudget, const glm::vec3 &amp;direction, float scale=0.5f, const std::string &amp;text=&quot;&quot;, FontSize fontSize=FontSize::SIZE5x7)</td></tr>
+<tr class="separator:ac548aeb6ba3a492b4d4024bec84602a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b18165496ed709c5fe4cab138a3d79e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5b18165496ed709c5fe4cab138a3d79e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setText</b> (const std::string &amp;text)</td></tr>
+<tr class="separator:a5b18165496ed709c5fe4cab138a3d79e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87b6a3a7f31930fa1dc6b1be11f325ee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a87b6a3a7f31930fa1dc6b1be11f325ee"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>update</b> (float deltaSec)</td></tr>
 <tr class="separator:a87b6a3a7f31930fa1dc6b1be11f325ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,6 +151,9 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>scale</b> ()</td></t
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:a3d5bc2c2e25ad18fa3436186f690e5cf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3d5bc2c2e25ad18fa3436186f690e5cf"></a>
+const glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><b>offsetToCenter</b> (bool upper, bool left) const </td></tr>
+<tr class="separator:a3d5bc2c2e25ad18fa3436186f690e5cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7cf7aa587240be9baaec7bffb75d1d6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af7cf7aa587240be9baaec7bffb75d1d6"></a>
 const glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><b>upperLeft</b> () const </td></tr>
 <tr class="separator:af7cf7aa587240be9baaec7bffb75d1d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,9 +172,6 @@ glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><b>worldPosition</b
 <tr class="memitem:ac6bb10e5f42c758fb60b14d8445cee46"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac6bb10e5f42c758fb60b14d8445cee46"></a>
 glm::quat&#160;</td><td class="memItemRight" valign="bottom"><b>worldOrientation</b> () const </td></tr>
 <tr class="separator:ac6bb10e5f42c758fb60b14d8445cee46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d5bc2c2e25ad18fa3436186f690e5cf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3d5bc2c2e25ad18fa3436186f690e5cf"></a>
-const glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><b>offsetToCenter</b> (bool upper, bool left) const </td></tr>
-<tr class="separator:a3d5bc2c2e25ad18fa3436186f690e5cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -179,9 +181,9 @@ FontSize&#160;</td><td class="memItemRight" valign="bottom"><b>m_fontSize</b></t
 <tr class="memitem:a94e2ea0b04a38a763f4e25d6b265ee41"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a94e2ea0b04a38a763f4e25d6b265ee41"></a>
 <a class="el" href="class_text_field_hudget.html">TextFieldHudget</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>m_textFieldHudget</b></td></tr>
 <tr class="separator:a94e2ea0b04a38a763f4e25d6b265ee41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac61f67c1d1dc502ce8408b03d9c39108"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac61f67c1d1dc502ce8408b03d9c39108"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>m_content</b></td></tr>
-<tr class="separator:ac61f67c1d1dc502ce8408b03d9c39108"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e5716d1581369f29848fa77f05a1d30"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2e5716d1581369f29848fa77f05a1d30"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>m_text</b></td></tr>
+<tr class="separator:a2e5716d1581369f29848fa77f05a1d30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f74b0b1b1725070ed3a04af2f211206"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0f74b0b1b1725070ed3a04af2f211206"></a>
 <a class="el" href="class_voxel_font.html">VoxelFont</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>m_voxelFont</b></td></tr>
 <tr class="separator:a0f74b0b1b1725070ed3a04af2f211206"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -211,7 +213,7 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>m_offset</b></td></t
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_text_field_hudget_voxels.html">TextFieldHudgetVoxels</a></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:24 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:59 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

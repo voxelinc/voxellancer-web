@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -92,7 +93,7 @@ $(document).ready(function(){initNavTree('worldtreenode_8h_source.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -153,7 +154,7 @@ $(document).ready(function(){initNavTree('worldtreenode_8h_source.html','');});
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">protected</span>:</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> MIN_EXTENT = 16;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> MAX_GEODES = 4;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> MAX_GEODES = 8;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="class_world_tree_node.html">WorldTreeNode</a>* m_parent;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="class_t_a_a_b_b.html">IAABB</a> m_aabb;</div>
@@ -161,17 +162,24 @@ $(document).ready(function(){initNavTree('worldtreenode_8h_source.html','');});
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">float</span> m_extent;</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">bool</span> m_active;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    std::list&lt;WorldTreeGeode*&gt; m_geodes;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    std::vector&lt;WorldTreeNode*&gt; m_subnodes;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    std::list&lt;WorldTreeNode*&gt; m_activeSubnodes;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">void</span> toGroup(<a class="code" href="class_world_tree_node.html">WorldTreeNode</a>* initialSubnode = <span class="keyword">nullptr</span>);</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">void</span> subnodeActivated(<a class="code" href="class_world_tree_node.html">WorldTreeNode</a>* subnode);</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">void</span> subnodeDeactivated(<a class="code" href="class_world_tree_node.html">WorldTreeNode</a>* subnode);</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;};</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    std::list&lt;WorldTreeGeode*&gt; m_normalGeodes;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    std::list&lt;WorldTreeGeode*&gt; m_passiveGeodes;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    std::vector&lt;WorldTreeNode*&gt; m_subnodes;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    std::list&lt;WorldTreeNode*&gt; m_activeSubnodes;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_world_tree_node.html#ae4074d2f74cb0a5456b1db3dbc92bead">convertToGroup</a>(<a class="code" href="class_world_tree_node.html">WorldTreeNode</a>* initialSubnode = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_world_tree_node.html#a20748616e5f8d20a190a58fb35a45a45">moveToSubnode</a>(<a class="code" href="class_world_tree_geode.html">WorldTreeGeode</a>* geode, <a class="code" href="class_world_tree_node.html">WorldTreeNode</a>* subnode);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">void</span> subnodeActivated(<a class="code" href="class_world_tree_node.html">WorldTreeNode</a>* subnode);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">void</span> subnodeDeactivated(<a class="code" href="class_world_tree_node.html">WorldTreeNode</a>* subnode);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    std::list&lt;WorldTreeGeode*&gt;&amp; geodesList(<a class="code" href="class_world_tree_geode.html">WorldTreeGeode</a>* geode);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;};</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
 <div class="ttc" id="class_world_tree_geode_html"><div class="ttname"><a href="class_world_tree_geode.html">WorldTreeGeode</a></div><div class="ttdef"><b>Definition:</b> worldtreegeode.h:11</div></div>
+<div class="ttc" id="class_world_tree_node_html_a20748616e5f8d20a190a58fb35a45a45"><div class="ttname"><a href="class_world_tree_node.html#a20748616e5f8d20a190a58fb35a45a45">WorldTreeNode::moveToSubnode</a></div><div class="ttdeci">void moveToSubnode(WorldTreeGeode *geode, WorldTreeNode *subnode)</div><div class="ttdef"><b>Definition:</b> worldtreenode.cpp:213</div></div>
+<div class="ttc" id="class_world_tree_node_html_ae4074d2f74cb0a5456b1db3dbc92bead"><div class="ttname"><a href="class_world_tree_node.html#ae4074d2f74cb0a5456b1db3dbc92bead">WorldTreeNode::convertToGroup</a></div><div class="ttdeci">void convertToGroup(WorldTreeNode *initialSubnode=nullptr)</div><div class="ttdef"><b>Definition:</b> worldtreenode.cpp:174</div></div>
 <div class="ttc" id="class_t_a_a_b_b_html"><div class="ttname"><a href="class_t_a_a_b_b.html">TAABB&lt; int &gt;</a></div></div>
 <div class="ttc" id="class_world_tree_node_html"><div class="ttname"><a href="class_world_tree_node.html">WorldTreeNode</a></div><div class="ttdef"><b>Definition:</b> worldtreenode.h:13</div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -180,7 +188,7 @@ $(document).ready(function(){initNavTree('worldtreenode_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_85c53fc97d906ef66ae29f7ce243c4d9.html">worldtree</a></li><li class="navelem"><b>worldtreenode.h</b></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:19 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:52 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

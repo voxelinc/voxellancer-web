@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_h_u_d.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -183,18 +184,18 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>draw</b> ()</td></tr>
 <tr class="memitem:a4d8ea45b18cb2e032201f2fe10de3a01"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4d8ea45b18cb2e032201f2fe10de3a01"></a>
 glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><b>applyTo</b> (const glm::vec3 &amp;vertex) const </td></tr>
 <tr class="separator:a4d8ea45b18cb2e032201f2fe10de3a01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad883e7f71185a4e69e4bbb6cf11fedd0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad883e7f71185a4e69e4bbb6cf11fedd0"></a>
-<a class="el" href="class_viewer.html">Viewer</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>viewer</b> () const </td></tr>
-<tr class="separator:ad883e7f71185a4e69e4bbb6cf11fedd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02bf6c25c8ee307e835cb0fa74b7afd6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a02bf6c25c8ee307e835cb0fa74b7afd6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setViewer</b> (<a class="el" href="class_viewer.html">Viewer</a> &amp;viewer)</td></tr>
-<tr class="separator:a02bf6c25c8ee307e835cb0fa74b7afd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad43c160dbc0e0124ad1de08ab78a39aa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad43c160dbc0e0124ad1de08ab78a39aa"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>fovy</b> () const </td></tr>
 <tr class="separator:ad43c160dbc0e0124ad1de08ab78a39aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98d26bc02c1d9da756206004ff696560"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a98d26bc02c1d9da756206004ff696560"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>fovx</b> () const </td></tr>
 <tr class="separator:a98d26bc02c1d9da756206004ff696560"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74f046edaa81fb630aaa25e4d0f9cef2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a74f046edaa81fb630aaa25e4d0f9cef2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>showMissionInfo</b> (const std::string &amp;title, const std::string &amp;caption)</td></tr>
+<tr class="separator:a74f046edaa81fb630aaa25e4d0f9cef2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4efd3f75206218cf559f3719317047f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac4efd3f75206218cf559f3719317047f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>showMissionMessage</b> (const std::string &amp;message)</td></tr>
+<tr class="separator:ac4efd3f75206218cf559f3719317047f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -219,30 +220,27 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a025c638269fb240666f98bbb6d3189de"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a025c638269fb240666f98bbb6d3189de"></a>
 <a class="el" href="class_handle.html">Handle</a>&lt; <a class="el" href="class_world_object.html">WorldObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_target</b></td></tr>
 <tr class="separator:a025c638269fb240666f98bbb6d3189de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dcbfafb14243ee6a84c43c01c32e715"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2dcbfafb14243ee6a84c43c01c32e715"></a>
+<a class="el" href="class_property.html">Property</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_drawHud</b></td></tr>
+<tr class="separator:a2dcbfafb14243ee6a84c43c01c32e715"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af89395f8bfc012654f9a9f53a8cb710c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af89395f8bfc012654f9a9f53a8cb710c"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>m_fovy</b></td></tr>
 <tr class="separator:af89395f8bfc012654f9a9f53a8cb710c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3939c41c3180ccf47e20d9ea98f6352"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae3939c41c3180ccf47e20d9ea98f6352"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>m_fovx</b></td></tr>
 <tr class="separator:ae3939c41c3180ccf47e20d9ea98f6352"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add6a97ab5e195707fb3c0a386405dcf0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="add6a97ab5e195707fb3c0a386405dcf0"></a>
-std::unique_ptr&lt; <a class="el" href="class_aim_helper_hudget.html">AimHelperHudget</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_aimHelper</b></td></tr>
-<tr class="separator:add6a97ab5e195707fb3c0a386405dcf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a787ea861b46b539751c2ed62d8ef57a2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a787ea861b46b539751c2ed62d8ef57a2"></a>
-std::unique_ptr&lt; <a class="el" href="class_cross_hair.html">CrossHair</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_crossHair</b></td></tr>
-<tr class="separator:a787ea861b46b539751c2ed62d8ef57a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a9a0a365c79dbcdd518cfbfc3c4bb5f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3a9a0a365c79dbcdd518cfbfc3c4bb5f"></a>
+<a class="el" href="class_cross_hair.html">CrossHair</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>m_crossHair</b></td></tr>
+<tr class="separator:a3a9a0a365c79dbcdd518cfbfc3c4bb5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85561f2bd24142263b1889ffe52219be"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a85561f2bd24142263b1889ffe52219be"></a>
+<a class="el" href="class_aim_helper_hudget.html">AimHelperHudget</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>m_aimHelper</b></td></tr>
+<tr class="separator:a85561f2bd24142263b1889ffe52219be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a70950f4bf3ea2febf23aaff72b802d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1a70950f4bf3ea2febf23aaff72b802d"></a>
 std::unique_ptr&lt; <a class="el" href="class_world_tree_scanner.html">WorldTreeScanner</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_scanner</b></td></tr>
 <tr class="separator:a1a70950f4bf3ea2febf23aaff72b802d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab700fd0d5ed7c3375c25788b2b259e12"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab700fd0d5ed7c3375c25788b2b259e12"></a>
-std::unique_ptr&lt; <a class="el" href="class_text_field_hudget.html">TextFieldHudget</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_speedLabel</b></td></tr>
-<tr class="separator:ab700fd0d5ed7c3375c25788b2b259e12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9491773736c8d5b0584b3782b2e5b41e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9491773736c8d5b0584b3782b2e5b41e"></a>
-std::unique_ptr&lt; <a class="el" href="class_text_field_hudget.html">TextFieldHudget</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_targetName</b></td></tr>
-<tr class="separator:a9491773736c8d5b0584b3782b2e5b41e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98fa7c7dc9860e95558fdfda6e02f3fa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a98fa7c7dc9860e95558fdfda6e02f3fa"></a>
-std::list&lt; <a class="el" href="class_hudget.html">Hudget</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_hudgets</b></td></tr>
-<tr class="separator:a98fa7c7dc9860e95558fdfda6e02f3fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac50edf3fe1824b67f051d291f772343"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aac50edf3fe1824b67f051d291f772343"></a>
+std::unique_ptr&lt; <a class="el" href="class_h_u_d_elements.html">HUDElements</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_elements</b></td></tr>
+<tr class="separator:aac50edf3fe1824b67f051d291f772343"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac32ba3630456bed1e0a4269a8031c721"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac32ba3630456bed1e0a4269a8031c721"></a>
 std::map&lt; <a class="el" href="class_world_object.html">WorldObject</a> <br class="typebreak"/>
 *, <a class="el" href="class_h_u_d_object_delegate.html">HUDObjectDelegate</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_objectDelegates</b></td></tr>
@@ -258,7 +256,7 @@ std::map&lt; <a class="el" href="class_world_object.html">WorldObject</a> <br cl
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_h_u_d.html">HUD</a></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:22 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:56 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

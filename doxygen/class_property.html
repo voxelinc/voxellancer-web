@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_property.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -114,11 +115,8 @@ $(document).ready(function(){initNavTree('class_property.html','');});
 <div class="title">Property&lt; T &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Collaboration diagram for Property&lt; T &gt;:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_property__coll__graph.svg" width="194" height="222"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+
+<p><code>#include &lt;<a class="el" href="property_8h_source.html">property.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -131,18 +129,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adc9d58544b1d0e044eeb828108e0105f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adc9d58544b1d0e044eeb828108e0105f"></a>
 const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>name</b> () const </td></tr>
 <tr class="separator:adc9d58544b1d0e044eeb828108e0105f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a363ab9b62af79c2021ad28a71a41325f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a363ab9b62af79c2021ad28a71a41325f"></a>
-T&#160;</td><td class="memItemRight" valign="bottom"><b>get</b> () const </td></tr>
-<tr class="separator:a363ab9b62af79c2021ad28a71a41325f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a85e0df0cae0e3378b1892345897f2a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7a85e0df0cae0e3378b1892345897f2a"></a>
+const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>get</b> () const </td></tr>
+<tr class="separator:a7a85e0df0cae0e3378b1892345897f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff3454b359a56b4ffca5f94496bd0983"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aff3454b359a56b4ffca5f94496bd0983"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>set</b> (const T &amp;value)</td></tr>
 <tr class="separator:aff3454b359a56b4ffca5f94496bd0983"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d20bda01869fc28faddd38a9a6d0160"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8d20bda01869fc28faddd38a9a6d0160"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>operator T</b> () const </td></tr>
 <tr class="separator:a8d20bda01869fc28faddd38a9a6d0160"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae02e626f650aaa534cd284700426c257"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae02e626f650aaa534cd284700426c257"></a>
-T *&#160;</td><td class="memItemRight" valign="bottom"><b>operator-&gt;</b> ()</td></tr>
-<tr class="separator:ae02e626f650aaa534cd284700426c257"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7f45f32d2603d34a495fde68006c3d9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad7f45f32d2603d34a495fde68006c3d9"></a>
+const T *&#160;</td><td class="memItemRight" valign="bottom"><b>operator-&gt;</b> () const </td></tr>
+<tr class="separator:ad7f45f32d2603d34a495fde68006c3d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -152,17 +150,22 @@ static T&#160;</td><td class="memItemRight" valign="bottom"><b>get</b> (const st
 <tr class="memitem:a79a150551c1ca81a9f576dded796aee8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a79a150551c1ca81a9f576dded796aee8"></a>
 static T&#160;</td><td class="memItemRight" valign="bottom"><b>get</b> (const std::string &amp;name, const T &amp;defaultvalue)</td></tr>
 <tr class="separator:a79a150551c1ca81a9f576dded796aee8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3964ba44a4c0ed8ecb31953ec5f526f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac3964ba44a4c0ed8ecb31953ec5f526f"></a>
+static <a class="el" href="class_property.html">Property</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>unnamed</b> (const T &amp;value)</td></tr>
+<tr class="separator:ac3964ba44a4c0ed8ecb31953ec5f526f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a07a8668ff6ea227bc036968d49195b7d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a07a8668ff6ea227bc036968d49195b7d"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>m_name</b></td></tr>
-<tr class="separator:a07a8668ff6ea227bc036968d49195b7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6565a1ba93ad174d24107270ac9cb611"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6565a1ba93ad174d24107270ac9cb611"></a>
-T&#160;</td><td class="memItemRight" valign="bottom"><b>m_value</b></td></tr>
-<tr class="separator:a6565a1ba93ad174d24107270ac9cb611"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23a6b66884569184ea29ef13e70cba14"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a23a6b66884569184ea29ef13e70cba14"></a>
+<a class="el" href="class_property_impl.html">PropertyImpl</a>&lt; T &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>m_impl</b></td></tr>
+<tr class="separator:a23a6b66884569184ea29ef13e70cba14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/>The documentation for this class was generated from the following files:<ul>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;class T&gt;<br/>
+class Property&lt; T &gt;</h3>
+
+<p>represents a value loaded from an .ini file </p>
+</div><hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/property/<a class="el" href="property_8h_source.html">property.h</a></li>
 <li>src/property/property.inl</li>
 </ul>
@@ -172,7 +175,7 @@ T&#160;</td><td class="memItemRight" valign="bottom"><b>m_value</b></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_property.html">Property</a></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:23 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:57 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

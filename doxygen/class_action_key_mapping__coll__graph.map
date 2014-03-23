@@ -1,6 +1,6 @@
 <map id="ActionKeyMapping" name="ActionKeyMapping">
-<area shape="rect" id="node2" title="STL class. " alt="" coords="176,99,256,125"/>
-<area shape="rect" id="node4" href="$class_property.html" title="Property\&lt; InputMapping \&gt;" alt="" coords="5,189,176,216"/>
-<area shape="rect" id="node3" title="STL class. " alt="" coords="153,6,279,47"/>
-<area shape="rect" id="node5" href="$class_input_mapping.html" title="InputMapping" alt="" coords="32,99,131,125"/>
+<area shape="rect" id="node2" title="STL class. " alt="" coords="28,99,108,125"/>
+<area shape="rect" id="node5" href="$class_property_impl.html" title="PropertyImpl\&lt; InputMapping \&gt;" alt="" coords="85,189,280,216"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="5,6,131,47"/>
+<area shape="rect" id="node4" href="$class_property.html" title="Property\&lt; InputMapping \&gt;" alt="" coords="87,280,259,307"/>
 </map>

@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_property_collection.html','');})
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -112,21 +113,25 @@ $(document).ready(function(){initNavTree('class_property_collection.html','');})
 
 <p>This is the complete list of members for <a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>get</b>(const std::string &amp;name) const  (defined in <a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a>)</td><td class="entry"><a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>get</b>(const std::string &amp;name, const T &amp;defaultValue) const  (defined in <a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a>)</td><td class="entry"><a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>create</b>(const std::string &amp;key) (defined in <a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a>)</td><td class="entry"><a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>get</b>(const std::string &amp;name) const  (defined in <a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a>)</td><td class="entry"><a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>get</b>(const std::string &amp;name, const T &amp;defaultValue) const  (defined in <a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a>)</td><td class="entry"><a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>getImpl</b>(const std::string &amp;key) (defined in <a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a>)</td><td class="entry"><a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>getImpl</b>(const std::string &amp;key, const T &amp;defaultValue) (defined in <a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a>)</td><td class="entry"><a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>getOrCreate</b>(const std::string &amp;key) (defined in <a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a>)</td><td class="entry"><a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>m_converter</b> (defined in <a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a>)</td><td class="entry"><a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>m_properties</b> (defined in <a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a>)</td><td class="entry"><a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>m_regex</b> (defined in <a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a>)</td><td class="entry"><a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>m_values</b> (defined in <a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a>)</td><td class="entry"><a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>PropertyCollection</b>(regexns::regex regex, std::function&lt; T(const std::string &amp;)&gt; converter) (defined in <a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a>)</td><td class="entry"><a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>registerProperty</b>(Property&lt; T &gt; *prop) (defined in <a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a>)</td><td class="entry"><a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>registerProperty</b>(Property&lt; T &gt; *prop, const T &amp;defaultValue) (defined in <a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a>)</td><td class="entry"><a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>set</b>(const std::string &amp;key, const T &amp;value) (defined in <a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a>)</td><td class="entry"><a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>unregisterProperty</b>(Property&lt; T &gt; *prop) (defined in <a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a>)</td><td class="entry"><a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>update</b>(const std::string &amp;key, const std::string &amp;svalue) override (defined in <a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a>)</td><td class="entry"><a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>~PropertyCollection</b>() (defined in <a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a>)</td><td class="entry"><a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>update</b>(const std::string &amp;key, const std::string &amp;svalue) override (defined in <a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a>)</td><td class="entry"><a class="el" href="class_property_collection.html">PropertyCollection&lt; T &gt;</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:23 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:58 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

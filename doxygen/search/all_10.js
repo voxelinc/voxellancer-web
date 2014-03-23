@@ -20,7 +20,6 @@ var searchData=
   ['spawnrequest',['SpawnRequest',['../class_spawn_request.html',1,'']]],
   ['specialvoxel',['SpecialVoxel',['../class_special_voxel.html',1,'']]],
   ['sphere',['Sphere',['../class_sphere.html',1,'']]],
-  ['split',['Split',['../class_split.html',1,'']]],
   ['splitdata',['SplitData',['../class_split_data.html',1,'']]],
   ['splitdetector',['SplitDetector',['../class_split_detector.html',1,'']]],
   ['splitter',['Splitter',['../class_splitter.html',1,'']]],
@@ -34,8 +33,5 @@ var searchData=
   ['stereorenderinfo',['StereoRenderInfo',['../class_stereo_render_info.html',1,'']]],
   ['stereoview',['StereoView',['../class_stereo_view.html',1,'']]],
   ['stereovieweye',['StereoViewEye',['../class_stereo_view_eye.html',1,'']]],
-  ['streamredirect',['StreamRedirect',['../class_stream_redirect.html',1,'']]],
-  ['stringizer_3c_20glm_3a_3avec3_20_3e',['Stringizer&lt; glm::vec3 &gt;',['../structsnowhouse_1_1_stringizer_3_01glm_1_1vec3_01_4.html',1,'snowhouse']]],
-  ['stringizer_3c_20taabb_3c_20t_20_3e_20_3e',['Stringizer&lt; TAABB&lt; T &gt; &gt;',['../structsnowhouse_1_1_stringizer_3_01_t_a_a_b_b_3_01_t_01_4_01_4.html',1,'snowhouse']]],
-  ['styleguide',['StyleGuide',['../class_style_guide.html',1,'']]]
+  ['streamredirect',['StreamRedirect',['../class_stream_redirect.html',1,'']]]
 ];

@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_h_u_d.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -124,40 +125,39 @@ $(document).ready(function(){initNavTree('class_h_u_d.html','');});
   <tr bgcolor="#f0f0f0"><td class="entry"><b>HUD</b>(Player *player) (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>m_aimHelper</b> (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>m_crossHair</b> (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>m_drawHud</b> (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>m_elements</b> (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>m_fovx</b> (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>m_fovy</b> (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>m_hudgets</b> (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>m_objectDelegates</b> (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>m_player</b> (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>m_scanner</b> (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>m_speedLabel</b> (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>m_objectDelegates</b> (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>m_player</b> (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>m_scanner</b> (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>m_sphere</b> (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>m_target</b> (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>m_targetName</b> (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>m_viewer</b> (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>objectDelegate</b>(WorldObject *worldObject) (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>onClick</b>(ClickType clickType) (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>orientation</b>() const  (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>player</b>() (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>position</b>() const  (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>removeHudget</b>(Hudget *hudget) (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>removeObjectDelegate</b>(HUDObjectDelegate *objectDelegate) (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>setCrossHairOffset</b>(const glm::vec2 &amp;mousePosition) (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>setTarget</b>(WorldObject *target) (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>setViewer</b>(Viewer &amp;viewer) (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>m_viewer</b> (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>objectDelegate</b>(WorldObject *worldObject) (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>onClick</b>(ClickType clickType) (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>orientation</b>() const  (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>player</b>() (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>position</b>() const  (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>removeHudget</b>(Hudget *hudget) (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>removeObjectDelegate</b>(HUDObjectDelegate *objectDelegate) (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>setCrossHairOffset</b>(const glm::vec2 &amp;mousePosition) (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>setTarget</b>(WorldObject *target) (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>showMissionInfo</b>(const std::string &amp;title, const std::string &amp;caption) (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>showMissionMessage</b>(const std::string &amp;message) (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>sphere</b>() const  (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>target</b>() (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>update</b>(float deltaSec) (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>updateFov</b>() (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>updateScanner</b>(float deltaSec) (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>viewer</b>() const  (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>~HUD</b>() (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>~HUD</b>() (defined in <a class="el" href="class_h_u_d.html">HUD</a>)</td><td class="entry"><a class="el" href="class_h_u_d.html">HUD</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:22 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:56 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

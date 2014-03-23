@@ -47,9 +47,9 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:title="STL class. ">
-<polygon fill="white" stroke="#bfbfbf" points="32,-204.5 32,-223.5 92,-223.5 92,-204.5 32,-204.5"/>
-<text text-anchor="middle" x="62" y="-211.5" font-family="Helvetica,sans-Serif" font-size="10.00">std::string</text>
+<g id="a_node4"><a xlink:href="class_property_impl.html" target="_top" xlink:title="PropertyImpl\&lt; float \&gt;">
+<polygon fill="white" stroke="red" points="8.5,-204.5 8.5,-223.5 115.5,-223.5 115.5,-204.5 8.5,-204.5"/>
+<text text-anchor="middle" x="62" y="-211.5" font-family="Helvetica,sans-Serif" font-size="10.00">PropertyImpl&lt; float &gt;</text>
 </a>
 </g>
 </g>
@@ -57,7 +57,7 @@
 <g id="edge4" class="edge"><title>Node4&#45;&gt;Node3</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M62,-194.041C62,-181.472 62,-165.563 62,-155.841"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="58.5001,-194.372 62,-204.372 65.5001,-194.372 58.5001,-194.372"/>
-<text text-anchor="middle" x="82.5" y="-177.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_name</text>
+<text text-anchor="middle" x="79.5" y="-177.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_impl</text>
 </g>
 </g>
 </svg>

@@ -1,18 +1,18 @@
 <map id="WorldLogic" name="WorldLogic">
-<area shape="rect" id="node2" href="$class_voxel_hangman.html" title="VoxelHangman" alt="" coords="845,557,955,584"/>
-<area shape="rect" id="node3" href="$class_splitter.html" title="Splitter" alt="" coords="869,219,931,245"/>
-<area shape="rect" id="node15" href="$class_voxel_collision_accumulator.html" title="VoxelCollisionAccumulator" alt="" coords="811,269,989,296"/>
-<area shape="rect" id="node25" href="$class_garbage_collector.html" title="GarbageCollector" alt="" coords="839,168,961,195"/>
-<area shape="rect" id="node5" href="$class_world_object.html" title="WorldObject" alt="" coords="46,281,141,308"/>
-<area shape="rect" id="node23" href="$class_damage_forwarder.html" title="DamageForwarder" alt="" coords="837,383,963,409"/>
-<area shape="rect" id="node6" href="$class_split_detector.html" title="SplitDetector" alt="" coords="851,737,949,764"/>
-<area shape="rect" id="node10" href="$class_damager.html" title="Damager" alt="" coords="863,507,937,533"/>
-<area shape="rect" id="node24" href="$class_voxel_accumulator.html" title="VoxelAccumulator\&lt; Damage\lImpact \&gt;" alt="" coords="366,386,554,427"/>
-<area shape="rect" id="node17" href="$class_elastic_impulsor.html" title="ElasticImpulsor" alt="" coords="845,811,955,837"/>
-<area shape="rect" id="node18" href="$class_property.html" title="Property\&lt; float \&gt;" alt="" coords="401,880,519,907"/>
-<area shape="rect" id="node19" href="$class_elastic_impulse_generator.html" title="ElasticImpulseGenerator" alt="" coords="818,907,982,933"/>
-<area shape="rect" id="node21" href="$class_mover.html" title="Mover" alt="" coords="872,117,928,144"/>
-<area shape="rect" id="node38" href="$class_damage_impact_generator.html" title="DamageImpactGenerator" alt="" coords="817,320,983,347"/>
-<area shape="rect" id="node26" href="$class_world.html" title="World" alt="" coords="1741,401,1797,428"/>
-<area shape="rect" id="node36" href="$class_player.html" title="Player" alt="" coords="1453,657,1512,684"/>
+<area shape="rect" id="node2" href="$class_wrecker.html" title="Wrecker" alt="" coords="865,355,935,381"/>
+<area shape="rect" id="node6" href="$class_splitter.html" title="Splitter" alt="" coords="869,253,931,280"/>
+<area shape="rect" id="node16" href="$class_voxel_collision_accumulator.html" title="VoxelCollisionAccumulator" alt="" coords="811,405,989,432"/>
+<area shape="rect" id="node26" href="$class_garbage_collector.html" title="GarbageCollector" alt="" coords="839,304,961,331"/>
+<area shape="rect" id="node4" href="$class_world_object.html" title="WorldObject" alt="" coords="46,449,141,476"/>
+<area shape="rect" id="node24" href="$class_damage_forwarder.html" title="DamageForwarder" alt="" coords="837,528,963,555"/>
+<area shape="rect" id="node5" href="$class_voxel_hangman.html" title="VoxelHangman" alt="" coords="845,203,955,229"/>
+<area shape="rect" id="node7" href="$class_split_detector.html" title="SplitDetector" alt="" coords="851,136,949,163"/>
+<area shape="rect" id="node11" href="$class_damager.html" title="Damager" alt="" coords="863,680,937,707"/>
+<area shape="rect" id="node25" href="$class_voxel_accumulator.html" title="VoxelAccumulator\&lt; Damage\lImpact \&gt;" alt="" coords="366,739,554,781"/>
+<area shape="rect" id="node18" href="$class_elastic_impulsor.html" title="ElasticImpulsor" alt="" coords="845,461,955,488"/>
+<area shape="rect" id="node19" href="$class_property.html" title="Property\&lt; float \&gt;" alt="" coords="401,457,519,484"/>
+<area shape="rect" id="node20" href="$class_elastic_impulse_generator.html" title="ElasticImpulseGenerator" alt="" coords="818,816,982,843"/>
+<area shape="rect" id="node22" href="$class_mover.html" title="Mover" alt="" coords="872,897,928,924"/>
+<area shape="rect" id="node40" href="$class_damage_impact_generator.html" title="DamageImpactGenerator" alt="" coords="817,751,983,777"/>
+<area shape="rect" id="node27" href="$class_world.html" title="World" alt="" coords="1749,523,1805,549"/>
 </map>

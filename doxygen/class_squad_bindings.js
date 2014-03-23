@@ -7,5 +7,5 @@ var class_squad_bindings =
     [ "apiCreatePatrolWaypointsTask", "class_squad_bindings.html#aa5fe075927eec49b5be69f5fa7db64a2", null ],
     [ "apiCreateSquad", "class_squad_bindings.html#adb177e3b509b0da4a1c6e1158da16773", null ],
     [ "apiJoinSquad", "class_squad_bindings.html#a0578ea2001d4e8b177f74b796f51b7d0", null ],
-    [ "initialize", "class_squad_bindings.html#aa455fee99af54465328eac945cfe73cd", null ]
+    [ "bind", "class_squad_bindings.html#a5f39d2a5df9d4e6209b5d5ba8c2182a4", null ]
 ];

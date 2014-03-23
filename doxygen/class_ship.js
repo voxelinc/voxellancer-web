@@ -2,10 +2,9 @@ var class_ship =
 [
     [ "Ship", "class_ship.html#ab7608fcfc4d27c678aacaf9bfd68a462", null ],
     [ "~Ship", "class_ship.html#a43cd6eeaffc11b49239b091621963a65", null ],
-    [ "Ship", "class_ship.html#ad77a56480f16ca8900d4e6bfefa7d935", null ],
     [ "boardComputer", "class_ship.html#a1110d21393123bbd68625ce794046d0b", null ],
     [ "character", "class_ship.html#aa23d3e25ab99f5850661c4b310ee5f08", null ],
-    [ "handle", "class_ship.html#a11582093dd46b0be06e7455e2d899301", null ],
+    [ "handle", "class_ship.html#afbb5db7cf5403e867484b3be5f918826", null ],
     [ "objectType", "class_ship.html#a714d738fd9306941a28d53389d7d00a6", null ],
     [ "setCharacter", "class_ship.html#acf30c7e6823ec84b87d57b9df92e026d", null ],
     [ "setTargetObject", "class_ship.html#ab8d8bca7a4d7ba6bccdc6a525dfed6cf", null ],

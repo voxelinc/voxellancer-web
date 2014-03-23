@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_state.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -119,7 +120,8 @@ $(document).ready(function(){initNavTree('class_state.html','');});
 <div class="dynheader">
 Inheritance diagram for State:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_state__inherit__graph.svg" width="100%" height="440"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_state__inherit__graph.svg" width="482" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for State:</div>
@@ -267,7 +269,7 @@ std::list&lt; <a class="el" href="class_transition.html">Transition</a> * &gt;&#
 </div><div class="memdoc">
 <p>Overrideable method that is called whenever a state or any of its substates come to be currentSubState This happens recursively up to the root-state </p>
 
-<p>Reimplemented in <a class="el" href="class_game_play.html#a1e7bba7244f948ad39fbc6902d8d96cd">GamePlay</a>, <a class="el" href="class_game_state.html#a353e387ee17e78719203a43082153f3f">GameState</a>, <a class="el" href="class_test_state.html#ad1d1504584dd905005b680d473b3ad40">TestState</a>, <a class="el" href="class_game_play_running.html#a3b7785faa4ea27320737fb00f12dc8cd">GamePlayRunning</a>, and <a class="el" href="class_game_play_paused.html#ad486ca58ce4bee7ed74c097ff3c9a86d">GamePlayPaused</a>.</p>
+<p>Reimplemented in <a class="el" href="class_game_play.html#a1e7bba7244f948ad39fbc6902d8d96cd">GamePlay</a>, <a class="el" href="class_game_state.html#a353e387ee17e78719203a43082153f3f">GameState</a>, <a class="el" href="class_game_play_running.html#a3b7785faa4ea27320737fb00f12dc8cd">GamePlayRunning</a>, and <a class="el" href="class_game_play_paused.html#ad486ca58ce4bee7ed74c097ff3c9a86d">GamePlayPaused</a>.</p>
 
 </div>
 </div>
@@ -293,7 +295,7 @@ std::list&lt; <a class="el" href="class_transition.html">Transition</a> * &gt;&#
 </div><div class="memdoc">
 <p>Overrideable method that is called whenever a state ceases to be currentSubState This happens recursively up to the root-state </p>
 
-<p>Reimplemented in <a class="el" href="class_game_play.html#aa193be9690d8d362dc7d93a9371921b1">GamePlay</a>, <a class="el" href="class_game_state.html#a9c3321c1d192271543f7227fa1c87fd5">GameState</a>, <a class="el" href="class_test_state.html#a21b7d4362e83c639986a3390d85b39d7">TestState</a>, <a class="el" href="class_game_play_running.html#a48e4a422d478c75d100fa6c18949882d">GamePlayRunning</a>, and <a class="el" href="class_game_play_paused.html#aaa5f36f38a2ce12e6476dd9f1ee5702e">GamePlayPaused</a>.</p>
+<p>Reimplemented in <a class="el" href="class_game_play.html#aa193be9690d8d362dc7d93a9371921b1">GamePlay</a>, <a class="el" href="class_game_state.html#a9c3321c1d192271543f7227fa1c87fd5">GameState</a>, <a class="el" href="class_game_play_running.html#a48e4a422d478c75d100fa6c18949882d">GamePlayRunning</a>, and <a class="el" href="class_game_play_paused.html#aaa5f36f38a2ce12e6476dd9f1ee5702e">GamePlayPaused</a>.</p>
 
 </div>
 </div>
@@ -384,7 +386,7 @@ std::list&lt; <a class="el" href="class_transition.html">Transition</a> * &gt;&#
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_state.html">State</a></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:24 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:59 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

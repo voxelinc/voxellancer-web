@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_event_poller.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -116,28 +117,28 @@ $(document).ready(function(){initNavTree('class_event_poller.html','');});
 <div class="dynheader">
 Collaboration diagram for EventPoller:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_event_poller__coll__graph.svg" width="222" height="144"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_event_poller__coll__graph.svg" width="198" height="235"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0bc1fe0930c2b94d69a7bf15919d8cca"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0bc1fe0930c2b94d69a7bf15919d8cca"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>addPoll</b> (std::shared_ptr&lt; <a class="el" href="class_event_poll.html">EventPoll</a> &gt; eventPoll)</td></tr>
-<tr class="separator:a0bc1fe0930c2b94d69a7bf15919d8cca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a969b2cc84cf90ac656f737463e9ed903"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a969b2cc84cf90ac656f737463e9ed903"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>removePoll</b> (std::shared_ptr&lt; <a class="el" href="class_event_poll.html">EventPoll</a> &gt; eventPoll)</td></tr>
-<tr class="separator:a969b2cc84cf90ac656f737463e9ed903"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1254a7749910a44afdcb4922a671babc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1254a7749910a44afdcb4922a671babc"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>addPoll</b> (<a class="el" href="class_event_poll.html">EventPoll</a> *eventPoll)</td></tr>
+<tr class="separator:a1254a7749910a44afdcb4922a671babc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21b745f87e7a371df68c9b02cf2c0e57"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a21b745f87e7a371df68c9b02cf2c0e57"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>removePoll</b> (<a class="el" href="class_event_poll.html">EventPoll</a> *eventPoll)</td></tr>
+<tr class="separator:a21b745f87e7a371df68c9b02cf2c0e57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a209f07d7f197b56d89bd47dc49c151fd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a209f07d7f197b56d89bd47dc49c151fd"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>update</b> (float deltaSec)</td></tr>
 <tr class="separator:a209f07d7f197b56d89bd47dc49c151fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:ad806c244835ff6efaf8be03b11967060"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad806c244835ff6efaf8be03b11967060"></a>
-std::unordered_set<br class="typebreak"/>
-&lt; std::shared_ptr&lt; <a class="el" href="class_event_poll.html">EventPoll</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_eventPolls</b></td></tr>
-<tr class="separator:ad806c244835ff6efaf8be03b11967060"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec6b2b831e0462065999548afcfaad53"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aec6b2b831e0462065999548afcfaad53"></a>
+std::list&lt; std::unique_ptr<br class="typebreak"/>
+&lt; <a class="el" href="class_event_poll.html">EventPoll</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_eventPolls</b></td></tr>
+<tr class="separator:aec6b2b831e0462065999548afcfaad53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/events/<a class="el" href="eventpoller_8h_source.html">eventpoller.h</a></li>
@@ -149,7 +150,7 @@ std::unordered_set<br class="typebreak"/>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_event_poller.html">EventPoller</a></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:21 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:55 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

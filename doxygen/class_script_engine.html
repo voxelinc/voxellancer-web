@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_script_engine.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -145,6 +146,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>unregisterScriptable<
 template&lt;class T &gt; </td></tr>
 <tr class="memitem:a302427e717b32a396ab3c2bbef34ef92"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><b>get</b> (int key)</td></tr>
 <tr class="separator:a302427e717b32a396ab3c2bbef34ef92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dc6131b4dfd49be86af313e2471babd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7dc6131b4dfd49be86af313e2471babd"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>keyValid</b> (int key) const </td></tr>
+<tr class="separator:a7dc6131b4dfd49be86af313e2471babd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad17d73ad7f83e10066e00f9342305e35"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad17d73ad7f83e10066e00f9342305e35"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>update</b> (float deltaSec)</td></tr>
 <tr class="separator:ad17d73ad7f83e10066e00f9342305e35"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -154,16 +158,22 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a62c6aa33fa966432e8420222f6622a3f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a62c6aa33fa966432e8420222f6622a3f"></a>
 <a class="el" href="class_scriptable.html">Scriptable</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>getScriptable</b> (int key)</td></tr>
 <tr class="separator:a62c6aa33fa966432e8420222f6622a3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3d8b158bce0e6f764a88d83cc5eb603"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab3d8b158bce0e6f764a88d83cc5eb603"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>performRemovals</b> ()</td></tr>
+<tr class="separator:ab3d8b158bce0e6f764a88d83cc5eb603"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e88c04b2dbb7d0f7c59c2ab4bdb6594"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5e88c04b2dbb7d0f7c59c2ab4bdb6594"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>removeScriptable</b> (<a class="el" href="class_scriptable.html">Scriptable</a> *scriptable)</td></tr>
+<tr class="separator:a5e88c04b2dbb7d0f7c59c2ab4bdb6594"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a475c1c4b9b4fea79634ed3dd167b49bd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a475c1c4b9b4fea79634ed3dd167b49bd"></a>
 <a class="el" href="class_world.html">World</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>m_world</b></td></tr>
 <tr class="separator:a475c1c4b9b4fea79634ed3dd167b49bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a339c353aefe8a797e60f8628bd6baf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6a339c353aefe8a797e60f8628bd6baf"></a>
-std::vector&lt; std::shared_ptr<br class="typebreak"/>
+<tr class="memitem:af891b78844373e356f6c59ba5007da5b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af891b78844373e356f6c59ba5007da5b"></a>
+std::list&lt; std::shared_ptr<br class="typebreak"/>
 &lt; <a class="el" href="class_game_play_script.html">GamePlayScript</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_scripts</b></td></tr>
-<tr class="separator:a6a339c353aefe8a797e60f8628bd6baf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:af891b78844373e356f6c59ba5007da5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fe28a245a010e18c75e3299fd43fd11"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8fe28a245a010e18c75e3299fd43fd11"></a>
 std::unordered_map&lt; int, <br class="typebreak"/>
 <a class="el" href="class_scriptable.html">Scriptable</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_scriptables</b></td></tr>
@@ -186,7 +196,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_running</b></td></t
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_script_engine.html">ScriptEngine</a></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:23 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:58 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

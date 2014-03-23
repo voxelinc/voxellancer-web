@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_a_a_b_b_entered_poll.html','');}
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -117,14 +118,12 @@ $(document).ready(function(){initNavTree('class_a_a_b_b_entered_poll.html','');}
 <div class="dynheader">
 Inheritance diagram for AABBEnteredPoll:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_a_a_b_b_entered_poll__inherit__graph.svg" width="136" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_a_a_b_b_entered_poll__inherit__graph.svg" width="136" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for AABBEnteredPoll:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_a_a_b_b_entered_poll__coll__graph.svg" width="592" height="235"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_a_a_b_b_entered_poll__coll__graph.svg" width="592" height="235"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -132,13 +131,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aec3efe660b536990aaf7e304c5a87024"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aec3efe660b536990aaf7e304c5a87024"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>AABBEnteredPoll</b> (<a class="el" href="class_world_object.html">WorldObject</a> *worldObject, const <a class="el" href="class_t_a_a_b_b.html">AABB</a> &amp;aabb, const std::function&lt; void()&gt; &amp;callback)</td></tr>
 <tr class="separator:aec3efe660b536990aaf7e304c5a87024"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a093abf0a0aad4011905665231ea03616"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a093abf0a0aad4011905665231ea03616"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>isDead</b> () override</td></tr>
+<tr class="separator:a093abf0a0aad4011905665231ea03616"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_event_poll"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_event_poll')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_event_poll.html">EventPoll</a></td></tr>
 <tr class="memitem:aaabbb163dfc33466d97b0e7a71f6a2d1 inherit pub_methods_class_event_poll"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaabbb163dfc33466d97b0e7a71f6a2d1"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>EventPoll</b> (const std::function&lt; void()&gt; &amp;callback)</td></tr>
 <tr class="separator:aaabbb163dfc33466d97b0e7a71f6a2d1 inherit pub_methods_class_event_poll"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a134ee61075d1e46273e689ac6f9bfb47 inherit pub_methods_class_event_poll"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a134ee61075d1e46273e689ac6f9bfb47"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>isDead</b> ()</td></tr>
-<tr class="separator:a134ee61075d1e46273e689ac6f9bfb47 inherit pub_methods_class_event_poll"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a474217658ef20ecc773e65722e521d78 inherit pub_methods_class_event_poll"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a474217658ef20ecc773e65722e521d78"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>update</b> (float deltaSec)</td></tr>
 <tr class="separator:a474217658ef20ecc773e65722e521d78 inherit pub_methods_class_event_poll"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -158,19 +157,25 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>scriptKey</b> () const
 <tr class="memitem:aab6075275a303668b973ad53a54290ee inherit pub_methods_class_scriptable"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aab6075275a303668b973ad53a54290ee"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setScriptKey</b> (int key)</td></tr>
 <tr class="separator:aab6075275a303668b973ad53a54290ee inherit pub_methods_class_scriptable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad271a220307caa11df8fcef71ee7434d inherit pub_methods_class_scriptable"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad271a220307caa11df8fcef71ee7434d"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isScriptLocal</b> () const </td></tr>
+<tr class="separator:ad271a220307caa11df8fcef71ee7434d inherit pub_methods_class_scriptable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1de18b4b060510fb4f9c21544c37109 inherit pub_methods_class_scriptable"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af1de18b4b060510fb4f9c21544c37109"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setScriptLocal</b> (bool local)</td></tr>
+<tr class="separator:af1de18b4b060510fb4f9c21544c37109 inherit pub_methods_class_scriptable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:ada790027f8fa48bf0dc60543700eb7e8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ada790027f8fa48bf0dc60543700eb7e8"></a>
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>poll</b> () override</td></tr>
 <tr class="separator:ada790027f8fa48bf0dc60543700eb7e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5137186b92d2340b7b6228126c757ad2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5137186b92d2340b7b6228126c757ad2"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>specialOnCallback</b> () override</td></tr>
+<tr class="separator:a5137186b92d2340b7b6228126c757ad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_event_poll"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_event_poll')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_event_poll.html">EventPoll</a></td></tr>
 <tr class="memitem:a6a5374ec4dae4b0738f49ef13e8e139e inherit pro_methods_class_event_poll"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6a5374ec4dae4b0738f49ef13e8e139e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>doCallback</b> ()</td></tr>
 <tr class="separator:a6a5374ec4dae4b0738f49ef13e8e139e inherit pro_methods_class_event_poll"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a562c5962d69d6f3f1587d044f851d869 inherit pro_methods_class_event_poll"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a562c5962d69d6f3f1587d044f851d869"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>specialOnCallback</b> ()</td></tr>
-<tr class="separator:a562c5962d69d6f3f1587d044f851d869 inherit pro_methods_class_event_poll"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -180,9 +185,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ab7aea12990b001bf46c4cf0977635088"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab7aea12990b001bf46c4cf0977635088"></a>
 <a class="el" href="class_t_a_a_b_b.html">AABB</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_aabb</b></td></tr>
 <tr class="separator:ab7aea12990b001bf46c4cf0977635088"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c4ac153bb773ff255246fbb48e33006"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0c4ac153bb773ff255246fbb48e33006"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_lastEntered</b></td></tr>
-<tr class="separator:a0c4ac153bb773ff255246fbb48e33006"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af01d6bee00a4890e1f42ec8b10c81093"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af01d6bee00a4890e1f42ec8b10c81093"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_entered</b></td></tr>
+<tr class="separator:af01d6bee00a4890e1f42ec8b10c81093"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_event_poll"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_event_poll')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_event_poll.html">EventPoll</a></td></tr>
 <tr class="memitem:a1bba8dba011bbb2634529d0f53ae6d0e inherit pro_attribs_class_event_poll"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1bba8dba011bbb2634529d0f53ae6d0e"></a>
 std::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_callback</b></td></tr>
@@ -197,6 +202,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_active</b></td></tr
 <tr class="memitem:aea82d33ccd2b4a066a8b26f28c19f743 inherit pro_attribs_class_scriptable"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea82d33ccd2b4a066a8b26f28c19f743"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>m_key</b></td></tr>
 <tr class="separator:aea82d33ccd2b4a066a8b26f28c19f743 inherit pro_attribs_class_scriptable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef5f9f96520b3c6e21a00d248c163374 inherit pro_attribs_class_scriptable"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aef5f9f96520b3c6e21a00d248c163374"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_local</b></td></tr>
+<tr class="separator:aef5f9f96520b3c6e21a00d248c163374 inherit pro_attribs_class_scriptable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -215,7 +223,7 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><b>INVALID_K
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_a_a_b_b_entered_poll.html">AABBEnteredPoll</a></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:19 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:53 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

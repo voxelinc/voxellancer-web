@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_world_tree_geode.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -158,6 +159,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>addIntersectingLeaf</
 <tr class="memitem:a3cdf10dbbfd4e95531a20e7958f4400b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3cdf10dbbfd4e95531a20e7958f4400b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>removeIntersectingLeaf</b> (<a class="el" href="class_world_tree_node.html">WorldTreeNode</a> *leaf)</td></tr>
 <tr class="separator:a3cdf10dbbfd4e95531a20e7958f4400b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af775ae4da580865381f8ec47ba47a0ef"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af775ae4da580865381f8ec47ba47a0ef"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isPassive</b> ()</td></tr>
+<tr class="separator:af775ae4da580865381f8ec47ba47a0ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -170,6 +174,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a9d07c65153bafb584fef86086f85aa75"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9d07c65153bafb584fef86086f85aa75"></a>
 <a class="el" href="class_t_a_a_b_b.html">IAABB</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_aabb</b></td></tr>
 <tr class="separator:a9d07c65153bafb584fef86086f85aa75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cc2de57b0d3c8b10614dc5d0890eb94"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6cc2de57b0d3c8b10614dc5d0890eb94"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_passive</b></td></tr>
+<tr class="separator:a6cc2de57b0d3c8b10614dc5d0890eb94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae561ce3389c6e2bc08a7b064e8115f1a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae561ce3389c6e2bc08a7b064e8115f1a"></a>
 std::list&lt; <a class="el" href="class_world_tree_node.html">WorldTreeNode</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_intersectingLeafs</b></td></tr>
 <tr class="separator:ae561ce3389c6e2bc08a7b064e8115f1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -184,7 +191,7 @@ std::list&lt; <a class="el" href="class_world_tree_node.html">WorldTreeNode</a> 
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_world_tree_geode.html">WorldTreeGeode</a></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:26 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:59:01 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

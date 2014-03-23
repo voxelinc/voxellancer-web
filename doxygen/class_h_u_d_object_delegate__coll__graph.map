@@ -1,5 +1,12 @@
 <map id="HUDObjectDelegate" name="HUDObjectDelegate">
-<area shape="rect" id="node3" href="$class_hudget.html" title="Hudget" alt="" coords="253,187,315,213"/>
-<area shape="rect" id="node4" href="$class_h_u_d.html" title="HUD" alt="" coords="175,96,224,123"/>
-<area shape="rect" id="node5" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="5,5,163,32"/>
+<area shape="rect" id="node14" href="$class_object_hudget.html" title="ObjectHudget" alt="" coords="1520,131,1621,157"/>
+<area shape="rect" id="node2" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="6,417,165,444"/>
+<area shape="rect" id="node3" href="$class_h_u_d.html" title="HUD" alt="" coords="1001,471,1050,497"/>
+<area shape="rect" id="node5" href="$class_hudget.html" title="Hudget" alt="" coords="1242,419,1305,445"/>
+<area shape="rect" id="node4" href="$class_cross_hair.html" title="CrossHair" alt="" coords="1531,449,1610,476"/>
+<area shape="rect" id="node7" href="$class_aim_helper_hudget.html" title="AimHelperHudget" alt="" coords="636,588,759,615"/>
+<area shape="rect" id="node8" href="$class_property.html" title="Property\&lt; bool \&gt;" alt="" coords="638,639,757,665"/>
+<area shape="rect" id="node10" href="$class_sphere.html" title="Sphere" alt="" coords="666,740,729,767"/>
+<area shape="rect" id="node12" href="$class_player.html" title="Player" alt="" coords="668,240,727,267"/>
+<area shape="rect" id="node13" href="$class_viewer.html" title="Viewer" alt="" coords="667,357,728,384"/>
 </map>

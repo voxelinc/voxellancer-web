@@ -13,6 +13,7 @@ var class_lua_wrapper =
     [ "fetch", "class_lua_wrapper.html#a6f0d2e718c2538a845ab34007fe6224d", null ],
     [ "fetch", "class_lua_wrapper.html#a06795d14f4f060fbe1c949a1c9f801b0", null ],
     [ "fetch", "class_lua_wrapper.html#a020026fecc94193928dea7ed0c995599", null ],
+    [ "has", "class_lua_wrapper.html#a6923308fe72534005225118995a55d12", null ],
     [ "loadScript", "class_lua_wrapper.html#aa2898dc88672c3f49d19631f459f612b", null ],
     [ "loadString", "class_lua_wrapper.html#a806155e04fab379391ee7bd22fd73aae", null ],
     [ "luaError", "class_lua_wrapper.html#a3b325019a8e83c20305d25bb4a32641e", null ],

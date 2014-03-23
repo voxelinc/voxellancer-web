@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -92,7 +93,7 @@ $(document).ready(function(){initNavTree('pairhash_8h_source.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -114,7 +115,7 @@ $(document).ready(function(){initNavTree('pairhash_8h_source.html','');});
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span>std {</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> A, <span class="keyword">typename</span> B&gt;</div>
-<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="structstd_1_1hash_3_01pair_3_01_a_00_01_b_01_4_01_4.html">    9</a></span>&#160;    <span class="keyword">struct </span>hash&lt;pair&lt;A, <a class="code" href="class_b.html">B</a>&gt;&gt; {</div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="structstd_1_1hash_3_01pair_3_01_a_00_01_b_01_4_01_4.html">    9</a></span>&#160;    <span class="keyword">struct </span>hash&lt;pair&lt;A, B&gt;&gt; {</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keywordtype">size_t</span> operator()(<span class="keyword">const</span> pair&lt;A, B&gt;&amp; arg)<span class="keyword"> const </span>{</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;            std::hash&lt;A&gt; hashA;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;            std::hash&lt;B&gt; hashB;</div>
@@ -122,14 +123,13 @@ $(document).ready(function(){initNavTree('pairhash_8h_source.html','');});
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        }</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    };</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;}</div>
-<div class="ttc" id="class_b_html"><div class="ttname"><a href="class_b.html">B</a></div><div class="ttdef"><b>Definition:</b> teststatemachine.cpp:36</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_313caf1132e152dd9b58bea13a4052ca.html">utils</a></li><li class="navelem"><b>pairhash.h</b></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:18 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:52 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

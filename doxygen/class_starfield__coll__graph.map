@@ -1,8 +1,10 @@
 <map id="Starfield" name="Starfield">
-<area shape="rect" id="node2" href="$class_render_pass.html" title="RenderPass" alt="" coords="308,5,401,32"/>
-<area shape="rect" id="node3" title="STL class. " alt="" coords="51,56,131,83"/>
-<area shape="rect" id="node5" href="$class_property.html" title="Property\&lt; int \&gt;" alt="" coords="300,56,409,83"/>
-<area shape="rect" id="node6" href="$class_property.html" title="Property\&lt; float \&gt;" alt="" coords="295,107,414,133"/>
-<area shape="rect" id="node4" href="$class_context_dependant.html" title="ContextDependant" alt="" coords="290,159,419,185"/>
-<area shape="rect" id="node8" href="$struct_starfield_1_1_camera_location.html" title="Starfield::CameraLocation" alt="" coords="5,217,176,244"/>
+<area shape="rect" id="node2" href="$class_render_pass.html" title="RenderPass" alt="" coords="384,7,477,33"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="5,57,85,84"/>
+<area shape="rect" id="node6" href="$class_property_impl.html" title="PropertyImpl\&lt; int \&gt;" alt="" coords="208,57,341,84"/>
+<area shape="rect" id="node8" href="$class_property_impl.html" title="PropertyImpl\&lt; float \&gt;" alt="" coords="203,109,346,136"/>
+<area shape="rect" id="node4" href="$class_context_dependant.html" title="ContextDependant" alt="" coords="509,160,638,187"/>
+<area shape="rect" id="node5" href="$class_property.html" title="Property\&lt; int \&gt;" alt="" coords="519,57,628,84"/>
+<area shape="rect" id="node7" href="$class_property.html" title="Property\&lt; float \&gt;" alt="" coords="514,109,633,136"/>
+<area shape="rect" id="node10" href="$struct_starfield_1_1_camera_location.html" title="Starfield::CameraLocation" alt="" coords="189,219,360,245"/>
 </map>

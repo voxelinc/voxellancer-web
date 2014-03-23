@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -92,7 +93,7 @@ $(document).ready(function(){initNavTree('worldlogic_8h_source.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -146,7 +147,7 @@ $(document).ready(function(){initNavTree('worldlogic_8h_source.html','');});
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="class_damage_impact_generator.html">DamageImpactGenerator</a> m_damageImpactGenerator;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="class_split_detector.html">SplitDetector</a> m_splitDetector;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="class_splitter.html">Splitter</a> m_splitter;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="comment">//Wrecker m_wrecker;</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="class_wrecker.html">Wrecker</a> m_wrecker;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="class_garbage_collector.html">GarbageCollector</a> m_garbageCollector;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="class_voxel_hangman.html">VoxelHangman</a> m_voxelHangman;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
@@ -156,7 +157,8 @@ $(document).ready(function(){initNavTree('worldlogic_8h_source.html','');});
 <div class="ttc" id="class_voxel_hangman_html"><div class="ttname"><a href="class_voxel_hangman.html">VoxelHangman</a></div><div class="ttdef"><b>Definition:</b> voxelhangman.h:8</div></div>
 <div class="ttc" id="class_damage_impact_generator_html"><div class="ttname"><a href="class_damage_impact_generator.html">DamageImpactGenerator</a></div><div class="ttdef"><b>Definition:</b> damageimpactgenerator.h:10</div></div>
 <div class="ttc" id="class_mover_html"><div class="ttname"><a href="class_mover.html">Mover</a></div><div class="ttdef"><b>Definition:</b> mover.h:7</div></div>
-<div class="ttc" id="class_world_html"><div class="ttname"><a href="class_world.html">World</a></div><div class="ttdef"><b>Definition:</b> world.h:19</div></div>
+<div class="ttc" id="class_world_html"><div class="ttname"><a href="class_world.html">World</a></div><div class="ttdef"><b>Definition:</b> world.h:20</div></div>
+<div class="ttc" id="class_wrecker_html"><div class="ttname"><a href="class_wrecker.html">Wrecker</a></div><div class="ttdef"><b>Definition:</b> wrecker.h:9</div></div>
 <div class="ttc" id="class_world_logic_html"><div class="ttname"><a href="class_world_logic.html">WorldLogic</a></div><div class="ttdef"><b>Definition:</b> worldlogic.h:19</div></div>
 <div class="ttc" id="class_voxel_collision_accumulator_html"><div class="ttname"><a href="class_voxel_collision_accumulator.html">VoxelCollisionAccumulator</a></div><div class="ttdef"><b>Definition:</b> voxelcollisionaccumulator.h:10</div></div>
 <div class="ttc" id="class_split_detector_html"><div class="ttname"><a href="class_split_detector.html">SplitDetector</a></div><div class="ttdef"><b>Definition:</b> splitdetector.h:17</div></div>
@@ -172,7 +174,7 @@ $(document).ready(function(){initNavTree('worldlogic_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_6826d79532171ff2338799cfd298b875.html">world</a></li><li class="navelem"><b>worldlogic.h</b></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:19 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:52 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

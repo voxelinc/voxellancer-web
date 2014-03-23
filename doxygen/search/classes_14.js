@@ -17,5 +17,6 @@ var searchData=
   ['worldtreegeode',['WorldTreeGeode',['../class_world_tree_geode.html',1,'']]],
   ['worldtreenode',['WorldTreeNode',['../class_world_tree_node.html',1,'']]],
   ['worldtreequery',['WorldTreeQuery',['../class_world_tree_query.html',1,'']]],
-  ['worldtreescanner',['WorldTreeScanner',['../class_world_tree_scanner.html',1,'']]]
+  ['worldtreescanner',['WorldTreeScanner',['../class_world_tree_scanner.html',1,'']]],
+  ['wrecker',['Wrecker',['../class_wrecker.html',1,'']]]
 ];

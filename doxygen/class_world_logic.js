@@ -15,5 +15,6 @@ var class_world_logic =
     [ "m_splitter", "class_world_logic.html#a280423841666540b45104875b46a58f1", null ],
     [ "m_voxelCollisionAccumulator", "class_world_logic.html#a627f36467b347dc02227e6afe0ee646e", null ],
     [ "m_voxelHangman", "class_world_logic.html#a86390cfee7a07351acafb6fc6916badf", null ],
-    [ "m_world", "class_world_logic.html#a0f9e7cf711e899342a8a842cca758756", null ]
+    [ "m_world", "class_world_logic.html#a0f9e7cf711e899342a8a842cca758756", null ],
+    [ "m_wrecker", "class_world_logic.html#a256eed0f938bf72382c90d181ccb147f", null ]
 ];

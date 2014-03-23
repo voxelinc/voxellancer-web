@@ -4,7 +4,7 @@ var class_sound =
       [ "Paused", "class_sound.html#a20972952bd42eba13b84c033237b912aae99180abf47a8b3a856e0bcb2656990a", null ],
       [ "Playing", "class_sound.html#a20972952bd42eba13b84c033237b912aac9dbb2b7c84159b632d71e512eba8428", null ],
       [ "Stopped", "class_sound.html#a20972952bd42eba13b84c033237b912aac23e2b09ebe6bf4cb5e2a9abe85c0be2", null ],
-      [ "Disabled", "class_sound.html#a20972952bd42eba13b84c033237b912aab9f5c797ebbf55adccdd8539a65a0241", null ]
+      [ "Null", "class_sound.html#a20972952bd42eba13b84c033237b912aabbb93ef26e3c101ff11cdd21cab08a94", null ]
     ] ],
     [ "Sound", "class_sound.html#a539c205cdf06fe2c621fd77c37bcfac9", null ],
     [ "Sound", "class_sound.html#ab470fd13359a876c6f5fb3371c2b16ae", null ],

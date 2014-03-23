@@ -6,6 +6,6 @@ var class_mono_view =
     [ "fovy", "class_mono_view.html#a4da202e32ffa575d8bc2983622739f84", null ],
     [ "setViewport", "class_mono_view.html#a48c9ae28cb91d23a97e0be10e6fe1d2e", null ],
     [ "zNear", "class_mono_view.html#afff068262c5eeb55d0209adc7f0b2e46", null ],
-    [ "m_camera", "class_mono_view.html#a51759cf25d6fceb18e108e2191b75075", null ],
-    [ "m_samplingFactor", "class_mono_view.html#aa3941dd9dfbfef23cad37b9295dd621e", null ]
+    [ "m_antialiasing", "class_mono_view.html#af5e48522669c873f801e4a64304062d1", null ],
+    [ "m_camera", "class_mono_view.html#a51759cf25d6fceb18e108e2191b75075", null ]
 ];

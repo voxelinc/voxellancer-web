@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_split_detector.html" title="SplitDetector" alt="" coords="6,5,103,32"/>
+<area shape="rect" id="node1" href="$class_scene.html" title="Scene" alt="" coords="5,5,64,32"/>
+<area shape="rect" id="node2" href="$class_game_play_scene.html" title="GamePlayScene" alt="" coords="112,5,232,32"/>
 </map>

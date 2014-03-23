@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_generic_ship.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -131,9 +132,9 @@ virtual WorldObjectType&#160;</td><td class="memItemRight" valign="bottom"><b>ob
 <tr class="memitem:ad1baaa31c7e36d503fc9b5dacfb5492b inherit pub_methods_class_ship"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad1baaa31c7e36d503fc9b5dacfb5492b"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>update</b> (float deltaSec) override</td></tr>
 <tr class="separator:ad1baaa31c7e36d503fc9b5dacfb5492b inherit pub_methods_class_ship"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11582093dd46b0be06e7455e2d899301 inherit pub_methods_class_ship"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a11582093dd46b0be06e7455e2d899301"></a>
-<a class="el" href="class_handle.html">Handle</a>&lt; <a class="el" href="class_ship.html">Ship</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>handle</b> ()</td></tr>
-<tr class="separator:a11582093dd46b0be06e7455e2d899301 inherit pub_methods_class_ship"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbb5db7cf5403e867484b3be5f918826 inherit pub_methods_class_ship"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afbb5db7cf5403e867484b3be5f918826"></a>
+<a class="el" href="class_handle.html">Handle</a>&lt; <a class="el" href="class_ship.html">Ship</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>handle</b> ()</td></tr>
+<tr class="separator:afbb5db7cf5403e867484b3be5f918826 inherit pub_methods_class_ship"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8d8bca7a4d7ba6bccdc6a525dfed6cf inherit pub_methods_class_ship"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab8d8bca7a4d7ba6bccdc6a525dfed6cf"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setTargetObject</b> (<a class="el" href="class_world_object.html">WorldObject</a> *target)</td></tr>
 <tr class="separator:ab8d8bca7a4d7ba6bccdc6a525dfed6cf inherit pub_methods_class_ship"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,6 +154,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setCharacter</b> (<a 
 <a class="el" href="class_character.html">Character</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>character</b> ()</td></tr>
 <tr class="separator:aa23d3e25ab99f5850661c4b310ee5f08 inherit pub_methods_class_ship"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_world_object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_world_object')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_world_object.html">WorldObject</a></td></tr>
+<tr class="memitem:a4ef028fb70cb8bda981950ee25abe9a2 inherit pub_methods_class_world_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4ef028fb70cb8bda981950ee25abe9a2"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>WorldObject</b> (const <a class="el" href="class_transform.html">Transform</a> &amp;transform)</td></tr>
+<tr class="separator:a4ef028fb70cb8bda981950ee25abe9a2 inherit pub_methods_class_world_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f36c97e29a4da697f9d71702684f7c8 inherit pub_methods_class_world_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9f36c97e29a4da697f9d71702684f7c8"></a>
 SpawnState&#160;</td><td class="memItemRight" valign="bottom"><b>spawnState</b> () const </td></tr>
 <tr class="separator:a9f36c97e29a4da697f9d71702684f7c8 inherit pub_methods_class_world_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -195,6 +199,9 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>removeVoxel</
 <tr class="memitem:a5e13140016ad5a1d36d5f7a901a3cb83 inherit pub_methods_class_world_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5e13140016ad5a1d36d5f7a901a3cb83"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setCrucialVoxel</b> (const glm::ivec3 &amp;cell)</td></tr>
 <tr class="separator:a5e13140016ad5a1d36d5f7a901a3cb83 inherit pub_methods_class_world_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1630f95b102d8022897464ea7a27e30e inherit pub_methods_class_world_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1630f95b102d8022897464ea7a27e30e"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isCrucialVoxelDestroyed</b> ()</td></tr>
+<tr class="separator:a1630f95b102d8022897464ea7a27e30e inherit pub_methods_class_world_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d2eab584cebf88e4731439f34543153 inherit pub_methods_class_world_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d2eab584cebf88e4731439f34543153"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>updateTransformAndGeode</b> (const glm::vec3 &amp;position, const glm::quat &amp;orientation)</td></tr>
 <tr class="separator:a7d2eab584cebf88e4731439f34543153 inherit pub_methods_class_world_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -213,9 +220,9 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>collisionFieldOfDama
 <tr class="memitem:a90f6c30abd2ddfb7596bd4a2449d3108 inherit pub_methods_class_world_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a90f6c30abd2ddfb7596bd4a2449d3108"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setCollisionFieldOfDamage</b> (float collisionFieldOfDamage)</td></tr>
 <tr class="separator:a90f6c30abd2ddfb7596bd4a2449d3108 inherit pub_methods_class_world_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf78beca64371d5989bde7eb31e5184b inherit pub_methods_class_world_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abf78beca64371d5989bde7eb31e5184b"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isDestroyed</b> () const </td></tr>
-<tr class="separator:abf78beca64371d5989bde7eb31e5184b inherit pub_methods_class_world_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3762941c35f8bf9f271a480714fa7bdb inherit pub_methods_class_world_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3762941c35f8bf9f271a480714fa7bdb"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>passiveForCollisionDetection</b> ()</td></tr>
+<tr class="separator:a3762941c35f8bf9f271a480714fa7bdb inherit pub_methods_class_world_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_voxel_cluster"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_voxel_cluster')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_voxel_cluster.html">VoxelCluster</a></td></tr>
 <tr class="memitem:a86ba4a3cc5ee866598c4e731fc99b41c inherit pub_methods_class_voxel_cluster"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a86ba4a3cc5ee866598c4e731fc99b41c"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>VoxelCluster</b> (float scale)</td></tr>
@@ -264,24 +271,20 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>scriptKey</b> () const
 <tr class="memitem:aab6075275a303668b973ad53a54290ee inherit pub_methods_class_scriptable"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aab6075275a303668b973ad53a54290ee"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setScriptKey</b> (int key)</td></tr>
 <tr class="separator:aab6075275a303668b973ad53a54290ee inherit pub_methods_class_scriptable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad271a220307caa11df8fcef71ee7434d inherit pub_methods_class_scriptable"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad271a220307caa11df8fcef71ee7434d"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isScriptLocal</b> () const </td></tr>
+<tr class="separator:ad271a220307caa11df8fcef71ee7434d inherit pub_methods_class_scriptable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1de18b4b060510fb4f9c21544c37109 inherit pub_methods_class_scriptable"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af1de18b4b060510fb4f9c21544c37109"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setScriptLocal</b> (bool local)</td></tr>
+<tr class="separator:af1de18b4b060510fb4f9c21544c37109 inherit pub_methods_class_scriptable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_attribs_class_scriptable"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_class_scriptable')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="class_scriptable.html">Scriptable</a></td></tr>
 <tr class="memitem:a461753203eff7860b31d66b4fd135897 inherit pub_static_attribs_class_scriptable"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a461753203eff7860b31d66b4fd135897"></a>
 static const int&#160;</td><td class="memItemRight" valign="bottom"><b>INVALID_KEY</b> = -1</td></tr>
 <tr class="separator:a461753203eff7860b31d66b4fd135897 inherit pub_static_attribs_class_scriptable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_ship"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_ship')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_ship.html">Ship</a></td></tr>
-<tr class="memitem:ad77a56480f16ca8900d4e6bfefa7d935 inherit pro_methods_class_ship"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad77a56480f16ca8900d4e6bfefa7d935"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Ship</b> (<a class="el" href="class_collision_filter.html">CollisionFilter</a> *collisionFilter)</td></tr>
-<tr class="separator:ad77a56480f16ca8900d4e6bfefa7d935 inherit pro_methods_class_ship"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7241049c2eba0389bf19989869592ae7 inherit pro_methods_class_ship"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7241049c2eba0389bf19989869592ae7"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>updateEnginePosition</b> ()</td></tr>
 <tr class="separator:a7241049c2eba0389bf19989869592ae7 inherit pro_methods_class_ship"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_class_world_object"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_world_object')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_world_object.html">WorldObject</a></td></tr>
-<tr class="memitem:a3a906599729f54a344e260d393a98cb8 inherit pro_methods_class_world_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3a906599729f54a344e260d393a98cb8"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>WorldObject</b> (<a class="el" href="class_collision_filter.html">CollisionFilter</a> *collisionFilter, float scale=1.0f)</td></tr>
-<tr class="separator:a3a906599729f54a344e260d393a98cb8 inherit pro_methods_class_world_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae98ae812ee3ee280f81a9b3b3b8948ee inherit pro_methods_class_world_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae98ae812ee3ee280f81a9b3b3b8948ee"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onDestruction</b> ()</td></tr>
-<tr class="separator:ae98ae812ee3ee280f81a9b3b3b8948ee inherit pro_methods_class_world_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_ship"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_ship')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_ship.html">Ship</a></td></tr>
 <tr class="memitem:a1deb491f6d7d1d428fd345a0a82f1afb inherit pro_attribs_class_ship"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1deb491f6d7d1d428fd345a0a82f1afb"></a>
 std::unique_ptr&lt; <a class="el" href="class_character.html">Character</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_character</b></td></tr>
@@ -322,15 +325,15 @@ std::unique_ptr<br class="typebreak"/>
 <tr class="memitem:a03baca0449fd428618339153ee430596 inherit pro_attribs_class_world_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a03baca0449fd428618339153ee430596"></a>
 <a class="el" href="class_voxel.html">Voxel</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>m_crucialVoxel</b></td></tr>
 <tr class="separator:a03baca0449fd428618339153ee430596 inherit pro_attribs_class_world_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f1a4c5dc6f08271b862d6b2bb4b03c9 inherit pro_attribs_class_world_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6f1a4c5dc6f08271b862d6b2bb4b03c9"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_crucialVoxelDestroyed</b></td></tr>
+<tr class="separator:a6f1a4c5dc6f08271b862d6b2bb4b03c9 inherit pro_attribs_class_world_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedec40b800fa5b82299e05efd46d6a8a inherit pro_attribs_class_world_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aedec40b800fa5b82299e05efd46d6a8a"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>m_collisionFieldOfDamage</b></td></tr>
 <tr class="separator:aedec40b800fa5b82299e05efd46d6a8a inherit pro_attribs_class_world_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c7545a31b860d5aeff673b68968e850 inherit pro_attribs_class_world_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9c7545a31b860d5aeff673b68968e850"></a>
 SpawnState&#160;</td><td class="memItemRight" valign="bottom"><b>m_spawnState</b></td></tr>
 <tr class="separator:a9c7545a31b860d5aeff673b68968e850 inherit pro_attribs_class_world_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a022f867c1f36728dd587f6ec7047b063 inherit pro_attribs_class_world_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a022f867c1f36728dd587f6ec7047b063"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_isDestroyed</b></td></tr>
-<tr class="separator:a022f867c1f36728dd587f6ec7047b063 inherit pro_attribs_class_world_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_voxel_cluster"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_voxel_cluster')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_voxel_cluster.html">VoxelCluster</a></td></tr>
 <tr class="memitem:a640a5e2f7cab542c14ecda8a1b601d55 inherit pro_attribs_class_voxel_cluster"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a640a5e2f7cab542c14ecda8a1b601d55"></a>
 std::unordered_map&lt; glm::ivec3, <br class="typebreak"/>
@@ -350,6 +353,9 @@ std::unique_ptr<br class="typebreak"/>
 <tr class="memitem:aea82d33ccd2b4a066a8b26f28c19f743 inherit pro_attribs_class_scriptable"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea82d33ccd2b4a066a8b26f28c19f743"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>m_key</b></td></tr>
 <tr class="separator:aea82d33ccd2b4a066a8b26f28c19f743 inherit pro_attribs_class_scriptable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef5f9f96520b3c6e21a00d248c163374 inherit pro_attribs_class_scriptable"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aef5f9f96520b3c6e21a00d248c163374"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_local</b></td></tr>
+<tr class="separator:aef5f9f96520b3c6e21a00d248c163374 inherit pro_attribs_class_scriptable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/worldobject/<a class="el" href="genericship_8h_source.html">genericship.h</a></li>
@@ -361,7 +367,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>m_key</b></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_generic_ship.html">GenericShip</a></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:22 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:56 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

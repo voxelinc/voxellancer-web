@@ -6,9 +6,6 @@ var hierarchy =
     [ "LuaWrapper::_pop< size_t, Ts >", "struct_lua_wrapper_1_1__pop.html", null ],
     [ "LuaWrapper::_pop< 0, Ts...>", "struct_lua_wrapper_1_1__pop_3_010_00_01_ts_8_8_8_4.html", null ],
     [ "LuaWrapper::_pop< 1, T >", "struct_lua_wrapper_1_1__pop_3_011_00_01_t_01_4.html", null ],
-    [ "A", null, [
-      [ "StyleGuide", "class_style_guide.html", null ]
-    ] ],
     [ "AbstractMove", "class_abstract_move.html", null ],
     [ "AbstractPropertyCollection", "class_abstract_property_collection.html", [
       [ "PropertyCollection< T >", "class_property_collection.html", null ]
@@ -34,6 +31,7 @@ var hierarchy =
       [ "BattleScenario", "class_battle_scenario.html", null ],
       [ "FrozenGameScenario", "class_frozen_game_scenario.html", null ],
       [ "GameScenario", "class_game_scenario.html", null ],
+      [ "MissionScenario", "class_mission_scenario.html", null ],
       [ "PirateScenario", "class_pirate_scenario.html", null ],
       [ "ScriptedScenario", "class_scripted_scenario.html", null ]
     ] ],
@@ -43,6 +41,8 @@ var hierarchy =
     [ "Bindings", "class_bindings.html", [
       [ "AiBindings", "class_ai_bindings.html", null ],
       [ "CommonBindings", "class_common_bindings.html", null ],
+      [ "ExternalMissionBindings", "class_external_mission_bindings.html", null ],
+      [ "InternalMissionBindings", "class_internal_mission_bindings.html", null ],
       [ "SquadBindings", "class_squad_bindings.html", null ],
       [ "WorldObjectBindings", "class_world_object_bindings.html", null ]
     ] ],
@@ -111,6 +111,7 @@ var hierarchy =
     ] ],
     [ "FactionMatrix", "class_faction_matrix.html", null ],
     [ "FactionRelation", "class_faction_relation.html", null ],
+    [ "FileSystem", "class_file_system.html", null ],
     [ "GamePlayRunningInput", "class_game_play_running_input.html", null ],
     [ "GarbageCollector", "class_garbage_collector.html", null ],
     [ "GeometryHelper", "class_geometry_helper.html", null ],
@@ -119,6 +120,7 @@ var hierarchy =
     [ "Handle< T >", "class_handle.html", null ],
     [ "Handle< AiTask >", "class_handle.html", null ],
     [ "Handle< EventPoll >", "class_handle.html", null ],
+    [ "Handle< Mission >", "class_handle.html", null ],
     [ "Handle< Ship >", "class_handle.html", null ],
     [ "Handle< WorldObject >", "class_handle.html", null ],
     [ "HandleImpl< T >", "class_handle_impl.html", null ],
@@ -128,6 +130,7 @@ var hierarchy =
     [ "HMD", "class_h_m_d.html", null ],
     [ "HMDManager", "class_h_m_d_manager.html", null ],
     [ "HUD", "class_h_u_d.html", null ],
+    [ "HUDElements", "class_h_u_d_elements.html", null ],
     [ "Hudget", "class_hudget.html", [
       [ "CircularHudget", "class_circular_hudget.html", [
         [ "AimHelperHudget", "class_aim_helper_hudget.html", null ]
@@ -136,6 +139,9 @@ var hierarchy =
       [ "ObjectHudget", "class_object_hudget.html", null ],
       [ "TextFieldHudget", "class_text_field_hudget.html", null ]
     ] ],
+    [ "HudgetAnimation", "class_hudget_animation.html", [
+      [ "HudgetHideAnimation", "class_hudget_hide_animation.html", null ]
+    ] ],
     [ "HUDObjectDelegate", "class_h_u_d_object_delegate.html", null ],
     [ "Impulse", "class_impulse.html", null ],
     [ "ImpulseAccumulator", "class_impulse_accumulator.html", null ],
@@ -143,10 +149,12 @@ var hierarchy =
       [ "CameraDolly", "class_camera_dolly.html", null ]
     ] ],
     [ "InputConfigurator", "class_input_configurator.html", null ],
+    [ "InputConfigWriter", "class_input_config_writer.html", null ],
     [ "InputMapping", "class_input_mapping.html", null ],
     [ "LuaWrapper", "class_lua_wrapper.html", null ],
     [ "Math", "class_math.html", null ],
     [ "Metrics", "class_metrics.html", null ],
+    [ "MissionSystem", "class_mission_system.html", null ],
     [ "Movement", "class_movement.html", null ],
     [ "Mover", "class_mover.html", null ],
     [ "ObjectHudgetCornerVoxels", "class_object_hudget_corner_voxels.html", null ],
@@ -163,9 +171,18 @@ var hierarchy =
     [ "Property< glm::vec3 >", "class_property.html", null ],
     [ "Property< InputMapping >", "class_property.html", null ],
     [ "Property< int >", "class_property.html", null ],
+    [ "Property< std::string >", "class_property.html", null ],
     [ "Property< uint32_t >", "class_property.html", null ],
     [ "PropertyConverter", "class_property_converter.html", null ],
     [ "PropertyDirectory", "class_property_directory.html", null ],
+    [ "PropertyImpl< T >", "class_property_impl.html", null ],
+    [ "PropertyImpl< bool >", "class_property_impl.html", null ],
+    [ "PropertyImpl< float >", "class_property_impl.html", null ],
+    [ "PropertyImpl< glm::vec3 >", "class_property_impl.html", null ],
+    [ "PropertyImpl< InputMapping >", "class_property_impl.html", null ],
+    [ "PropertyImpl< int >", "class_property_impl.html", null ],
+    [ "PropertyImpl< std::string >", "class_property_impl.html", null ],
+    [ "PropertyImpl< uint32_t >", "class_property_impl.html", null ],
     [ "RandBool", "class_rand_bool.html", null ],
     [ "RandFloat", "class_rand_float.html", null ],
     [ "RandVec3", "class_rand_vec3.html", null ],
@@ -183,7 +200,9 @@ var hierarchy =
     ] ],
     [ "ScreenBlitter", "class_screen_blitter.html", null ],
     [ "Script", "class_script.html", [
-      [ "GamePlayScript", "class_game_play_script.html", null ]
+      [ "GamePlayScript", "class_game_play_script.html", [
+        [ "MissionScript", "class_mission_script.html", null ]
+      ] ]
     ] ],
     [ "Scriptable", "class_scriptable.html", [
       [ "AiGroupTask", "class_ai_group_task.html", [
@@ -199,12 +218,14 @@ var hierarchy =
       [ "EventPoll", "class_event_poll.html", [
         [ "AABBEnteredPoll", "class_a_a_b_b_entered_poll.html", null ],
         [ "AiTaskFinishedPoll", "class_ai_task_finished_poll.html", null ],
+        [ "MissionStatePoll", "class_mission_state_poll.html", null ],
         [ "Timer", "class_timer.html", [
           [ "LoopingTimer", "class_looping_timer.html", null ],
           [ "SingleShotTimer", "class_single_shot_timer.html", null ]
         ] ],
         [ "WorldObjectDestroyedPoll", "class_world_object_destroyed_poll.html", null ]
       ] ],
+      [ "Mission", "class_mission.html", null ],
       [ "Squad", "class_squad.html", null ],
       [ "WorldObject", "class_world_object.html", [
         [ "GenericWorldObject", "class_generic_world_object.html", null ],
@@ -218,8 +239,7 @@ var hierarchy =
         ] ],
         [ "Ship", "class_ship.html", [
           [ "GenericShip", "class_generic_ship.html", null ]
-        ] ],
-        [ "Split", "class_split.html", null ]
+        ] ]
       ] ]
     ] ],
     [ "ScriptEngine", "class_script_engine.html", null ],
@@ -242,24 +262,10 @@ var hierarchy =
         [ "GamePlay", "class_game_play.html", null ],
         [ "GamePlayPaused", "class_game_play_paused.html", null ],
         [ "GamePlayRunning", "class_game_play_running.html", null ]
-      ] ],
-      [ "TestState", "class_test_state.html", [
-        [ "B", "class_b.html", [
-          [ "StyleGuide", "class_style_guide.html", null ]
-        ] ],
-        [ "C", "class_c.html", [
-          [ "StyleGuide", "class_style_guide.html", null ]
-        ] ],
-        [ "D", "class_d.html", null ],
-        [ "E", "class_e.html", null ],
-        [ "F", "class_f.html", null ],
-        [ "G", "class_g.html", null ]
       ] ]
     ] ],
     [ "StereoRenderInfo", "class_stereo_render_info.html", null ],
     [ "StereoViewEye", "class_stereo_view_eye.html", null ],
-    [ "snowhouse::Stringizer< glm::vec3 >", "structsnowhouse_1_1_stringizer_3_01glm_1_1vec3_01_4.html", null ],
-    [ "snowhouse::Stringizer< TAABB< T > >", "structsnowhouse_1_1_stringizer_3_01_t_a_a_b_b_3_01_t_01_4_01_4.html", null ],
     [ "TargetSelector", "class_target_selector.html", null ],
     [ "TextFieldHudgetVoxels", "class_text_field_hudget_voxels.html", null ],
     [ "ThreadPool< T >", "class_thread_pool.html", null ],
@@ -344,5 +350,6 @@ var hierarchy =
     [ "WorldTreeGeode", "class_world_tree_geode.html", null ],
     [ "WorldTreeNode", "class_world_tree_node.html", null ],
     [ "WorldTreeQuery", "class_world_tree_query.html", null ],
-    [ "WorldTreeScanner", "class_world_tree_scanner.html", null ]
+    [ "WorldTreeScanner", "class_world_tree_scanner.html", null ],
+    [ "Wrecker", "class_wrecker.html", null ]
 ];

@@ -1,16 +1,20 @@
 <map id="HUD" name="HUD">
-<area shape="rect" id="node3" href="$class_hudget.html" title="Hudget" alt="" coords="1442,711,1505,737"/>
-<area shape="rect" id="node14" href="$class_h_u_d_object_delegate.html" title="HUDObjectDelegate" alt="" coords="1404,108,1543,135"/>
-<area shape="rect" id="node9" href="$class_text_field_hudget.html" title="TextFieldHudget" alt="" coords="1763,697,1879,724"/>
-<area shape="rect" id="node16" href="$class_cross_hair.html" title="CrossHair" alt="" coords="1782,751,1861,777"/>
-<area shape="rect" id="node5" href="$class_aim_helper_hudget.html" title="AimHelperHudget" alt="" coords="589,111,712,137"/>
-<area shape="rect" id="node6" href="$class_world_object.html" title="WorldObject" alt="" coords="275,75,370,101"/>
-<area shape="rect" id="node7" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="6,75,165,101"/>
-<area shape="rect" id="node11" href="$class_world_tree_scanner.html" title="WorldTreeScanner" alt="" coords="586,337,715,364"/>
-<area shape="rect" id="node12" href="$class_sphere.html" title="Sphere" alt="" coords="969,228,1031,255"/>
-<area shape="rect" id="node17" href="$class_player.html" title="Player" alt="" coords="1792,424,1851,451"/>
-<area shape="rect" id="node22" href="$class_handle.html" title="Handle\&lt; Ship \&gt;" alt="" coords="1417,373,1529,400"/>
-<area shape="rect" id="node23" href="$class_abstract_move.html" title="AbstractMove" alt="" coords="1423,424,1524,451"/>
-<area shape="rect" id="node24" href="$class_viewer.html" title="Viewer" alt="" coords="969,279,1031,305"/>
-<area shape="rect" id="node26" href="$class_viewport.html" title="Viewport" alt="" coords="615,287,687,313"/>
+<area shape="rect" id="node3" href="$class_hudget.html" title="Hudget" alt="" coords="885,340,947,367"/>
+<area shape="rect" id="node16" href="$class_h_u_d_elements.html" title="HUDElements" alt="" coords="864,391,968,417"/>
+<area shape="rect" id="node19" href="$class_h_u_d_object_delegate.html" title="HUDObjectDelegate" alt="" coords="847,97,985,124"/>
+<area shape="rect" id="node2" href="$class_cross_hair.html" title="CrossHair" alt="" coords="1245,279,1323,305"/>
+<area shape="rect" id="node9" href="$class_circular_hudget.html" title="CircularHudget" alt="" coords="1231,337,1337,364"/>
+<area shape="rect" id="node5" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="293,71,451,97"/>
+<area shape="rect" id="node12" href="$class_world_object.html" title="WorldObject" alt="" coords="869,8,963,35"/>
+<area shape="rect" id="node7" href="$class_world_tree_scanner.html" title="WorldTreeScanner" alt="" coords="21,281,150,308"/>
+<area shape="rect" id="node8" href="$class_aim_helper_hudget.html" title="AimHelperHudget" alt="" coords="1549,116,1672,143"/>
+<area shape="rect" id="node11" href="$class_range.html" title="Range" alt="" coords="1255,116,1313,143"/>
+<area shape="rect" id="node13" href="$class_property.html" title="Property\&lt; bool \&gt;" alt="" coords="313,340,431,367"/>
+<area shape="rect" id="node14" href="$class_property_impl.html" title="PropertyImpl\&lt; bool \&gt;" alt="" coords="14,340,157,367"/>
+<area shape="rect" id="node17" href="$class_sphere.html" title="Sphere" alt="" coords="341,391,403,417"/>
+<area shape="rect" id="node20" href="$class_player.html" title="Player" alt="" coords="1255,656,1313,683"/>
+<area shape="rect" id="node25" href="$class_handle.html" title="Handle\&lt; Ship \&gt;" alt="" coords="860,707,972,733"/>
+<area shape="rect" id="node26" href="$class_abstract_move.html" title="AbstractMove" alt="" coords="865,820,967,847"/>
+<area shape="rect" id="node27" href="$class_viewer.html" title="Viewer" alt="" coords="341,441,403,468"/>
+<area shape="rect" id="node29" href="$class_viewport.html" title="Viewport" alt="" coords="49,467,121,493"/>
 </map>

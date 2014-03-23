@@ -1,11 +1,10 @@
 <map id="GamePlay" name="GamePlay">
-<area shape="rect" id="node4" href="$class_game.html" title="Game" alt="" coords="818,566,875,592"/>
-<area shape="rect" id="node7" href="$class_game_play_scene.html" title="GamePlayScene" alt="" coords="787,616,907,643"/>
-<area shape="rect" id="node10" href="$class_base_scenario.html" title="BaseScenario" alt="" coords="795,390,898,416"/>
-<area shape="rect" id="node12" href="$class_game_play_running.html" title="GamePlayRunning" alt="" coords="781,92,912,119"/>
-<area shape="rect" id="node15" href="$class_game_play_paused.html" title="GamePlayPaused" alt="" coords="783,290,910,316"/>
-<area shape="rect" id="node2" href="$class_game_state.html" title="GameState" alt="" coords="204,318,292,344"/>
-<area shape="rect" id="node3" href="$class_state.html" title="State" alt="" coords="37,318,91,344"/>
-<area shape="rect" id="node8" href="$class_player.html" title="Player" alt="" coords="35,712,93,739"/>
-<area shape="rect" id="node13" href="$class_key_trigger.html" title="KeyTrigger" alt="" coords="489,128,573,155"/>
+<area shape="rect" id="node4" href="$class_game.html" title="Game" alt="" coords="661,73,718,100"/>
+<area shape="rect" id="node7" href="$class_game_play_scene.html" title="GamePlayScene" alt="" coords="629,225,749,252"/>
+<area shape="rect" id="node9" href="$class_base_scenario.html" title="BaseScenario" alt="" coords="638,339,741,365"/>
+<area shape="rect" id="node10" href="$class_game_play_running.html" title="GamePlayRunning" alt="" coords="624,615,755,641"/>
+<area shape="rect" id="node13" href="$class_game_play_paused.html" title="GamePlayPaused" alt="" coords="626,445,753,472"/>
+<area shape="rect" id="node2" href="$class_game_state.html" title="GameState" alt="" coords="144,436,232,463"/>
+<area shape="rect" id="node3" href="$class_state.html" title="State" alt="" coords="37,436,91,463"/>
+<area shape="rect" id="node11" href="$class_key_trigger.html" title="KeyTrigger" alt="" coords="331,567,415,593"/>
 </map>

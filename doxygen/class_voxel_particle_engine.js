@@ -10,7 +10,6 @@ var class_voxel_particle_engine =
     [ "particleDataVector", "class_voxel_particle_engine.html#a0f927961a3eabab23c4b62da8f1c808c", null ],
     [ "removeParticle", "class_voxel_particle_engine.html#a4d3b6e055a042f1be0fed97d5d3798ab", null ],
     [ "setBufferSize", "class_voxel_particle_engine.html#ae5d32b4593b5863ba989cbfdd98ffc0e", null ],
-    [ "setPlayer", "class_voxel_particle_engine.html#a00378fdd0cf43b426b999b2d7c78dd34", null ],
     [ "time", "class_voxel_particle_engine.html#a1ffdad6bd98c62a03d0309597c434162", null ],
     [ "update", "class_voxel_particle_engine.html#aae6ef9b61f9173f2f2c7b1f82b67818f", null ],
     [ "updateGPUBuffers", "class_voxel_particle_engine.html#a6b852782d2fe446655ca4b3aadc6f3f3", null ],

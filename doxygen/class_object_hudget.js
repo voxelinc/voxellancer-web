@@ -1,6 +1,6 @@
 var class_object_hudget =
 [
-    [ "ObjectHudget", "class_object_hudget.html#a0c3b6256eaab2ba4aa3a4c3d57c9ebe3", null ],
+    [ "ObjectHudget", "class_object_hudget.html#a8357a927b8b034ef041162f259f530c7", null ],
     [ "~ObjectHudget", "class_object_hudget.html#a6bbf3698a15ef3a2f5f8cdf16b1e4c8b", null ],
     [ "calculateOpeningAngle", "class_object_hudget.html#af4c23351ac7311e2854eb0dba946e880", null ],
     [ "closestPointInsideFov", "class_object_hudget.html#ac621aaebe835cc48ee451a87bfd699f6", null ],
@@ -9,6 +9,7 @@ var class_object_hudget =
     [ "isInsideFov", "class_object_hudget.html#a017e433a47d3df065f8d4eb6b23c797e", null ],
     [ "objectDelegate", "class_object_hudget.html#a6af4b88bb90d55b510860a7887ec782b", null ],
     [ "onClick", "class_object_hudget.html#ab209187cc4fb03584da5711988cc08d1", null ],
+    [ "setObjectDelegate", "class_object_hudget.html#af245afef35a43006a44a7b170bee7e2f", null ],
     [ "update", "class_object_hudget.html#a065bd5663614731f9bb8de1aecc9263f", null ],
     [ "updateFov", "class_object_hudget.html#a438a0d5937827086fb2a735fe85b6df6", null ],
     [ "updateTargeted", "class_object_hudget.html#ab3081d870a36712c283458180ca2fe90", null ],

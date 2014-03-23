@@ -1,7 +1,10 @@
 <map id="Hudget" name="Hudget">
-<area shape="rect" id="node2" href="$class_h_u_d.html" title="HUD" alt="" coords="531,320,581,347"/>
-<area shape="rect" id="node6" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="191,261,350,288"/>
-<area shape="rect" id="node8" href="$class_sphere.html" title="Sphere" alt="" coords="239,379,302,405"/>
-<area shape="rect" id="node11" href="$class_player.html" title="Player" alt="" coords="241,547,300,573"/>
-<area shape="rect" id="node12" href="$class_viewer.html" title="Viewer" alt="" coords="240,597,301,624"/>
+<area shape="rect" id="node3" href="$class_cross_hair.html" title="CrossHair" alt="" coords="189,17,267,44"/>
+<area shape="rect" id="node2" href="$class_h_u_d.html" title="HUD" alt="" coords="502,299,551,325"/>
+<area shape="rect" id="node4" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="149,131,307,157"/>
+<area shape="rect" id="node6" href="$class_aim_helper_hudget.html" title="AimHelperHudget" alt="" coords="167,248,289,275"/>
+<area shape="rect" id="node7" href="$class_property.html" title="Property\&lt; bool \&gt;" alt="" coords="169,299,287,325"/>
+<area shape="rect" id="node9" href="$class_sphere.html" title="Sphere" alt="" coords="197,400,259,427"/>
+<area shape="rect" id="node11" href="$class_player.html" title="Player" alt="" coords="199,517,257,544"/>
+<area shape="rect" id="node12" href="$class_viewer.html" title="Viewer" alt="" coords="197,568,259,595"/>
 </map>

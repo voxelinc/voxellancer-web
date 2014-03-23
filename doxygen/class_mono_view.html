@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_mono_view.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -121,7 +122,7 @@ Inheritance diagram for MonoView:</div>
 <div class="dynheader">
 Collaboration diagram for MonoView:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_mono_view__coll__graph.svg" width="416" height="219"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_mono_view__coll__graph.svg" width="451" height="235"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -155,9 +156,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a51759cf25d6fceb18e108e2191b75075"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a51759cf25d6fceb18e108e2191b75075"></a>
 std::unique_ptr&lt; <a class="el" href="class_camera.html">Camera</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_camera</b></td></tr>
 <tr class="separator:a51759cf25d6fceb18e108e2191b75075"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3941dd9dfbfef23cad37b9295dd621e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa3941dd9dfbfef23cad37b9295dd621e"></a>
-<a class="el" href="class_property.html">Property</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_samplingFactor</b></td></tr>
-<tr class="separator:aa3941dd9dfbfef23cad37b9295dd621e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5e48522669c873f801e4a64304062d1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af5e48522669c873f801e4a64304062d1"></a>
+<a class="el" href="class_property.html">Property</a>&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_antialiasing</b></td></tr>
+<tr class="separator:af5e48522669c873f801e4a64304062d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_view"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_view')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_view.html">View</a></td></tr>
 <tr class="memitem:a3dd9ccf1617958c926a96d35038721db inherit pro_attribs_class_view"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3dd9ccf1617958c926a96d35038721db"></a>
 <a class="el" href="class_viewport.html">Viewport</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_viewport</b></td></tr>
@@ -173,7 +174,7 @@ std::unique_ptr&lt; <a class="el" href="class_camera.html">Camera</a> &gt;&#160;
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_mono_view.html">MonoView</a></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:22 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:57 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

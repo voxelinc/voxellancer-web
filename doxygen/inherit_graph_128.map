@@ -1,5 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_transition.html" title="Transition" alt="" coords="9,5,87,32"/>
-<area shape="rect" id="node2" href="$class_triggered_transition.html" title="TriggeredTransition" alt="" coords="139,31,269,57"/>
-<area shape="rect" id="node3" href="$class_triggerable.html" title="Triggerable" alt="" coords="5,56,91,83"/>
+<area shape="rect" id="node1" href="$class_state.html" title="State" alt="" coords="5,81,59,108"/>
+<area shape="rect" id="node2" href="$class_game_state.html" title="GameState" alt="" coords="107,81,195,108"/>
+<area shape="rect" id="node3" href="$class_game.html" title="Game" alt="" coords="279,5,337,32"/>
+<area shape="rect" id="node4" href="$class_game_play.html" title="GamePlay" alt="" coords="267,56,349,83"/>
+<area shape="rect" id="node5" href="$class_game_play_paused.html" title="GamePlayPaused" alt="" coords="245,107,371,133"/>
+<area shape="rect" id="node6" href="$class_game_play_running.html" title="GamePlayRunning" alt="" coords="243,157,373,184"/>
 </map>

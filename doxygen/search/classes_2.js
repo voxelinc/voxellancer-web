@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['b',['B',['../class_b.html',1,'']]],
   ['baseluafunction',['BaseLuaFunction',['../struct_base_lua_function.html',1,'']]],
   ['basescenario',['BaseScenario',['../class_base_scenario.html',1,'']]],
   ['battlescenario',['BattleScenario',['../class_battle_scenario.html',1,'']]],

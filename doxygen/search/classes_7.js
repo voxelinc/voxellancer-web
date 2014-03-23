@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['g',['G',['../class_g.html',1,'']]],
   ['game',['Game',['../class_game.html',1,'']]],
   ['gameplay',['GamePlay',['../class_game_play.html',1,'']]],
   ['gameplaypaused',['GamePlayPaused',['../class_game_play_paused.html',1,'']]],

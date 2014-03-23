@@ -1,6 +1,6 @@
 <map id="StereoViewEye" name="StereoViewEye">
-<area shape="rect" id="node2" href="$class_property.html" title="Property\&lt; float \&gt;" alt="" coords="5,96,123,123"/>
-<area shape="rect" id="node3" title="STL class. " alt="" coords="24,5,104,32"/>
-<area shape="rect" id="node5" href="$class_camera.html" title="Camera" alt="" coords="203,5,269,32"/>
-<area shape="rect" id="node7" href="$class_frame_buffer.html" title="FrameBuffer" alt="" coords="405,5,496,32"/>
+<area shape="rect" id="node3" href="$class_camera.html" title="Camera" alt="" coords="60,13,127,40"/>
+<area shape="rect" id="node5" href="$class_frame_buffer.html" title="FrameBuffer" alt="" coords="262,13,353,40"/>
+<area shape="rect" id="node6" href="$class_property.html" title="Property\&lt; std::string \&gt;" alt="" coords="434,112,587,139"/>
+<area shape="rect" id="node7" href="$class_property_impl.html" title="PropertyImpl\&lt; std::\lstring \&gt;" alt="" coords="444,6,577,47"/>
 </map>

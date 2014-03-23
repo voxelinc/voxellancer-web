@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_physics.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -129,15 +130,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a403e10a4e1342c8b208c9130551c5455"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a403e10a4e1342c8b208c9130551c5455"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>directionalDampening</b> () const </td></tr>
 <tr class="separator:a403e10a4e1342c8b208c9130551c5455"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7739641f0b6bebc4351a0686a7f29091"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7739641f0b6bebc4351a0686a7f29091"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setDirectionalDampening</b> (float directionalDampening)</td></tr>
-<tr class="separator:a7739641f0b6bebc4351a0686a7f29091"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa470b0794424fe364fd1b59464fb1fa9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa470b0794424fe364fd1b59464fb1fa9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setDirectionalDampening</b> (const <a class="el" href="class_property.html">Property</a>&lt; float &gt; &amp;directionalDampening)</td></tr>
+<tr class="separator:aa470b0794424fe364fd1b59464fb1fa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d4f163940bfed12cd96f56035afc755"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6d4f163940bfed12cd96f56035afc755"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>angularDampening</b> () const </td></tr>
 <tr class="separator:a6d4f163940bfed12cd96f56035afc755"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe7fc085a5d94762ebbcbdd41a022439"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afe7fc085a5d94762ebbcbdd41a022439"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setAngularDampening</b> (float angularDampening)</td></tr>
-<tr class="separator:afe7fc085a5d94762ebbcbdd41a022439"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ba725f846feb7d0d20786d0d6f0e023"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1ba725f846feb7d0d20786d0d6f0e023"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setAngularDampening</b> (const <a class="el" href="class_property.html">Property</a>&lt; float &gt; &amp;angularDampening)</td></tr>
+<tr class="separator:a1ba725f846feb7d0d20786d0d6f0e023"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a988616e7ea8a51396673747f628efdb6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a988616e7ea8a51396673747f628efdb6"></a>
 const <a class="el" href="class_abstract_move.html">Speed</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>speed</b> () const </td></tr>
 <tr class="separator:a988616e7ea8a51396673747f628efdb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,6 +154,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setAcceleration</b> (
 <tr class="memitem:a4ece556bfdf753fbdeefb5192dbe03c4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4ece556bfdf753fbdeefb5192dbe03c4"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>mass</b> () const </td></tr>
 <tr class="separator:a4ece556bfdf753fbdeefb5192dbe03c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0c5f80ed21ae8cdab3427ca4d16323d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae0c5f80ed21ae8cdab3427ca4d16323d"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>maxMass</b> () const </td></tr>
+<tr class="separator:ae0c5f80ed21ae8cdab3427ca4d16323d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c6b74160d7e7245f1c14d69cfbb4776"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4c6b74160d7e7245f1c14d69cfbb4776"></a>
 const <a class="el" href="class_transform.html">Transform</a>&#160;</td><td class="memItemRight" valign="bottom"><b>projectedTransformIn</b> (float deltaSec)</td></tr>
 <tr class="separator:a4c6b74160d7e7245f1c14d69cfbb4776"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -186,15 +190,18 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ac3895c939b9713f4e00a05b80f64343e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac3895c939b9713f4e00a05b80f64343e"></a>
 <a class="el" href="class_abstract_move.html">Acceleration</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_acceleration</b></td></tr>
 <tr class="separator:ac3895c939b9713f4e00a05b80f64343e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb658822f1e653fb8c6098e3baa9f184"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adb658822f1e653fb8c6098e3baa9f184"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>m_directionalDampening</b></td></tr>
-<tr class="separator:adb658822f1e653fb8c6098e3baa9f184"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fb222cb9eba6d05d87925a70f1dc0f8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7fb222cb9eba6d05d87925a70f1dc0f8"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>m_angularDampening</b></td></tr>
-<tr class="separator:a7fb222cb9eba6d05d87925a70f1dc0f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c2c25fe369798cd350a74bb79e80e13"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5c2c25fe369798cd350a74bb79e80e13"></a>
+<a class="el" href="class_property.html">Property</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_directionalDampening</b></td></tr>
+<tr class="separator:a5c2c25fe369798cd350a74bb79e80e13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9582005043d4f1de5ad90fb53d3f090"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad9582005043d4f1de5ad90fb53d3f090"></a>
+<a class="el" href="class_property.html">Property</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_angularDampening</b></td></tr>
+<tr class="separator:ad9582005043d4f1de5ad90fb53d3f090"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc116819a0930e92105eb4aacfcbeaf6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adc116819a0930e92105eb4aacfcbeaf6"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>m_mass</b></td></tr>
 <tr class="separator:adc116819a0930e92105eb4aacfcbeaf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30fff8d08f5ebcd57e5dbcc972d53c24"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a30fff8d08f5ebcd57e5dbcc972d53c24"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_maxMass</b></td></tr>
+<tr class="separator:a30fff8d08f5ebcd57e5dbcc972d53c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7a86a01587ca1f86a2c263b740d7b15"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab7a86a01587ca1f86a2c263b740d7b15"></a>
 glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><b>m_accumulatedMassVec</b></td></tr>
 <tr class="separator:ab7a86a01587ca1f86a2c263b740d7b15"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -212,7 +219,7 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>m_massScaleFactor</b
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_physics.html">Physics</a></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:22 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:57 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

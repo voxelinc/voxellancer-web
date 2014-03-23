@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_world.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -129,9 +130,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad1513a7fa5928fec81164d50951a8674"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad1513a7fa5928fec81164d50951a8674"></a>
 <a class="el" href="class_player.html">Player</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>player</b> ()</td></tr>
 <tr class="separator:ad1513a7fa5928fec81164d50951a8674"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5880e3f8fa346a004022a5b44b5b9105"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5880e3f8fa346a004022a5b44b5b9105"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setPlayer</b> (<a class="el" href="class_player.html">Player</a> &amp;player)</td></tr>
-<tr class="separator:a5880e3f8fa346a004022a5b44b5b9105"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a948fe2490716734d4a84f6e987f8928d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a948fe2490716734d4a84f6e987f8928d"></a>
 <a class="el" href="class_skybox.html">Skybox</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>skybox</b> ()</td></tr>
 <tr class="separator:a948fe2490716734d4a84f6e987f8928d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -156,6 +154,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setPlayer</b> (<a cla
 <tr class="memitem:a975112b4be805292b160a39fa427b2d9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a975112b4be805292b160a39fa427b2d9"></a>
 <a class="el" href="class_event_poller.html">EventPoller</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>eventPoller</b> ()</td></tr>
 <tr class="separator:a975112b4be805292b160a39fa427b2d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40cb2c14771b1206bbd3ffa9af8e6e25"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a40cb2c14771b1206bbd3ffa9af8e6e25"></a>
+<a class="el" href="class_mission_system.html">MissionSystem</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>missionSystem</b> ()</td></tr>
+<tr class="separator:a40cb2c14771b1206bbd3ffa9af8e6e25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fc527a67d7380271f93a8b6def0ad4c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9fc527a67d7380271f93a8b6def0ad4c"></a>
 std::unordered_set<br class="typebreak"/>
 &lt; <a class="el" href="class_world_object.html">WorldObject</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>worldObjects</b> ()</td></tr>
@@ -193,9 +194,12 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a54f96e836fade9c7a9aede403d6550fa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a54f96e836fade9c7a9aede403d6550fa"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>m_deltaSec</b></td></tr>
 <tr class="separator:a54f96e836fade9c7a9aede403d6550fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6b8da01c6db546f128b265eb24985a9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af6b8da01c6db546f128b265eb24985a9"></a>
-<a class="el" href="class_player.html">Player</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>m_player</b></td></tr>
-<tr class="separator:af6b8da01c6db546f128b265eb24985a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af652eaba9206eda2d14f5bbf7fb96d65"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af652eaba9206eda2d14f5bbf7fb96d65"></a>
+std::unique_ptr&lt; <a class="el" href="class_player.html">Player</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_player</b></td></tr>
+<tr class="separator:af652eaba9206eda2d14f5bbf7fb96d65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7332020a9ef8bdf99aabb551089fd53b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7332020a9ef8bdf99aabb551089fd53b"></a>
+std::unique_ptr&lt; <a class="el" href="class_script_engine.html">ScriptEngine</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_scriptEngine</b></td></tr>
+<tr class="separator:a7332020a9ef8bdf99aabb551089fd53b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d152f988a1a32909853259d03769bd5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d152f988a1a32909853259d03769bd5"></a>
 std::unique_ptr&lt; <a class="el" href="class_skybox.html">Skybox</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_skybox</b></td></tr>
 <tr class="separator:a7d152f988a1a32909853259d03769bd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -208,9 +212,6 @@ std::unique_ptr&lt; <a class="el" href="class_world_logic.html">WorldLogic</a> &
 <tr class="memitem:a8da8f923dff841922293b7f7ca943f5e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8da8f923dff841922293b7f7ca943f5e"></a>
 std::unique_ptr&lt; <a class="el" href="class_god.html">God</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_god</b></td></tr>
 <tr class="separator:a8da8f923dff841922293b7f7ca943f5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7332020a9ef8bdf99aabb551089fd53b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7332020a9ef8bdf99aabb551089fd53b"></a>
-std::unique_ptr&lt; <a class="el" href="class_script_engine.html">ScriptEngine</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_scriptEngine</b></td></tr>
-<tr class="separator:a7332020a9ef8bdf99aabb551089fd53b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a029fc900dedbeb8126380667c2f5a44b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a029fc900dedbeb8126380667c2f5a44b"></a>
 std::unique_ptr<br class="typebreak"/>
 &lt; <a class="el" href="class_voxel_particle_engine.html">VoxelParticleEngine</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_particleEngine</b></td></tr>
@@ -221,6 +222,9 @@ std::unique_ptr&lt; <a class="el" href="class_faction_matrix.html">FactionMatrix
 <tr class="memitem:ac661a66d50c14e395e1985ba2b7b5dac"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac661a66d50c14e395e1985ba2b7b5dac"></a>
 std::unique_ptr&lt; <a class="el" href="class_event_poller.html">EventPoller</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_eventPoller</b></td></tr>
 <tr class="separator:ac661a66d50c14e395e1985ba2b7b5dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ed2933abffd9afe556adfa991c9e35e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9ed2933abffd9afe556adfa991c9e35e"></a>
+std::unique_ptr&lt; <a class="el" href="class_mission_system.html">MissionSystem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_missionSystem</b></td></tr>
+<tr class="separator:a9ed2933abffd9afe556adfa991c9e35e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a161c2c46863886e8b6ff37ad3cba6e57"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a161c2c46863886e8b6ff37ad3cba6e57"></a>
 std::unordered_set&lt; <a class="el" href="class_world_object.html">WorldObject</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_worldObjects</b></td></tr>
 <tr class="separator:a161c2c46863886e8b6ff37ad3cba6e57"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -250,7 +254,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>God</b></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_world.html">World</a></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:25 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:59:01 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

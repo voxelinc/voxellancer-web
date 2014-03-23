@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_game_play_running_input.html',''
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -123,9 +124,6 @@ Collaboration diagram for GamePlayRunningInput:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a56f1e61bc5b49df4f5ad32305c89772a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a56f1e61bc5b49df4f5ad32305c89772a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>GamePlayRunningInput</b> (<a class="el" href="class_player.html">Player</a> *player)</td></tr>
-<tr class="separator:a56f1e61bc5b49df4f5ad32305c89772a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56ea49154829048b95ebb81f8653a88e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a56ea49154829048b95ebb81f8653a88e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>resizeEvent</b> (const unsigned int width, const unsigned int height)</td></tr>
 <tr class="separator:a56ea49154829048b95ebb81f8653a88e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -189,9 +187,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>placeCrossHair</b> (d
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a51e288c81364b614f2737396633aa3cd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a51e288c81364b614f2737396633aa3cd"></a>
-<a class="el" href="class_player.html">Player</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>m_player</b></td></tr>
-<tr class="separator:a51e288c81364b614f2737396633aa3cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab05604e0d977dea1d0beb7c9a7e65278"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab05604e0d977dea1d0beb7c9a7e65278"></a>
 <a class="el" href="class_input_configurator.html">InputConfigurator</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>m_inputConfigurator</b></td></tr>
 <tr class="separator:ab05604e0d977dea1d0beb7c9a7e65278"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -201,6 +196,12 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a3981d749011d375e19aac1988ab14fae"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3981d749011d375e19aac1988ab14fae"></a>
 std::vector&lt; <a class="el" href="class_action_key_mapping.html">ActionKeyMapping</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_actions</b></td></tr>
 <tr class="separator:a3981d749011d375e19aac1988ab14fae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b60f068443d46f298e3e221870679fb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4b60f068443d46f298e3e221870679fb"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_centerCrosshair</b></td></tr>
+<tr class="separator:a4b60f068443d46f298e3e221870679fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6aaa7d1c49ad2986b3092773ef32495a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6aaa7d1c49ad2986b3092773ef32495a"></a>
+glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>m_lastMousePos</b></td></tr>
+<tr class="separator:a6aaa7d1c49ad2986b3092773ef32495a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50b599f0bde9173af9555a4d83345a2a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a50b599f0bde9173af9555a4d83345a2a"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_mouseControl</b></td></tr>
 <tr class="separator:a50b599f0bde9173af9555a4d83345a2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -287,7 +288,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_rocketUpdate</b></t
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_game_play_running_input.html">GamePlayRunningInput</a></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:21 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:55 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

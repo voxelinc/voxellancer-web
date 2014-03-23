@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_game_play_script.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -116,13 +117,13 @@ $(document).ready(function(){initNavTree('class_game_play_script.html','');});
 <div class="dynheader">
 Inheritance diagram for GamePlayScript:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_game_play_script__inherit__graph.svg" width="128" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_game_play_script__inherit__graph.svg" width="128" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for GamePlayScript:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_game_play_script__coll__graph.svg" width="100%" height="570"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_game_play_script__coll__graph.svg" width="100%" height="454"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -131,28 +132,37 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac855a5768dad54833fc9bec24368c34c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac855a5768dad54833fc9bec24368c34c"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>GamePlayScript</b> (<a class="el" href="class_script_engine.html">ScriptEngine</a> *scriptEngine)</td></tr>
 <tr class="separator:ac855a5768dad54833fc9bec24368c34c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb0009b305345d675575e32bfcf9bbdf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abb0009b305345d675575e32bfcf9bbdf"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>initializeBindings</b> ()</td></tr>
-<tr class="separator:abb0009b305345d675575e32bfcf9bbdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a892c0ab1ff0812621d016fc29f0e2af8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a892c0ab1ff0812621d016fc29f0e2af8"></a>
 <a class="el" href="class_script_engine.html">ScriptEngine</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>scriptEngine</b> ()</td></tr>
 <tr class="separator:a892c0ab1ff0812621d016fc29f0e2af8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:addf5103b0094ef016de3610e58cf1f19"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="addf5103b0094ef016de3610e58cf1f19"></a>
 <a class="el" href="class_lua_wrapper.html">LuaWrapper</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>luaWrapper</b> ()</td></tr>
 <tr class="separator:addf5103b0094ef016de3610e58cf1f19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a511b0b83a6800bbcf4a9f64e502874c5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a511b0b83a6800bbcf4a9f64e502874c5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>addLocal</b> (int key)</td></tr>
+<tr class="separator:a511b0b83a6800bbcf4a9f64e502874c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_script"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_script')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_script.html">Script</a></td></tr>
+<tr class="memitem:af08b4b3c84c671efcac292513295f16a inherit pub_methods_class_script"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af08b4b3c84c671efcac292513295f16a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>start</b> ()</td></tr>
+<tr class="separator:af08b4b3c84c671efcac292513295f16a inherit pub_methods_class_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7392fad62c9d1b94c63a1b74fa6794c inherit pub_methods_class_script"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac7392fad62c9d1b94c63a1b74fa6794c"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>started</b> () const </td></tr>
 <tr class="separator:ac7392fad62c9d1b94c63a1b74fa6794c inherit pub_methods_class_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d67373d205f88dace302f54a340027a inherit pub_methods_class_script"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2d67373d205f88dace302f54a340027a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>stop</b> ()</td></tr>
+<tr class="separator:a2d67373d205f88dace302f54a340027a inherit pub_methods_class_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae73686ee86d750615aaeef087480a117 inherit pub_methods_class_script"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae73686ee86d750615aaeef087480a117"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>stopped</b> () const </td></tr>
+<tr class="separator:ae73686ee86d750615aaeef087480a117 inherit pub_methods_class_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae33d232f8b8129c058484dc10f590d4c inherit pub_methods_class_script"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae33d232f8b8129c058484dc10f590d4c"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>load</b> (const std::string &amp;path)</td></tr>
 <tr class="separator:ae33d232f8b8129c058484dc10f590d4c inherit pub_methods_class_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40ac7932a1436633fd9a1c00656a58b9 inherit pub_methods_class_script"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a40ac7932a1436633fd9a1c00656a58b9"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>loadString</b> (const std::string &amp;script)</td></tr>
 <tr class="separator:a40ac7932a1436633fd9a1c00656a58b9 inherit pub_methods_class_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af08b4b3c84c671efcac292513295f16a inherit pub_methods_class_script"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af08b4b3c84c671efcac292513295f16a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>start</b> ()</td></tr>
-<tr class="separator:af08b4b3c84c671efcac292513295f16a inherit pub_methods_class_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab38716685317d7d22233d6d9f74ee238 inherit pub_methods_class_script"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab38716685317d7d22233d6d9f74ee238"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>update</b> (float deltaSec)</td></tr>
+<tr class="separator:ab38716685317d7d22233d6d9f74ee238 inherit pub_methods_class_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a890a752938183494179ae21ba681ec4c inherit pub_methods_class_script"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a890a752938183494179ae21ba681ec4c"></a>
 const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>debugStatus</b> ()</td></tr>
 <tr class="separator:a890a752938183494179ae21ba681ec4c inherit pub_methods_class_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,10 +175,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:af0709e84b97906b6ed9c7845c25566fc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af0709e84b97906b6ed9c7845c25566fc"></a>
 <a class="el" href="class_script_engine.html">ScriptEngine</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>m_scriptEngine</b></td></tr>
 <tr class="separator:af0709e84b97906b6ed9c7845c25566fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41913b26d71761f7313e5e0dfa011b70"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a41913b26d71761f7313e5e0dfa011b70"></a>
-std::vector&lt; std::unique_ptr<br class="typebreak"/>
-&lt; <a class="el" href="class_bindings.html">Bindings</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_bindings</b></td></tr>
-<tr class="separator:a41913b26d71761f7313e5e0dfa011b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ffcc8234aa9e5ad27cc4b3faf3f6940"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7ffcc8234aa9e5ad27cc4b3faf3f6940"></a>
+std::list&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_locals</b></td></tr>
+<tr class="separator:a7ffcc8234aa9e5ad27cc4b3faf3f6940"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_script"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_script')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_script.html">Script</a></td></tr>
 <tr class="memitem:ac880447c637a9abb9940d4d6135d8689 inherit pro_attribs_class_script"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac880447c637a9abb9940d4d6135d8689"></a>
 std::unique_ptr&lt; <a class="el" href="class_lua_wrapper.html">LuaWrapper</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_lua</b></td></tr>
@@ -176,9 +185,23 @@ std::unique_ptr&lt; <a class="el" href="class_lua_wrapper.html">LuaWrapper</a> &
 <tr class="memitem:ac7c6aa27d4fd17591cea1a377af84ab4 inherit pro_attribs_class_script"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac7c6aa27d4fd17591cea1a377af84ab4"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_started</b></td></tr>
 <tr class="separator:ac7c6aa27d4fd17591cea1a377af84ab4 inherit pro_attribs_class_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6f779a5f1b7269aa484aa8d33fad118 inherit pro_attribs_class_script"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac6f779a5f1b7269aa484aa8d33fad118"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_stopped</b></td></tr>
+<tr class="separator:ac6f779a5f1b7269aa484aa8d33fad118 inherit pro_attribs_class_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a523e3645d9da90e5839688cbf5969aee inherit pro_attribs_class_script"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a523e3645d9da90e5839688cbf5969aee"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>m_debugStatus</b></td></tr>
 <tr class="separator:a523e3645d9da90e5839688cbf5969aee inherit pro_attribs_class_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a1a0882faeda7ef3cc8d2c80c16e36c inherit pro_attribs_class_script"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6a1a0882faeda7ef3cc8d2c80c16e36c"></a>
+std::vector&lt; std::unique_ptr<br class="typebreak"/>
+&lt; <a class="el" href="class_bindings.html">Bindings</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_bindings</b></td></tr>
+<tr class="separator:a6a1a0882faeda7ef3cc8d2c80c16e36c inherit pro_attribs_class_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_methods_class_script"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_script')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_script.html">Script</a></td></tr>
+<tr class="memitem:aff22e5b8575d2864c1b2d9f703554a33 inherit pro_methods_class_script"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aff22e5b8575d2864c1b2d9f703554a33"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>addBindings</b> (<a class="el" href="class_bindings.html">Bindings</a> *bindings)</td></tr>
+<tr class="separator:aff22e5b8575d2864c1b2d9f703554a33 inherit pro_methods_class_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/scripting/<a class="el" href="gameplayscript_8h_source.html">gameplayscript.h</a></li>
@@ -190,7 +213,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>m_debugStatus<
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_game_play_script.html">GamePlayScript</a></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:21 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:55 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

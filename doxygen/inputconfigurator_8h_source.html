@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -92,7 +93,7 @@ $(document).ready(function(){initNavTree('inputconfigurator_8h_source.html','');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -163,14 +164,14 @@ $(document).ready(function(){initNavTree('inputconfigurator_8h_source.html','');
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">int</span> configurationState(InputClass inputClass);</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">void</span> incrementConfigurationState(InputClass inputClass);</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">void</span> setConfigurationState(<span class="keywordtype">int</span> state, InputClass inputClass);</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">void</span> writeConfig();</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">bool</span> m_beginningKeyConfiguration = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">bool</span> m_displayedKeyPressedWarning = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">bool</span> m_displayedInstructions = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;};</div>
 <div class="ttc" id="class_input_mapping_html"><div class="ttname"><a href="class_input_mapping.html">InputMapping</a></div><div class="ttdef"><b>Definition:</b> inputmapping.h:16</div></div>
 <div class="ttc" id="struct_secondary_input_values_html"><div class="ttname"><a href="struct_secondary_input_values.html">SecondaryInputValues</a></div><div class="ttdef"><b>Definition:</b> actionkeymapping.h:31</div></div>
-<div class="ttc" id="class_h_u_d_html"><div class="ttname"><a href="class_h_u_d.html">HUD</a></div><div class="ttdef"><b>Definition:</b> hud.h:30</div></div>
+<div class="ttc" id="class_h_u_d_html"><div class="ttname"><a href="class_h_u_d.html">HUD</a></div><div class="ttdef"><b>Definition:</b> hud.h:34</div></div>
 <div class="ttc" id="class_action_key_mapping_html"><div class="ttname"><a href="class_action_key_mapping.html">ActionKeyMapping</a></div><div class="ttdef"><b>Definition:</b> actionkeymapping.h:9</div></div>
 <div class="ttc" id="class_property_html"><div class="ttname"><a href="class_property.html">Property&lt; float &gt;</a></div></div>
 <div class="ttc" id="class_input_configurator_html"><div class="ttname"><a href="class_input_configurator.html">InputConfigurator</a></div><div class="ttdef"><b>Definition:</b> inputconfigurator.h:14</div></div>
@@ -180,7 +181,7 @@ $(document).ready(function(){initNavTree('inputconfigurator_8h_source.html','');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_da5c6b39c0a2f54e57df6799511cd3ab.html">ui</a></li><li class="navelem"><b>inputconfigurator.h</b></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:18 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:52 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

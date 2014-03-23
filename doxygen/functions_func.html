@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -101,7 +102,7 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -112,13 +113,18 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 
 <div class="contents">
 &#160;<ul>
+<li>convertToGroup()
+: <a class="el" href="class_world_tree_node.html#ae4074d2f74cb0a5456b1db3dbc92bead">WorldTreeNode</a>
+</li>
+<li>moveToSubnode()
+: <a class="el" href="class_world_tree_node.html#a20748616e5f8d20a190a58fb35a45a45">WorldTreeNode</a>
+</li>
 <li>onEntered()
 : <a class="el" href="class_game_play.html#a1e7bba7244f948ad39fbc6902d8d96cd">GamePlay</a>
 , <a class="el" href="class_game_play_paused.html#ad486ca58ce4bee7ed74c097ff3c9a86d">GamePlayPaused</a>
 , <a class="el" href="class_game_play_running.html#a3b7785faa4ea27320737fb00f12dc8cd">GamePlayRunning</a>
 , <a class="el" href="class_game_state.html#a353e387ee17e78719203a43082153f3f">GameState</a>
 , <a class="el" href="class_state.html#a449cd926a56e28e4d7201448a6eb4d47">State</a>
-, <a class="el" href="class_test_state.html#ad1d1504584dd905005b680d473b3ad40">TestState</a>
 </li>
 <li>onLeft()
 : <a class="el" href="class_game_play.html#aa193be9690d8d362dc7d93a9371921b1">GamePlay</a>
@@ -126,7 +132,6 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 , <a class="el" href="class_game_play_running.html#a48e4a422d478c75d100fa6c18949882d">GamePlayRunning</a>
 , <a class="el" href="class_game_state.html#a9c3321c1d192271543f7227fa1c87fd5">GameState</a>
 , <a class="el" href="class_state.html#a5c876def3fa18d9716741fbb87eed52a">State</a>
-, <a class="el" href="class_test_state.html#a21b7d4362e83c639986a3390d85b39d7">TestState</a>
 </li>
 <li>pathToDescendant()
 : <a class="el" href="class_state.html#aced13f0d8668e813515b3cf7d73c8cf7">State</a>
@@ -142,13 +147,16 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 , <a class="el" href="class_game_state.html#a4fa8ef2de3a01e3c78ce42a37e433b4a">GameState</a>
 , <a class="el" href="class_state.html#a548fef72e3f575624e2902db29ec8049">State</a>
 </li>
+<li>userConfigDir()
+: <a class="el" href="class_file_system.html#a6148763db723859c6ec62e6398b239a4">FileSystem</a>
+</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:27 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:59:03 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

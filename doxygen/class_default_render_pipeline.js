@@ -8,8 +8,8 @@ var class_default_render_pipeline =
     [ "apply", "class_default_render_pipeline.html#ab71719496361403298aa43628c440d72", null ],
     [ "bufferCount", "class_default_render_pipeline.html#aedddc1c79b2897cef3dd049c7fa0d95b", null ],
     [ "setup", "class_default_render_pipeline.html#a75c5d4bf5406a435374ed457995fb28d", null ],
+    [ "m_antialiasing", "class_default_render_pipeline.html#a8ebce4491aceb25a33fe145a267a7e50", null ],
     [ "m_finalization", "class_default_render_pipeline.html#a12cb6e7704323b23c2812fce84b53691", null ],
     [ "m_fxaa", "class_default_render_pipeline.html#ab2c1c04e4f1774c8c8eec7e853349a9b", null ],
-    [ "m_quad", "class_default_render_pipeline.html#af12289586658661ff3b79bfaae5e3f7d", null ],
-    [ "m_useFxaa", "class_default_render_pipeline.html#a7875bffe4665bf2648b491e0e36e0b6e", null ]
+    [ "m_quad", "class_default_render_pipeline.html#af12289586658661ff3b79bfaae5e3f7d", null ]
 ];

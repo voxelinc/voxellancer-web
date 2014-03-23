@@ -1,8 +1,8 @@
 <map id="ArrowHudgetVoxels" name="ArrowHudgetVoxels">
-<area shape="rect" id="node2" href="$class_voxel_cluster.html" title="VoxelCluster" alt="" coords="380,192,476,219"/>
-<area shape="rect" id="node4" href="$class_transform.html" title="Transform" alt="" coords="63,163,142,189"/>
-<area shape="rect" id="node7" href="$class_property.html" title="Property\&lt; float \&gt;" alt="" coords="369,243,487,269"/>
-<area shape="rect" id="node8" href="$class_object_hudget.html" title="ObjectHudget" alt="" coords="1219,115,1320,141"/>
+<area shape="rect" id="node2" href="$class_voxel_cluster.html" title="VoxelCluster" alt="" coords="380,141,476,168"/>
+<area shape="rect" id="node4" href="$class_transform.html" title="Transform" alt="" coords="63,112,142,139"/>
+<area shape="rect" id="node7" href="$class_property.html" title="Property\&lt; float \&gt;" alt="" coords="369,192,487,219"/>
+<area shape="rect" id="node8" href="$class_object_hudget.html" title="ObjectHudget" alt="" coords="1208,92,1309,119"/>
+<area shape="rect" id="node10" href="$class_h_u_d_object_delegate.html" title="HUDObjectDelegate" alt="" coords="1467,92,1605,119"/>
 <area shape="rect" id="node9" href="$class_hudget.html" title="Hudget" alt="" coords="930,5,993,32"/>
-<area shape="rect" id="node10" href="$class_h_u_d_object_delegate.html" title="HUDObjectDelegate" alt="" coords="892,56,1031,83"/>
 </map>

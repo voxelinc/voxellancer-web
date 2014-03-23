@@ -1,7 +1,9 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_bindings.html" title="Bindings" alt="" coords="5,81,77,108"/>
-<area shape="rect" id="node2" href="$class_ai_bindings.html" title="AiBindings" alt="" coords="155,5,239,32"/>
-<area shape="rect" id="node3" href="$class_common_bindings.html" title="CommonBindings" alt="" coords="135,56,259,83"/>
-<area shape="rect" id="node4" href="$class_squad_bindings.html" title="SquadBindings" alt="" coords="143,107,252,133"/>
-<area shape="rect" id="node5" href="$class_world_object_bindings.html" title="WorldObjectBindings" alt="" coords="125,157,269,184"/>
+<area shape="rect" id="node1" href="$class_bindings.html" title="Bindings" alt="" coords="5,132,77,159"/>
+<area shape="rect" id="node2" href="$class_ai_bindings.html" title="AiBindings" alt="" coords="166,5,250,32"/>
+<area shape="rect" id="node3" href="$class_common_bindings.html" title="CommonBindings" alt="" coords="146,56,270,83"/>
+<area shape="rect" id="node4" href="$class_external_mission_bindings.html" title="ExternalMissionBindings" alt="" coords="125,107,291,133"/>
+<area shape="rect" id="node5" href="$class_internal_mission_bindings.html" title="InternalMissionBindings" alt="" coords="129,157,287,184"/>
+<area shape="rect" id="node6" href="$class_squad_bindings.html" title="SquadBindings" alt="" coords="153,208,263,235"/>
+<area shape="rect" id="node7" href="$class_world_object_bindings.html" title="WorldObjectBindings" alt="" coords="136,259,280,285"/>
 </map>

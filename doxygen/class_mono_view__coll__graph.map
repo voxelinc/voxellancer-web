@@ -1,7 +1,7 @@
 <map id="MonoView" name="MonoView">
-<area shape="rect" id="node2" href="$class_view.html" title="View" alt="" coords="16,96,67,123"/>
-<area shape="rect" id="node3" href="$class_viewport.html" title="Viewport" alt="" coords="5,5,77,32"/>
-<area shape="rect" id="node4" href="$class_property.html" title="Property\&lt; float \&gt;" alt="" coords="91,96,209,123"/>
-<area shape="rect" id="node5" title="STL class. " alt="" coords="111,5,191,32"/>
-<area shape="rect" id="node7" href="$class_camera.html" title="Camera" alt="" coords="289,5,356,32"/>
+<area shape="rect" id="node2" href="$class_view.html" title="View" alt="" coords="16,112,67,139"/>
+<area shape="rect" id="node3" href="$class_viewport.html" title="Viewport" alt="" coords="5,13,77,40"/>
+<area shape="rect" id="node5" href="$class_camera.html" title="Camera" alt="" coords="147,13,213,40"/>
+<area shape="rect" id="node6" href="$class_property.html" title="Property\&lt; std::string \&gt;" alt="" coords="293,112,445,139"/>
+<area shape="rect" id="node7" href="$class_property_impl.html" title="PropertyImpl\&lt; std::\lstring \&gt;" alt="" coords="303,6,436,47"/>
 </map>

@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_game_scenario.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -151,6 +152,15 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>populateWorld
 <tr class="memitem:a3b7d6bdd77c98adb3a3d735bc81be626"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3b7d6bdd77c98adb3a3d735bc81be626"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>createArmada</b> ()</td></tr>
 <tr class="separator:a3b7d6bdd77c98adb3a3d735bc81be626"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbd6e35ff110ad58174ccf5c079bd0e1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acbd6e35ff110ad58174ccf5c079bd0e1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>spawnPoliceFleet</b> ()</td></tr>
+<tr class="separator:acbd6e35ff110ad58174ccf5c079bd0e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa023d50812879e59d0b957444ff8d5ed"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa023d50812879e59d0b957444ff8d5ed"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>spawnPirateFleet</b> ()</td></tr>
+<tr class="separator:aa023d50812879e59d0b957444ff8d5ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae404750c3bd8954f78db026b733cffa3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae404750c3bd8954f78db026b733cffa3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>spawnStuff</b> ()</td></tr>
+<tr class="separator:ae404750c3bd8954f78db026b733cffa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_base_scenario"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_base_scenario')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_base_scenario.html">BaseScenario</a></td></tr>
 <tr class="memitem:a9cbe8ccdbcae3bcae813b39ee70d240d inherit pro_methods_class_base_scenario"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9cbe8ccdbcae3bcae813b39ee70d240d"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>createWorld</b> ()</td></tr>
@@ -176,7 +186,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_game_scenario.html">GameScenario</a></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:21 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:55 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

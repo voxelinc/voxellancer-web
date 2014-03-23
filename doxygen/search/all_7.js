@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['g',['G',['../class_g.html',1,'']]],
   ['game',['Game',['../class_game.html',1,'']]],
   ['gameplay',['GamePlay',['../class_game_play.html',1,'']]],
   ['gameplaypaused',['GamePlayPaused',['../class_game_play_paused.html',1,'']]],
@@ -11,6 +10,7 @@ var searchData=
   ['gamescenario',['GameScenario',['../class_game_scenario.html',1,'']]],
   ['gamestate',['GameState',['../class_game_state.html',1,'']]],
   ['garbagecollector',['GarbageCollector',['../class_garbage_collector.html',1,'']]],
+  ['generateluadoc',['generateluadoc',['../namespacegenerateluadoc.html',1,'']]],
   ['genericbullet',['GenericBullet',['../class_generic_bullet.html',1,'']]],
   ['genericengine',['GenericEngine',['../class_generic_engine.html',1,'']]],
   ['genericgun',['GenericGun',['../class_generic_gun.html',1,'']]],
@@ -19,6 +19,8 @@ var searchData=
   ['genericship',['GenericShip',['../class_generic_ship.html',1,'']]],
   ['genericworldobject',['GenericWorldObject',['../class_generic_world_object.html',1,'']]],
   ['geometryhelper',['GeometryHelper',['../class_geometry_helper.html',1,'']]],
+  ['get_5fapi_5fmethods',['get_api_methods',['../namespacegenerateluadoc.html#a89982dc2ff443a0a34c0ba1d37ebd243',1,'generateluadoc']]],
+  ['get_5fini_5fobjects',['get_ini_objects',['../namespacegenerateluadoc.html#ad1521596126d7278460c455394b043cf',1,'generateluadoc']]],
   ['god',['God',['../class_god.html',1,'']]],
   ['gridaabb',['GridAABB',['../class_grid_a_a_b_b.html',1,'']]],
   ['gun',['Gun',['../class_gun.html',1,'']]]

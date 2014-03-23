@@ -1,6 +1,6 @@
 <map id="DefaultRenderPipeline" name="DefaultRenderPipeline">
-<area shape="rect" id="node2" href="$class_render_pipeline.html" title="RenderPipeline" alt="" coords="144,213,253,240"/>
-<area shape="rect" id="node3" href="$class_render_pass.html" title="RenderPass" alt="" coords="5,104,99,131"/>
-<area shape="rect" id="node4" title="STL class. " alt="" coords="195,5,275,32"/>
-<area shape="rect" id="node6" href="$class_property.html" title="Property\&lt; bool \&gt;" alt="" coords="271,163,389,189"/>
+<area shape="rect" id="node2" href="$class_render_pipeline.html" title="RenderPipeline" alt="" coords="303,64,412,91"/>
+<area shape="rect" id="node3" href="$class_render_pass.html" title="RenderPass" alt="" coords="39,5,132,32"/>
+<area shape="rect" id="node5" href="$class_property.html" title="Property\&lt; std::string \&gt;" alt="" coords="281,121,434,148"/>
+<area shape="rect" id="node6" href="$class_property_impl.html" title="PropertyImpl\&lt; std::\lstring \&gt;" alt="" coords="19,122,152,163"/>
 </map>

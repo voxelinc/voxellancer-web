@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -92,7 +93,7 @@ $(document).ready(function(){initNavTree('worldtreegeode_8h_source.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -137,14 +138,16 @@ $(document).ready(function(){initNavTree('worldtreegeode_8h_source.html','');});
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">void</span> addIntersectingLeaf(<a class="code" href="class_world_tree_node.html">WorldTreeNode</a>* leaf);</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">void</span> removeIntersectingLeaf(<a class="code" href="class_world_tree_node.html">WorldTreeNode</a>* leaf);</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="class_world_object.html">WorldObject</a>* m_worldObject;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="class_world_tree_node.html">WorldTreeNode</a>* m_containingNode;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="class_t_a_a_b_b.html">IAABB</a> m_aabb;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    std::list&lt;WorldTreeNode*&gt; m_intersectingLeafs;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;};</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">bool</span> isPassive();</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="class_world_object.html">WorldObject</a>* m_worldObject;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="class_world_tree_node.html">WorldTreeNode</a>* m_containingNode;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="class_t_a_a_b_b.html">IAABB</a> m_aabb;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordtype">bool</span> m_passive;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    std::list&lt;WorldTreeNode*&gt; m_intersectingLeafs;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;};</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
 <div class="ttc" id="class_world_object_html"><div class="ttname"><a href="class_world_object.html">WorldObject</a></div><div class="ttdef"><b>Definition:</b> worldobject.h:38</div></div>
 <div class="ttc" id="class_world_tree_geode_html"><div class="ttname"><a href="class_world_tree_geode.html">WorldTreeGeode</a></div><div class="ttdef"><b>Definition:</b> worldtreegeode.h:11</div></div>
 <div class="ttc" id="class_t_a_a_b_b_html"><div class="ttname"><a href="class_t_a_a_b_b.html">TAABB&lt; int &gt;</a></div></div>
@@ -155,7 +158,7 @@ $(document).ready(function(){initNavTree('worldtreegeode_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_85c53fc97d906ef66ae29f7ce243c4d9.html">worldtree</a></li><li class="navelem"><b>worldtreegeode.h</b></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:19 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:52 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

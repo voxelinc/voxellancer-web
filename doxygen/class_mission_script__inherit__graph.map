@@ -1,0 +1,4 @@
+<map id="MissionScript" name="MissionScript">
+<area shape="rect" id="node2" href="$class_game_play_script.html" title="GamePlayScript" alt="" coords="5,80,123,107"/>
+<area shape="rect" id="node3" href="$class_script.html" title="Script" alt="" coords="36,5,92,32"/>
+</map>

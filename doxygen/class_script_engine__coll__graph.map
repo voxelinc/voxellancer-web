@@ -1,5 +1,4 @@
 <map id="ScriptEngine" name="ScriptEngine">
-<area shape="rect" id="node4" href="$class_scriptable.html" title="Scriptable" alt="" coords="5,649,85,676"/>
-<area shape="rect" id="node5" href="$class_world.html" title="World" alt="" coords="1029,339,1085,365"/>
-<area shape="rect" id="node15" href="$class_player.html" title="Player" alt="" coords="741,480,800,507"/>
+<area shape="rect" id="node4" href="$class_scriptable.html" title="Scriptable" alt="" coords="5,723,85,749"/>
+<area shape="rect" id="node5" href="$class_world.html" title="World" alt="" coords="1037,363,1093,389"/>
 </map>

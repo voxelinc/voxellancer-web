@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_property_manager.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -132,18 +133,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3864ee722ef652019758ac3c5dc57d85"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3864ee722ef652019758ac3c5dc57d85"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>load</b> (const std::string &amp;file, const std::string &amp;prefix=&quot;&quot;)</td></tr>
 <tr class="separator:a3864ee722ef652019758ac3c5dc57d85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67092c62729131cda9ac88f22d5cf5b3"><td class="memTemplParams" colspan="2"><a class="anchor" id="a67092c62729131cda9ac88f22d5cf5b3"></a>
+<tr class="memitem:a449dfc2638143d78f4079a9a7218f40b"><td class="memTemplParams" colspan="2"><a class="anchor" id="a449dfc2638143d78f4079a9a7218f40b"></a>
 template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a67092c62729131cda9ac88f22d5cf5b3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>registerProperty</b> (<a class="el" href="class_property.html">Property</a>&lt; T &gt; *prop)</td></tr>
-<tr class="separator:a67092c62729131cda9ac88f22d5cf5b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa74b7f6ee8539b5167ade4ee9e8600d7"><td class="memTemplParams" colspan="2"><a class="anchor" id="aa74b7f6ee8539b5167ade4ee9e8600d7"></a>
+<tr class="memitem:a449dfc2638143d78f4079a9a7218f40b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_property_impl.html">PropertyImpl</a>&lt; T &gt; *&#160;</td><td class="memTemplItemRight" valign="bottom"><b>getImpl</b> (const std::string &amp;key)</td></tr>
+<tr class="separator:a449dfc2638143d78f4079a9a7218f40b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca87d65d28903fdae44afbf47646eb6c"><td class="memTemplParams" colspan="2"><a class="anchor" id="aca87d65d28903fdae44afbf47646eb6c"></a>
 template&lt;typename T &gt; </td></tr>
-<tr class="memitem:aa74b7f6ee8539b5167ade4ee9e8600d7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>registerProperty</b> (<a class="el" href="class_property.html">Property</a>&lt; T &gt; *prop, const T &amp;defaultValue)</td></tr>
-<tr class="separator:aa74b7f6ee8539b5167ade4ee9e8600d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06d3a4fd4f8675ff4f2fd11cca82bb24"><td class="memTemplParams" colspan="2"><a class="anchor" id="a06d3a4fd4f8675ff4f2fd11cca82bb24"></a>
-template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a06d3a4fd4f8675ff4f2fd11cca82bb24"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>unregisterProperty</b> (<a class="el" href="class_property.html">Property</a>&lt; T &gt; *prop)</td></tr>
-<tr class="separator:a06d3a4fd4f8675ff4f2fd11cca82bb24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca87d65d28903fdae44afbf47646eb6c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_property_impl.html">PropertyImpl</a>&lt; T &gt; *&#160;</td><td class="memTemplItemRight" valign="bottom"><b>getImpl</b> (const std::string &amp;key, const T &amp;defaultValue)</td></tr>
+<tr class="separator:aca87d65d28903fdae44afbf47646eb6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af12799b333ea5cad4ac4fb4cf0b87708"><td class="memTemplParams" colspan="2"><a class="anchor" id="af12799b333ea5cad4ac4fb4cf0b87708"></a>
 template&lt;typename T &gt; </td></tr>
 <tr class="memitem:af12799b333ea5cad4ac4fb4cf0b87708"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>get</b> (const std::string &amp;name)</td></tr>
@@ -199,7 +196,7 @@ static <a class="el" href="class_property_manager.html">PropertyManager</a> *&#1
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_property_manager.html">PropertyManager</a></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:23 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:58 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -89,7 +89,8 @@
 <g id="edge7" class="edge"><title>Node5&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M778.533,-230C818.27,-230 864.144,-230 896.275,-230"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="778.308,-226.5 768.308,-230 778.308,-233.5 778.308,-226.5"/>
-<text text-anchor="middle" x="832" y="-233" font-family="Helvetica,sans-Serif" font-size="10.00"> m_geodes</text>
+<text text-anchor="middle" x="832" y="-244" font-family="Helvetica,sans-Serif" font-size="10.00"> m_passiveGeodes</text>
+<text text-anchor="middle" x="832" y="-233" font-family="Helvetica,sans-Serif" font-size="10.00">m_normalGeodes</text>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
@@ -107,9 +108,9 @@
 </g>
 <!-- Node6&#45;&gt;Node2 -->
 <g id="edge9" class="edge"><title>Node6&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M357.874,-247.919C441.218,-249.36 618.378,-251.72 768,-249 816.913,-248.111 829.576,-251.955 878,-245 886.788,-243.738 896.161,-241.689 904.789,-239.506"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="357.765,-244.416 347.704,-247.739 357.641,-251.415 357.765,-244.416"/>
-<text text-anchor="middle" x="582" y="-254" font-family="Helvetica,sans-Serif" font-size="10.00"> m_aabb</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M357.842,-247.936C443.631,-249.563 629.31,-252.848 786,-254 826.888,-254.301 837.872,-261.849 878,-254 892.217,-251.219 907.333,-245 918.705,-239.589"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="357.704,-244.433 347.639,-247.742 357.57,-251.432 357.704,-244.433"/>
+<text text-anchor="middle" x="582" y="-255" font-family="Helvetica,sans-Serif" font-size="10.00"> m_aabb</text>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>

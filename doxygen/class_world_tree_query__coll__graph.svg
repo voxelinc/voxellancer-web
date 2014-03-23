@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 918;
+var viewWidth = 952;
 var viewHeight = 267;
 var sectionId = 'dynsection-0';
 </script>
@@ -54,143 +54,144 @@ var sectionId = 'dynsection-0';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>WorldTreeQuery</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-263 914,-263 914,4 -4,4"/>
+<polygon fill="white" stroke="none" points="-4,4 -4,-263 948,-263 948,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="822.5,-118.5 822.5,-137.5 909.5,-137.5 909.5,-118.5 822.5,-118.5"/>
-<text text-anchor="middle" x="866" y="-125.5" font-family="Helvetica,sans-Serif" font-size="10.00">WorldTreeQuery</text>
+<polygon fill="#bfbfbf" stroke="black" points="856.5,-118.5 856.5,-137.5 943.5,-137.5 943.5,-118.5 856.5,-118.5"/>
+<text text-anchor="middle" x="900" y="-125.5" font-family="Helvetica,sans-Serif" font-size="10.00">WorldTreeQuery</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="class_world_tree_node.html" target="_top" xlink:title="WorldTreeNode">
-<polygon fill="white" stroke="black" points="352.5,-139.5 352.5,-158.5 435.5,-158.5 435.5,-139.5 352.5,-139.5"/>
-<text text-anchor="middle" x="394" y="-146.5" font-family="Helvetica,sans-Serif" font-size="10.00">WorldTreeNode</text>
+<polygon fill="white" stroke="black" points="386.5,-139.5 386.5,-158.5 469.5,-158.5 469.5,-139.5 386.5,-139.5"/>
+<text text-anchor="middle" x="428" y="-146.5" font-family="Helvetica,sans-Serif" font-size="10.00">WorldTreeNode</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M418.678,-163.726C429.101,-169.377 441.743,-175.151 454,-178 479.291,-183.88 647.906,-187.204 712,-177 759.928,-169.37 813.386,-149.475 842.715,-137.513"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="420.225,-160.578 409.805,-158.658 416.753,-166.657 420.225,-160.578"/>
-<text text-anchor="middle" x="635" y="-186" font-family="Helvetica,sans-Serif" font-size="10.00"> m_nodeHint</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M452.678,-163.726C463.101,-169.377 475.743,-175.151 488,-178 513.291,-183.88 681.906,-187.204 746,-177 793.928,-169.37 847.386,-149.475 876.715,-137.513"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="454.225,-160.578 443.805,-158.658 450.753,-166.657 454.225,-160.578"/>
+<text text-anchor="middle" x="669" y="-186" font-family="Helvetica,sans-Serif" font-size="10.00"> m_nodeHint</text>
 </g>
 <!-- Node2&#45;&gt;Node2 -->
 <g id="edge2" class="edge"><title>Node2&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M378.531,-168.766C379.746,-173.497 384.902,-177 394,-177 408.93,-177 413.245,-167.565 406.947,-158.757"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="382.003,-169.309 381.053,-158.757 375.216,-167.599 382.003,-169.309"/>
-<text text-anchor="middle" x="394" y="-180" font-family="Helvetica,sans-Serif" font-size="10.00"> m_parent</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M409.112,-168.4C410.373,-173.315 416.669,-177 428,-177 446.129,-177 451.369,-167.565 443.721,-158.757"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="412.484,-169.35 412.279,-158.757 405.833,-167.166 412.484,-169.35"/>
+<text text-anchor="middle" x="428" y="-180" font-family="Helvetica,sans-Serif" font-size="10.00"> m_parent</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<polygon fill="white" stroke="#bfbfbf" points="565,-148.5 565,-167.5 705,-167.5 705,-148.5 565,-148.5"/>
-<text text-anchor="middle" x="635" y="-155.5" font-family="Helvetica,sans-Serif" font-size="10.00">std::list&lt; WorldTreeNode * &gt;</text>
+<polygon fill="white" stroke="#bfbfbf" points="599,-148.5 599,-167.5 739,-167.5 739,-148.5 599,-148.5"/>
+<text text-anchor="middle" x="669" y="-155.5" font-family="Helvetica,sans-Serif" font-size="10.00">std::list&lt; WorldTreeNode * &gt;</text>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge4" class="edge"><title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M445.759,-148.085C448.546,-148.051 451.308,-148.023 454,-148 492.221,-147.676 501.831,-145.975 540,-148 548.03,-148.426 556.43,-149.055 564.764,-149.794"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="445.576,-144.587 435.624,-148.221 445.67,-151.586 445.576,-144.587"/>
-<text text-anchor="middle" x="497" y="-151" font-family="Helvetica,sans-Serif" font-size="10.00"> elements</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M479.759,-148.085C482.546,-148.051 485.308,-148.023 488,-148 526.221,-147.676 535.831,-145.975 574,-148 582.03,-148.426 590.43,-149.055 598.764,-149.794"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="479.576,-144.587 469.624,-148.221 479.67,-151.586 479.576,-144.587"/>
+<text text-anchor="middle" x="531" y="-151" font-family="Helvetica,sans-Serif" font-size="10.00"> elements</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<polygon fill="white" stroke="#bfbfbf" points="558.5,-91.5 558.5,-110.5 711.5,-110.5 711.5,-91.5 558.5,-91.5"/>
-<text text-anchor="middle" x="635" y="-98.5" font-family="Helvetica,sans-Serif" font-size="10.00">std::vector&lt; WorldTreeNode * &gt;</text>
+<polygon fill="white" stroke="#bfbfbf" points="592.5,-91.5 592.5,-110.5 745.5,-110.5 745.5,-91.5 592.5,-91.5"/>
+<text text-anchor="middle" x="669" y="-98.5" font-family="Helvetica,sans-Serif" font-size="10.00">std::vector&lt; WorldTreeNode * &gt;</text>
 </g>
 <!-- Node2&#45;&gt;Node4 -->
 <g id="edge6" class="edge"><title>Node2&#45;&gt;Node4</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M409.938,-131.443C420.83,-120.073 436.667,-106.259 454,-100 495.297,-85.0874 545.482,-86.845 582.36,-91.4664"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="407.07,-129.395 402.931,-139.148 412.249,-134.105 407.07,-129.395"/>
-<text text-anchor="middle" x="497" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00"> elements</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M443.938,-131.443C454.83,-120.073 470.667,-106.259 488,-100 529.297,-85.0874 579.482,-86.845 616.36,-91.4664"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="441.07,-129.395 436.931,-139.148 446.249,-134.105 441.07,-129.395"/>
+<text text-anchor="middle" x="531" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00"> elements</text>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
 <g id="a_node8"><a xlink:href="class_world_tree.html" target="_top" xlink:title="WorldTree">
-<polygon fill="white" stroke="black" points="604.5,-238.5 604.5,-257.5 665.5,-257.5 665.5,-238.5 604.5,-238.5"/>
-<text text-anchor="middle" x="635" y="-245.5" font-family="Helvetica,sans-Serif" font-size="10.00">WorldTree</text>
+<polygon fill="white" stroke="black" points="638.5,-238.5 638.5,-257.5 699.5,-257.5 699.5,-238.5 638.5,-238.5"/>
+<text text-anchor="middle" x="669" y="-245.5" font-family="Helvetica,sans-Serif" font-size="10.00">WorldTree</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node8 -->
 <g id="edge11" class="edge"><title>Node2&#45;&gt;Node8</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M404.561,-167.86C414.439,-185.241 431.564,-210.218 454,-223 501.425,-250.019 566.955,-251.937 604.461,-250.341"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="407.423,-165.794 399.596,-158.653 401.262,-169.116 407.423,-165.794"/>
-<text text-anchor="middle" x="497" y="-251" font-family="Helvetica,sans-Serif" font-size="10.00"> m_root</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M438.561,-167.86C448.439,-185.241 465.564,-210.218 488,-223 535.425,-250.019 600.955,-251.937 638.461,-250.341"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="441.423,-165.794 433.596,-158.653 435.262,-169.116 441.423,-165.794"/>
+<text text-anchor="middle" x="531" y="-251" font-family="Helvetica,sans-Serif" font-size="10.00"> m_root</text>
 </g>
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge3" class="edge"><title>Node3&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M554.597,-163.313C523.196,-164.374 486.831,-164.305 454,-161 448.072,-160.403 441.859,-159.477 435.781,-158.398"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="554.747,-166.81 564.606,-162.932 554.48,-159.815 554.747,-166.81"/>
-<text text-anchor="middle" x="497" y="-166" font-family="Helvetica,sans-Serif" font-size="10.00"> m_activeSubnodes</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M588.597,-163.313C557.196,-164.374 520.831,-164.305 488,-161 482.072,-160.403 475.859,-159.477 469.781,-158.398"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="588.747,-166.81 598.606,-162.932 588.48,-159.815 588.747,-166.81"/>
+<text text-anchor="middle" x="531" y="-166" font-family="Helvetica,sans-Serif" font-size="10.00"> m_activeSubnodes</text>
 </g>
 <!-- Node4&#45;&gt;Node2 -->
 <g id="edge5" class="edge"><title>Node4&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M557.993,-112.189C525.76,-117.424 487.885,-124.225 454,-132 444.753,-134.122 434.805,-136.823 425.76,-139.444"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="558.928,-115.584 568.247,-110.545 557.819,-108.672 558.928,-115.584"/>
-<text text-anchor="middle" x="497" y="-135" font-family="Helvetica,sans-Serif" font-size="10.00"> m_subnodes</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M591.993,-112.189C559.76,-117.424 521.885,-124.225 488,-132 478.753,-134.122 468.805,-136.823 459.76,-139.444"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="592.928,-115.584 602.247,-110.545 591.819,-108.672 592.928,-115.584"/>
+<text text-anchor="middle" x="531" y="-135" font-family="Helvetica,sans-Serif" font-size="10.00"> m_subnodes</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<polygon fill="white" stroke="#bfbfbf" points="120,-101.5 120,-120.5 266,-120.5 266,-101.5 120,-101.5"/>
-<text text-anchor="middle" x="193" y="-108.5" font-family="Helvetica,sans-Serif" font-size="10.00">std::list&lt; WorldTreeGeode * &gt;</text>
+<polygon fill="white" stroke="#bfbfbf" points="120,-94.5 120,-113.5 266,-113.5 266,-94.5 120,-94.5"/>
+<text text-anchor="middle" x="193" y="-101.5" font-family="Helvetica,sans-Serif" font-size="10.00">std::list&lt; WorldTreeGeode * &gt;</text>
 </g>
 <!-- Node5&#45;&gt;Node2 -->
 <g id="edge7" class="edge"><title>Node5&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M269.518,-122.184C290.468,-125.618 313.176,-129.651 334,-134 341.656,-135.599 349.815,-137.527 357.548,-139.46"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="269.82,-118.687 259.39,-120.547 268.703,-125.598 269.82,-118.687"/>
-<text text-anchor="middle" x="309" y="-137" font-family="Helvetica,sans-Serif" font-size="10.00"> m_geodes</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M276.395,-105.418C305.736,-107.529 338.743,-111.768 368,-120 383.601,-124.39 400.048,-132.832 411.602,-139.481"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="276.387,-101.91 266.182,-104.757 275.935,-108.896 276.387,-101.91"/>
+<text text-anchor="middle" x="326" y="-134" font-family="Helvetica,sans-Serif" font-size="10.00"> m_passiveGeodes</text>
+<text text-anchor="middle" x="326" y="-123" font-family="Helvetica,sans-Serif" font-size="10.00">m_normalGeodes</text>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
 <g id="a_node6"><a xlink:href="class_t_a_a_b_b.html" target="_top" xlink:title="TAABB\&lt; int \&gt;">
-<polygon fill="white" stroke="black" points="154.5,-139.5 154.5,-158.5 231.5,-158.5 231.5,-139.5 154.5,-139.5"/>
-<text text-anchor="middle" x="193" y="-146.5" font-family="Helvetica,sans-Serif" font-size="10.00">TAABB&lt; int &gt;</text>
+<polygon fill="white" stroke="black" points="154.5,-135.5 154.5,-154.5 231.5,-154.5 231.5,-135.5 154.5,-135.5"/>
+<text text-anchor="middle" x="193" y="-142.5" font-family="Helvetica,sans-Serif" font-size="10.00">TAABB&lt; int &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node2 -->
 <g id="edge8" class="edge"><title>Node6&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M241.973,-149C275.644,-149 320.186,-149 352.16,-149"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="241.899,-145.5 231.899,-149 241.899,-152.5 241.899,-145.5"/>
-<text text-anchor="middle" x="309" y="-152" font-family="Helvetica,sans-Serif" font-size="10.00"> m_aabb</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M241.811,-145.821C284.368,-146.551 345.949,-147.609 386.224,-148.3"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="241.753,-142.319 231.694,-145.647 241.633,-149.318 241.753,-142.319"/>
+<text text-anchor="middle" x="326" y="-150" font-family="Helvetica,sans-Serif" font-size="10.00"> m_aabb</text>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
 <g id="a_node7"><a xlink:href="class_abstract_shape.html" target="_top" xlink:title="AbstractShape">
-<polygon fill="white" stroke="black" points="0.5,-69.5 0.5,-88.5 81.5,-88.5 81.5,-69.5 0.5,-69.5"/>
-<text text-anchor="middle" x="41" y="-76.5" font-family="Helvetica,sans-Serif" font-size="10.00">AbstractShape</text>
+<polygon fill="white" stroke="black" points="0.5,-68.5 0.5,-87.5 81.5,-87.5 81.5,-68.5 0.5,-68.5"/>
+<text text-anchor="middle" x="41" y="-75.5" font-family="Helvetica,sans-Serif" font-size="10.00">AbstractShape</text>
 </a>
 </g>
 </g>
 <!-- Node7&#45;&gt;Node1 -->
 <g id="edge12" class="edge"><title>Node7&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M80.3384,-66.5872C110.382,-57.9587 153.416,-48 192,-48 192,-48 192,-48 636,-48 720.437,-48 813.082,-97.0726 849.283,-118.35"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="79.2694,-63.2534 70.6728,-69.446 81.2549,-69.9659 79.2694,-63.2534"/>
-<text text-anchor="middle" x="394" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00"> m_shape</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M81.4894,-65.6768C111.491,-57.4002 153.943,-48 192,-48 192,-48 192,-48 670,-48 754.437,-48 847.082,-97.0726 883.283,-118.35"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="80.479,-62.3252 71.8165,-68.4253 82.3924,-69.0587 80.479,-62.3252"/>
+<text text-anchor="middle" x="428" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00"> m_shape</text>
 </g>
 <!-- Node7&#45;&gt;Node6 -->
 <g id="edge9" class="edge"><title>Node7&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M62.1039,-94.7522C77.272,-105.97 98.9922,-120.655 120,-130 130.749,-134.781 142.954,-138.564 154.221,-141.454"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="64.0731,-91.8532 53.9852,-88.6149 59.8518,-97.4373 64.0731,-91.8532"/>
+<path fill="none" stroke="midnightblue" d="M65.1159,-93.1976C80.2683,-102.685 100.764,-114.641 120,-123 131.149,-127.844 143.699,-132.072 155.162,-135.493"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="66.7452,-90.0857 56.431,-87.6634 62.9835,-95.989 66.7452,-90.0857"/>
 </g>
 <!-- Node8&#45;&gt;Node1 -->
 <g id="edge10" class="edge"><title>Node8&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M675.765,-250.98C711.999,-251.753 765.57,-247.842 804,-223 836.263,-202.144 854.88,-157.537 861.835,-137.772"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="675.686,-247.476 665.572,-250.63 675.446,-254.472 675.686,-247.476"/>
-<text text-anchor="middle" x="767" y="-250" font-family="Helvetica,sans-Serif" font-size="10.00"> m_worldTree</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M709.765,-250.98C745.999,-251.753 799.57,-247.842 838,-223 870.263,-202.144 888.88,-157.537 895.835,-137.772"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="709.686,-247.476 699.572,-250.63 709.446,-254.472 709.686,-247.476"/>
+<text text-anchor="middle" x="801" y="-250" font-family="Helvetica,sans-Serif" font-size="10.00"> m_worldTree</text>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
 <g id="a_node9"><a xlink:href="class_collision_filter.html" target="_top" xlink:title="CollisionFilter">
-<polygon fill="white" stroke="red" points="597.5,-0.5 597.5,-19.5 672.5,-19.5 672.5,-0.5 597.5,-0.5"/>
-<text text-anchor="middle" x="635" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">CollisionFilter</text>
+<polygon fill="white" stroke="red" points="631.5,-0.5 631.5,-19.5 706.5,-19.5 706.5,-0.5 631.5,-0.5"/>
+<text text-anchor="middle" x="669" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">CollisionFilter</text>
 </a>
 </g>
 </g>
 <!-- Node9&#45;&gt;Node1 -->
 <g id="edge13" class="edge"><title>Node9&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M682.979,-2.49831C718.839,0.739626 768.038,-0.410623 804,-23 839.705,-45.4279 856.852,-96.8991 862.646,-118.345"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="682.355,0.955541 672.775,-3.56906 683.086,-6.00623 682.355,0.955541"/>
-<text text-anchor="middle" x="767" y="-26" font-family="Helvetica,sans-Serif" font-size="10.00"> m_collisionFilter</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M716.979,-2.49831C752.839,0.739626 802.038,-0.410623 838,-23 873.705,-45.4279 890.852,-96.8991 896.646,-118.345"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="716.355,0.955541 706.775,-3.56906 717.086,-6.00623 716.355,0.955541"/>
+<text text-anchor="middle" x="801" y="-26" font-family="Helvetica,sans-Serif" font-size="10.00"> m_collisionFilter</text>
 </g>
 </g>
 </svg>

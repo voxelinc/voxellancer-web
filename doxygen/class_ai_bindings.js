@@ -10,5 +10,6 @@ var class_ai_bindings =
     [ "apiSetFaction", "class_ai_bindings.html#aecea006a79f4e33a320900d4928fb851", null ],
     [ "apiSetFactionRelation", "class_ai_bindings.html#a340fbc7c4438fc197e45d58914ac150f", null ],
     [ "apiSetTargetPoint", "class_ai_bindings.html#af0f9f52b1acc453f1dc854931c8ed4b3", null ],
-    [ "initialize", "class_ai_bindings.html#ab7a03906f6c9254502cc97e1aa927c26", null ]
+    [ "apiTaskExecutor", "class_ai_bindings.html#a53b77727e63b7e4f4f36f59c971d10a0", null ],
+    [ "bind", "class_ai_bindings.html#a1fd305ada0216b074d6b403cbdf568b4", null ]
 ];

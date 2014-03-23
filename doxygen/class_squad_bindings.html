@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_squad_bindings.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -116,13 +117,12 @@ $(document).ready(function(){initNavTree('class_squad_bindings.html','');});
 <div class="dynheader">
 Inheritance diagram for SquadBindings:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_squad_bindings__inherit__graph.svg" width="120" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_squad_bindings__inherit__graph.svg" width="120" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for SquadBindings:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_squad_bindings__coll__graph.svg" width="246" height="206"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_squad_bindings__coll__graph.svg" width="387" height="296"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -138,9 +138,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:aa455fee99af54465328eac945cfe73cd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa455fee99af54465328eac945cfe73cd"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>initialize</b> ()</td></tr>
-<tr class="separator:aa455fee99af54465328eac945cfe73cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f39d2a5df9d4e6209b5d5ba8c2182a4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5f39d2a5df9d4e6209b5d5ba8c2182a4"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>bind</b> () override</td></tr>
+<tr class="separator:a5f39d2a5df9d4e6209b5d5ba8c2182a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb177e3b509b0da4a1c6e1158da16773"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adb177e3b509b0da4a1c6e1158da16773"></a>
 apikey&#160;</td><td class="memItemRight" valign="bottom"><b>apiCreateSquad</b> (apikey leader)</td></tr>
 <tr class="separator:adb177e3b509b0da4a1c6e1158da16773"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -166,6 +166,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a670ea0ab4be3e4af338acc455606f2df inherit pro_attribs_class_bindings"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a670ea0ab4be3e4af338acc455606f2df"></a>
 <a class="el" href="class_lua_wrapper.html">LuaWrapper</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>m_lua</b></td></tr>
 <tr class="separator:a670ea0ab4be3e4af338acc455606f2df inherit pro_attribs_class_bindings"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dca10c996c984a7d00e7702d8a53da6 inherit pro_attribs_class_bindings"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9dca10c996c984a7d00e7702d8a53da6"></a>
+<a class="el" href="class_game_play_script.html">GamePlayScript</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>m_script</b></td></tr>
+<tr class="separator:a9dca10c996c984a7d00e7702d8a53da6 inherit pro_attribs_class_bindings"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a218cc45339f6f3ea7935c4f03a748f7e inherit pro_attribs_class_bindings"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a218cc45339f6f3ea7935c4f03a748f7e"></a>
 <a class="el" href="class_script_engine.html">ScriptEngine</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>m_scriptEngine</b></td></tr>
 <tr class="separator:a218cc45339f6f3ea7935c4f03a748f7e inherit pro_attribs_class_bindings"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,7 +183,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_squad_bindings.html">SquadBindings</a></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:24 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:59 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

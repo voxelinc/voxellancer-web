@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -92,7 +93,7 @@ $(document).ready(function(){initNavTree('textfieldhudget_8h_source.html','');})
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -119,10 +120,10 @@ $(document).ready(function(){initNavTree('textfieldhudget_8h_source.html','');})
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
 <div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="class_text_field_hudget.html">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_text_field_hudget.html">TextFieldHudget</a> : <span class="keyword">public</span> <a class="code" href="class_hudget.html">Hudget</a> {</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <a class="code" href="class_text_field_hudget.html">TextFieldHudget</a>(<a class="code" href="class_h_u_d.html">HUD</a>* hud, glm::vec3 direction, <span class="keywordtype">float</span> scale = 0.5f, std::string content = <span class="stringliteral">&quot;&quot;</span>, FontSize fontSize = FontSize::SIZE5x7);</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <a class="code" href="class_text_field_hudget.html">TextFieldHudget</a>(<a class="code" href="class_h_u_d.html">HUD</a>* hud, <span class="keyword">const</span> glm::vec3&amp; direction, <span class="keywordtype">float</span> scale = 0.5f, <span class="keyword">const</span> std::string&amp; content = <span class="stringliteral">&quot;&quot;</span>, FontSize fontSize = FontSize::SIZE5x7);</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keyword">virtual</span> ~<a class="code" href="class_text_field_hudget.html">TextFieldHudget</a>();</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordtype">void</span> setContent(std::string content);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordtype">void</span> setText(<span class="keyword">const</span> std::string&amp; content);</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> update(<span class="keywordtype">float</span> deltaSec) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> draw() <span class="keyword">override</span>;</div>
@@ -131,14 +132,15 @@ $(document).ready(function(){initNavTree('textfieldhudget_8h_source.html','');})
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> onClick(ClickType clickType) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    std::string m_content;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    std::unique_ptr&lt;TextFieldHudgetVoxels&gt; m_voxels;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;};</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    std::string m_text;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    std::unique_ptr&lt;TextFieldHudgetVoxels&gt; m_voxels;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;};</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
 <div class="ttc" id="class_text_field_hudget_voxels_html"><div class="ttname"><a href="class_text_field_hudget_voxels.html">TextFieldHudgetVoxels</a></div><div class="ttdef"><b>Definition:</b> textfieldhudgetvoxels.h:12</div></div>
 <div class="ttc" id="class_hudget_html"><div class="ttname"><a href="class_hudget.html">Hudget</a></div><div class="ttdef"><b>Definition:</b> hudget.h:15</div></div>
-<div class="ttc" id="class_h_u_d_html"><div class="ttname"><a href="class_h_u_d.html">HUD</a></div><div class="ttdef"><b>Definition:</b> hud.h:30</div></div>
+<div class="ttc" id="class_h_u_d_html"><div class="ttname"><a href="class_h_u_d.html">HUD</a></div><div class="ttdef"><b>Definition:</b> hud.h:34</div></div>
 <div class="ttc" id="class_text_field_hudget_html"><div class="ttname"><a href="class_text_field_hudget.html">TextFieldHudget</a></div><div class="ttdef"><b>Definition:</b> textfieldhudget.h:12</div></div>
 <div class="ttc" id="class_ray_html"><div class="ttname"><a href="class_ray.html">Ray</a></div><div class="ttdef"><b>Definition:</b> ray.h:12</div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -147,7 +149,7 @@ $(document).ready(function(){initNavTree('textfieldhudget_8h_source.html','');})
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_da5c6b39c0a2f54e57df6799511cd3ab.html">ui</a></li><li class="navelem"><a class="el" href="dir_25e9d68b73ae392458eda5ed543651fa.html">hud</a></li><li class="navelem"><b>textfieldhudget.h</b></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:18 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:52 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

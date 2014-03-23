@@ -1,9 +1,9 @@
 <map id="Aimer" name="Aimer">
-<area shape="rect" id="node2" href="$class_property.html" title="Property\&lt; float \&gt;" alt="" coords="190,485,309,512"/>
-<area shape="rect" id="node7" href="$class_voxel.html" title="Voxel" alt="" coords="511,5,566,32"/>
-<area shape="rect" id="node3" title="STL class. " alt="" coords="5,485,85,512"/>
-<area shape="rect" id="node4" href="$class_world_object.html" title="WorldObject" alt="" coords="827,233,922,260"/>
-<area shape="rect" id="node5" href="$class_voxel_cluster.html" title="VoxelCluster" alt="" coords="491,56,587,83"/>
-<area shape="rect" id="node6" href="$class_scriptable.html" title="Scriptable" alt="" coords="499,107,579,133"/>
-<area shape="rect" id="node9" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="459,208,618,235"/>
+<area shape="rect" id="node2" href="$class_property.html" title="Property\&lt; float \&gt;" alt="" coords="246,485,365,512"/>
+<area shape="rect" id="node7" href="$class_voxel.html" title="Voxel" alt="" coords="567,5,622,32"/>
+<area shape="rect" id="node3" href="$class_property_impl.html" title="PropertyImpl\&lt; float \&gt;" alt="" coords="6,485,149,512"/>
+<area shape="rect" id="node4" href="$class_world_object.html" title="WorldObject" alt="" coords="883,233,978,260"/>
+<area shape="rect" id="node5" href="$class_voxel_cluster.html" title="VoxelCluster" alt="" coords="547,56,643,83"/>
+<area shape="rect" id="node6" href="$class_scriptable.html" title="Scriptable" alt="" coords="555,107,635,133"/>
+<area shape="rect" id="node9" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="515,208,674,235"/>
 </map>

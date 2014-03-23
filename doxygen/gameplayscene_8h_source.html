@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -92,7 +93,7 @@ $(document).ready(function(){initNavTree('gameplayscene_8h_source.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -130,7 +131,7 @@ $(document).ready(function(){initNavTree('gameplayscene_8h_source.html','');});
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
 <div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_game_play_scene.html">   23</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_game_play_scene.html">GamePlayScene</a>: <span class="keyword">public</span> <a class="code" href="class_scene.html">Scene</a> {</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="class_game_play_scene.html">GamePlayScene</a>(<a class="code" href="class_game_play.html">GamePlay</a>&amp; gamePlay, <a class="code" href="class_player.html">Player</a>&amp; player);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="class_game_play_scene.html">GamePlayScene</a>(<a class="code" href="class_game_play.html">GamePlay</a>&amp; gamePlay);</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    ~<a class="code" href="class_game_play_scene.html">GamePlayScene</a>();</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> draw(<span class="keyword">const</span> <a class="code" href="class_camera.html">Camera</a>&amp; camera, glow::FrameBufferObject* target, <span class="keyword">const</span> <a class="code" href="class_viewport.html">Viewport</a>&amp; destinationViewport, EyeSide side = EyeSide::None) <span class="keyword">const override</span>;</div>
@@ -147,15 +148,14 @@ $(document).ready(function(){initNavTree('gameplayscene_8h_source.html','');});
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    std::shared_ptr&lt;Starfield&gt; m_starField;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="class_game_play.html">GamePlay</a>&amp; m_gamePlay;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="class_player.html">Player</a>&amp; m_player;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="class_property.html">Property&lt;glm::vec3&gt;</a> m_defaultLightDir;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">int</span> m_currentOutputBuffer;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="class_property.html">Property&lt;glm::vec3&gt;</a> m_defaultLightDir;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">int</span> m_currentOutputBuffer;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">void</span> drawGame(<span class="keyword">const</span> <a class="code" href="class_camera.html">Camera</a>&amp; camera) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;};</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> drawGame(<span class="keyword">const</span> <a class="code" href="class_camera.html">Camera</a>&amp; camera) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;};</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
 <div class="ttc" id="class_camera_head_html"><div class="ttname"><a href="class_camera_head.html">CameraHead</a></div><div class="ttdef"><b>Definition:</b> camerahead.h:12</div></div>
 <div class="ttc" id="class_viewport_html"><div class="ttname"><a href="class_viewport.html">Viewport</a></div><div class="ttdef"><b>Definition:</b> viewport.h:6</div></div>
 <div class="ttc" id="class_sound_manager_html"><div class="ttname"><a href="class_sound_manager.html">SoundManager</a></div><div class="ttdef"><b>Definition:</b> soundmanager.h:19</div></div>
@@ -167,7 +167,7 @@ $(document).ready(function(){initNavTree('gameplayscene_8h_source.html','');});
 <div class="ttc" id="class_scene_html"><div class="ttname"><a href="class_scene.html">Scene</a></div><div class="ttdef"><b>Definition:</b> scene.h:14</div></div>
 <div class="ttc" id="class_game_play_scene_html"><div class="ttname"><a href="class_game_play_scene.html">GamePlayScene</a></div><div class="ttdef"><b>Definition:</b> gameplayscene.h:23</div></div>
 <div class="ttc" id="class_property_html"><div class="ttname"><a href="class_property.html">Property&lt; glm::vec3 &gt;</a></div></div>
-<div class="ttc" id="class_player_html"><div class="ttname"><a href="class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> player.h:20</div></div>
+<div class="ttc" id="class_player_html"><div class="ttname"><a href="class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> player.h:22</div></div>
 <div class="ttc" id="class_game_play_html"><div class="ttname"><a href="class_game_play.html">GamePlay</a></div><div class="ttdef"><b>Definition:</b> gameplay.h:20</div></div>
 <div class="ttc" id="class_voxel_renderer_html"><div class="ttname"><a href="class_voxel_renderer.html">VoxelRenderer</a></div><div class="ttdef"><b>Definition:</b> voxelrenderer.h:24</div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -176,7 +176,7 @@ $(document).ready(function(){initNavTree('gameplayscene_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_31d4ea8148997abe7a56a5b07f2fed83.html">gamestate</a></li><li class="navelem"><a class="el" href="dir_422bd17afd8af33f87433e9d028687af.html">gameplay</a></li><li class="navelem"><b>gameplayscene.h</b></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:18 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:51 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

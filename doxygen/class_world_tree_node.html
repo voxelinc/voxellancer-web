@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_world_tree_node.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -118,7 +119,8 @@ $(document).ready(function(){initNavTree('class_world_tree_node.html','');});
 <div class="dynheader">
 Collaboration diagram for WorldTreeNode:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_world_tree_node__coll__graph.svg" width="100%" height="462"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_world_tree_node__coll__graph.svg" width="100%" height="473"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -184,15 +186,19 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>remove</b> (<a class=
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ac969a75e1c4d4e3e556dde7d6466b13d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac969a75e1c4d4e3e556dde7d6466b13d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>toGroup</b> (<a class="el" href="class_world_tree_node.html">WorldTreeNode</a> *initialSubnode=nullptr)</td></tr>
-<tr class="separator:ac969a75e1c4d4e3e556dde7d6466b13d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4074d2f74cb0a5456b1db3dbc92bead"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_world_tree_node.html#ae4074d2f74cb0a5456b1db3dbc92bead">convertToGroup</a> (<a class="el" href="class_world_tree_node.html">WorldTreeNode</a> *initialSubnode=nullptr)</td></tr>
+<tr class="separator:ae4074d2f74cb0a5456b1db3dbc92bead"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20748616e5f8d20a190a58fb35a45a45"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_world_tree_node.html#a20748616e5f8d20a190a58fb35a45a45">moveToSubnode</a> (<a class="el" href="class_world_tree_geode.html">WorldTreeGeode</a> *geode, <a class="el" href="class_world_tree_node.html">WorldTreeNode</a> *subnode)</td></tr>
+<tr class="separator:a20748616e5f8d20a190a58fb35a45a45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85226bdf62de840048cb2da2f84e7f3b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a85226bdf62de840048cb2da2f84e7f3b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>subnodeActivated</b> (<a class="el" href="class_world_tree_node.html">WorldTreeNode</a> *subnode)</td></tr>
 <tr class="separator:a85226bdf62de840048cb2da2f84e7f3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa26143d29f8af6afaf88ab4bc77e822f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa26143d29f8af6afaf88ab4bc77e822f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>subnodeDeactivated</b> (<a class="el" href="class_world_tree_node.html">WorldTreeNode</a> *subnode)</td></tr>
 <tr class="separator:aa26143d29f8af6afaf88ab4bc77e822f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88e3e0f8dc4db64e86e765e057a715b8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a88e3e0f8dc4db64e86e765e057a715b8"></a>
+std::list&lt; <a class="el" href="class_world_tree_geode.html">WorldTreeGeode</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>geodesList</b> (<a class="el" href="class_world_tree_geode.html">WorldTreeGeode</a> *geode)</td></tr>
+<tr class="separator:a88e3e0f8dc4db64e86e765e057a715b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -211,9 +217,12 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>m_extent</b></td></t
 <tr class="memitem:a22eb54e7a84c089bdc68795b60313119"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a22eb54e7a84c089bdc68795b60313119"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_active</b></td></tr>
 <tr class="separator:a22eb54e7a84c089bdc68795b60313119"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e0435563e10c579e733b25df1f90534"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3e0435563e10c579e733b25df1f90534"></a>
-std::list&lt; <a class="el" href="class_world_tree_geode.html">WorldTreeGeode</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_geodes</b></td></tr>
-<tr class="separator:a3e0435563e10c579e733b25df1f90534"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a184de204553c9b6169d67aa59c28bd05"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a184de204553c9b6169d67aa59c28bd05"></a>
+std::list&lt; <a class="el" href="class_world_tree_geode.html">WorldTreeGeode</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_normalGeodes</b></td></tr>
+<tr class="separator:a184de204553c9b6169d67aa59c28bd05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac889b944bba73947162d90a05b02c742"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac889b944bba73947162d90a05b02c742"></a>
+std::list&lt; <a class="el" href="class_world_tree_geode.html">WorldTreeGeode</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_passiveGeodes</b></td></tr>
+<tr class="separator:ac889b944bba73947162d90a05b02c742"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f44030a3a7fdf72ad3638f3dc6dc7d3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4f44030a3a7fdf72ad3638f3dc6dc7d3"></a>
 std::vector&lt; <a class="el" href="class_world_tree_node.html">WorldTreeNode</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_subnodes</b></td></tr>
 <tr class="separator:a4f44030a3a7fdf72ad3638f3dc6dc7d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -227,9 +236,70 @@ Static Protected Attributes</h2></td></tr>
 static const int&#160;</td><td class="memItemRight" valign="bottom"><b>MIN_EXTENT</b> = 16</td></tr>
 <tr class="separator:a39df64a9fa7a8c97a9e23a236ff3a860"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ddedc90285064294829ce13a33e5577"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6ddedc90285064294829ce13a33e5577"></a>
-static const int&#160;</td><td class="memItemRight" valign="bottom"><b>MAX_GEODES</b> = 4</td></tr>
+static const int&#160;</td><td class="memItemRight" valign="bottom"><b>MAX_GEODES</b> = 8</td></tr>
 <tr class="separator:a6ddedc90285064294829ce13a33e5577"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ae4074d2f74cb0a5456b1db3dbc92bead"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WorldTreeNode::convertToGroup </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_world_tree_node.html">WorldTreeNode</a> *&#160;</td>
+          <td class="paramname"><em>initialSubnode</em> = <code>nullptr</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>convert a leaf to a node with subnodes </p>
+
+</div>
+</div>
+<a class="anchor" id="a20748616e5f8d20a190a58fb35a45a45"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WorldTreeNode::moveToSubnode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_world_tree_geode.html">WorldTreeGeode</a> *&#160;</td>
+          <td class="paramname"><em>geode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_world_tree_node.html">WorldTreeNode</a> *&#160;</td>
+          <td class="paramname"><em>subnode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>move a geode to the specified subnode if it is contained in its aabb </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/worldtree/<a class="el" href="worldtreenode_8h_source.html">worldtreenode.h</a></li>
 <li>src/worldtree/worldtreenode.cpp</li>
@@ -240,7 +310,7 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><b>MAX_GEODE
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_world_tree_node.html">WorldTreeNode</a></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:26 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:59:01 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

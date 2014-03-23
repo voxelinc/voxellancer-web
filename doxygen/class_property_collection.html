@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_property_collection.html','');})
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -107,6 +108,8 @@ $(document).ready(function(){initNavTree('class_property_collection.html','');})
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_property_collection-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">PropertyCollection&lt; T &gt; Class Template Reference</div>  </div>
@@ -120,7 +123,8 @@ Inheritance diagram for PropertyCollection&lt; T &gt;:</div>
 <div class="dynheader">
 Collaboration diagram for PropertyCollection&lt; T &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_property_collection__coll__graph.svg" width="187" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_property_collection__coll__graph.svg" width="664" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -128,15 +132,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7eb8846f7afc56c9dd51a692cf5f4f29"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7eb8846f7afc56c9dd51a692cf5f4f29"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>PropertyCollection</b> (regexns::regex regex, std::function&lt; T(const std::string &amp;)&gt; converter)</td></tr>
 <tr class="separator:a7eb8846f7afc56c9dd51a692cf5f4f29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a924e8daad99e5912e7858d786a687cda"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a924e8daad99e5912e7858d786a687cda"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>registerProperty</b> (<a class="el" href="class_property.html">Property</a>&lt; T &gt; *prop)</td></tr>
-<tr class="separator:a924e8daad99e5912e7858d786a687cda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d7cab1789ae266ecc94b01bbbb3d9af"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1d7cab1789ae266ecc94b01bbbb3d9af"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>registerProperty</b> (<a class="el" href="class_property.html">Property</a>&lt; T &gt; *prop, const T &amp;defaultValue)</td></tr>
-<tr class="separator:a1d7cab1789ae266ecc94b01bbbb3d9af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb5f34e8b046dd46719d0d357bddf7e5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afb5f34e8b046dd46719d0d357bddf7e5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>unregisterProperty</b> (<a class="el" href="class_property.html">Property</a>&lt; T &gt; *prop)</td></tr>
-<tr class="separator:afb5f34e8b046dd46719d0d357bddf7e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a906b23411f6831e1524fea3784773f0c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a906b23411f6831e1524fea3784773f0c"></a>
+<a class="el" href="class_property_impl.html">PropertyImpl</a>&lt; T &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>getImpl</b> (const std::string &amp;key)</td></tr>
+<tr class="separator:a906b23411f6831e1524fea3784773f0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34b127c35219f529091d13bdcbeebf1c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a34b127c35219f529091d13bdcbeebf1c"></a>
+<a class="el" href="class_property_impl.html">PropertyImpl</a>&lt; T &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>getImpl</b> (const std::string &amp;key, const T &amp;defaultValue)</td></tr>
+<tr class="separator:a34b127c35219f529091d13bdcbeebf1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9dd1f66b33e3015018f35485bce03ca"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac9dd1f66b33e3015018f35485bce03ca"></a>
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>update</b> (const std::string &amp;key, const std::string &amp;svalue) override</td></tr>
 <tr class="separator:ac9dd1f66b33e3015018f35485bce03ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,6 +150,32 @@ T&#160;</td><td class="memItemRight" valign="bottom"><b>get</b> (const std::stri
 <tr class="memitem:a5e507ed42a533ba242a5225e5f734f61"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5e507ed42a533ba242a5225e5f734f61"></a>
 T&#160;</td><td class="memItemRight" valign="bottom"><b>get</b> (const std::string &amp;name, const T &amp;defaultValue) const </td></tr>
 <tr class="separator:a5e507ed42a533ba242a5225e5f734f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a57b0e0682646c1a55b05d5ae3e0ec1b9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a57b0e0682646c1a55b05d5ae3e0ec1b9"></a>
+<a class="el" href="class_property_impl.html">PropertyImpl</a>&lt; T &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>getOrCreate</b> (const std::string &amp;key)</td></tr>
+<tr class="separator:a57b0e0682646c1a55b05d5ae3e0ec1b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8408e002cb0a8e957b5b16f82cfa029"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa8408e002cb0a8e957b5b16f82cfa029"></a>
+<a class="el" href="class_property_impl.html">PropertyImpl</a>&lt; T &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>create</b> (const std::string &amp;key)</td></tr>
+<tr class="separator:aa8408e002cb0a8e957b5b16f82cfa029"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:aca528978c94c5f1f4b2149d007d5d22a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aca528978c94c5f1f4b2149d007d5d22a"></a>
+std::map&lt; std::string, T &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_values</b></td></tr>
+<tr class="separator:aca528978c94c5f1f4b2149d007d5d22a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf90dabb72e5b76ba989773dbba66f02"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adf90dabb72e5b76ba989773dbba66f02"></a>
+std::map&lt; std::string, <br class="typebreak"/>
+<a class="el" href="class_property_impl.html">PropertyImpl</a>&lt; T &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_properties</b></td></tr>
+<tr class="separator:adf90dabb72e5b76ba989773dbba66f02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3917aa8ad040aa97650e4bb8d28b7fee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3917aa8ad040aa97650e4bb8d28b7fee"></a>
+regexns::regex&#160;</td><td class="memItemRight" valign="bottom"><b>m_regex</b></td></tr>
+<tr class="separator:a3917aa8ad040aa97650e4bb8d28b7fee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef3c4405a2c8160c6e4d5cad6d5deece"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aef3c4405a2c8160c6e4d5cad6d5deece"></a>
+std::function&lt; T(const <br class="typebreak"/>
+std::string &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_converter</b></td></tr>
+<tr class="separator:aef3c4405a2c8160c6e4d5cad6d5deece"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/property/<a class="el" href="propertycollection_8h_source.html">propertycollection.h</a></li>
@@ -160,7 +187,7 @@ T&#160;</td><td class="memItemRight" valign="bottom"><b>get</b> (const std::stri
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_property_collection.html">PropertyCollection</a></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:23 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:58 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

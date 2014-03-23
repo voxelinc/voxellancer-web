@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_default_render_pipeline.html',''
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -121,7 +122,8 @@ Inheritance diagram for DefaultRenderPipeline:</div>
 <div class="dynheader">
 Collaboration diagram for DefaultRenderPipeline:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_default_render_pipeline__coll__graph.svg" width="395" height="323"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_default_render_pipeline__coll__graph.svg" width="100%" height="426"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -171,9 +173,9 @@ std::shared_ptr<br class="typebreak"/>
 std::shared_ptr<br class="typebreak"/>
 &lt; <a class="el" href="class_post_processing_pass.html">PostProcessingPass</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_finalization</b></td></tr>
 <tr class="separator:a12cb6e7704323b23c2812fce84b53691"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7875bffe4665bf2648b491e0e36e0b6e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7875bffe4665bf2648b491e0e36e0b6e"></a>
-<a class="el" href="class_property.html">Property</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_useFxaa</b></td></tr>
-<tr class="separator:a7875bffe4665bf2648b491e0e36e0b6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ebce4491aceb25a33fe145a267a7e50"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8ebce4491aceb25a33fe145a267a7e50"></a>
+<a class="el" href="class_property.html">Property</a>&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_antialiasing</b></td></tr>
+<tr class="separator:a8ebce4491aceb25a33fe145a267a7e50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_render_pipeline"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_render_pipeline')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_render_pipeline.html">RenderPipeline</a></td></tr>
 <tr class="memitem:ad6368277692f385689fedc24f16f6ecf inherit pro_attribs_class_render_pipeline"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad6368277692f385689fedc24f16f6ecf"></a>
 std::vector&lt; std::shared_ptr<br class="typebreak"/>
@@ -200,7 +202,7 @@ static <a class="el" href="class_render_pipeline.html">RenderPipeline</a> *&#160
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_default_render_pipeline.html">DefaultRenderPipeline</a></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:20 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:54 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

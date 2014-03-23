@@ -1,0 +1,4 @@
+<map id="MissionStatePoll" name="MissionStatePoll">
+<area shape="rect" id="node2" href="$class_event_poll.html" title="EventPoll" alt="" coords="27,80,103,107"/>
+<area shape="rect" id="node3" href="$class_scriptable.html" title="Scriptable" alt="" coords="25,5,105,32"/>
+</map>

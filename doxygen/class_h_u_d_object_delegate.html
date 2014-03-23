@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_h_u_d_object_delegate.html','');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -116,23 +117,24 @@ $(document).ready(function(){initNavTree('class_h_u_d_object_delegate.html','');
 <div class="dynheader">
 Collaboration diagram for HUDObjectDelegate:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_h_u_d_object_delegate__coll__graph.svg" width="416" height="400"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_h_u_d_object_delegate__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab2f0505a2a3e563bcdc24ec0a4a63184"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab2f0505a2a3e563bcdc24ec0a4a63184"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>HUDObjectDelegate</b> (<a class="el" href="class_h_u_d.html">HUD</a> *hud, <a class="el" href="class_world_object.html">WorldObject</a> *worldObject)</td></tr>
-<tr class="separator:ab2f0505a2a3e563bcdc24ec0a4a63184"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fdd0ef115790b264ae2ed4772cb1013"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5fdd0ef115790b264ae2ed4772cb1013"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>HUDObjectDelegate</b> (<a class="el" href="class_h_u_d.html">HUD</a> *hud, <a class="el" href="class_world_object.html">WorldObject</a> *worldObject, <a class="el" href="class_object_hudget.html">ObjectHudget</a> *hudget)</td></tr>
+<tr class="separator:a5fdd0ef115790b264ae2ed4772cb1013"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af76af84cb44e67b4558aecb7f29c25b5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af76af84cb44e67b4558aecb7f29c25b5"></a>
 <a class="el" href="class_h_u_d.html">HUD</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>hud</b> ()</td></tr>
 <tr class="separator:af76af84cb44e67b4558aecb7f29c25b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad88699da7d201457f0b2e553045604ec"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad88699da7d201457f0b2e553045604ec"></a>
 <a class="el" href="class_world_object.html">WorldObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>worldObject</b> ()</td></tr>
 <tr class="separator:ad88699da7d201457f0b2e553045604ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fac263911856b39386fe6f18cdc6a2a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4fac263911856b39386fe6f18cdc6a2a"></a>
-<a class="el" href="class_hudget.html">Hudget</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>hudget</b> ()</td></tr>
-<tr class="separator:a4fac263911856b39386fe6f18cdc6a2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b0bd7ea7afcc8a5dd8f05f1a112c6b0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7b0bd7ea7afcc8a5dd8f05f1a112c6b0"></a>
+<a class="el" href="class_object_hudget.html">ObjectHudget</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>hudget</b> ()</td></tr>
+<tr class="separator:a7b0bd7ea7afcc8a5dd8f05f1a112c6b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -142,9 +144,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a6d2dda21d66e18a8fc52a0504c5ea1bc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6d2dda21d66e18a8fc52a0504c5ea1bc"></a>
 <a class="el" href="class_handle.html">Handle</a>&lt; <a class="el" href="class_world_object.html">WorldObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_worldObjectHandle</b></td></tr>
 <tr class="separator:a6d2dda21d66e18a8fc52a0504c5ea1bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41216283ac3474edd3f07e0d01c2869f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a41216283ac3474edd3f07e0d01c2869f"></a>
-std::unique_ptr&lt; <a class="el" href="class_hudget.html">Hudget</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_hudget</b></td></tr>
-<tr class="separator:a41216283ac3474edd3f07e0d01c2869f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a993f33ebc65699de9b1f2eb02e2c0772"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a993f33ebc65699de9b1f2eb02e2c0772"></a>
+<a class="el" href="class_object_hudget.html">ObjectHudget</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>m_hudget</b></td></tr>
+<tr class="separator:a993f33ebc65699de9b1f2eb02e2c0772"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/ui/hud/<a class="el" href="hudobjectdelegate_8h_source.html">hudobjectdelegate.h</a></li>
@@ -156,7 +158,7 @@ std::unique_ptr&lt; <a class="el" href="class_hudget.html">Hudget</a> &gt;&#160;
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_h_u_d_object_delegate.html">HUDObjectDelegate</a></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:22 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:56 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

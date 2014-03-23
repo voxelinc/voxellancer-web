@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_action_key_mapping.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -116,26 +117,27 @@ $(document).ready(function(){initNavTree('class_action_key_mapping.html','');});
 <div class="dynheader">
 Collaboration diagram for ActionKeyMapping:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_action_key_mapping__coll__graph.svg" width="295" height="326"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_action_key_mapping__coll__graph.svg" width="286" height="416"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a797fe43d6a3f3eeda54fbd03e5e23d0d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a797fe43d6a3f3eeda54fbd03e5e23d0d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>ActionKeyMapping</b> (std::string primary, std::string secondary, std::string name)</td></tr>
-<tr class="separator:a797fe43d6a3f3eeda54fbd03e5e23d0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4064330c8d00f70c6bf394d4d8f065b7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4064330c8d00f70c6bf394d4d8f065b7"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>ActionKeyMapping</b> (std::string primary, std::string secondary, std::string name, bool toggleAction)</td></tr>
-<tr class="separator:a4064330c8d00f70c6bf394d4d8f065b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c4109108fecd575d6e6bfa4e583496c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0c4109108fecd575d6e6bfa4e583496c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ActionKeyMapping</b> (std::string primary, std::string secondary, std::string name, bool toggleAction=false)</td></tr>
+<tr class="separator:a0c4109108fecd575d6e6bfa4e583496c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94529291b318c3379c62768b749b7970"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a94529291b318c3379c62768b749b7970"></a>
 <a class="el" href="class_input_mapping.html">InputMapping</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mapping</b> (InputClass inputClass)</td></tr>
 <tr class="separator:a94529291b318c3379c62768b749b7970"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0bc97332bba2d255f7630074d6cc987f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0bc97332bba2d255f7630074d6cc987f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setMapping</b> (<a class="el" href="class_input_mapping.html">InputMapping</a> mapping, InputClass inputClass)</td></tr>
 <tr class="separator:a0bc97332bba2d255f7630074d6cc987f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add1deb0ade7c024fa3e5d57d33dfce0a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="add1deb0ade7c024fa3e5d57d33dfce0a"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>name</b> ()</td></tr>
-<tr class="separator:add1deb0ade7c024fa3e5d57d33dfce0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40beb3e8893d09a42cf5549bee2adf4c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a40beb3e8893d09a42cf5549bee2adf4c"></a>
+const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>name</b> ()</td></tr>
+<tr class="separator:a40beb3e8893d09a42cf5549bee2adf4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a833ae754093c6f645c1225da40fbe5d7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a833ae754093c6f645c1225da40fbe5d7"></a>
+const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>mappingName</b> (InputClass inputClass)</td></tr>
+<tr class="separator:a833ae754093c6f645c1225da40fbe5d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0021f47ca9ecf36b1545ce9a6ef03a4a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0021f47ca9ecf36b1545ce9a6ef03a4a"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>toggleAction</b> ()</td></tr>
 <tr class="separator:a0021f47ca9ecf36b1545ce9a6ef03a4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -174,7 +176,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>m_name</b></td
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_action_key_mapping.html">ActionKeyMapping</a></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:19 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:53 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

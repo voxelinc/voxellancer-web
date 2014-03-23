@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_script.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -107,6 +108,7 @@ $(document).ready(function(){initNavTree('class_script.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_script-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -116,36 +118,51 @@ $(document).ready(function(){initNavTree('class_script.html','');});
 <div class="dynheader">
 Inheritance diagram for Script:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_script__inherit__graph.svg" width="128" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_script__inherit__graph.svg" width="128" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for Script:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_script__coll__graph.svg" width="340" height="235"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_script__coll__graph.svg" width="100%" height="415"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:af08b4b3c84c671efcac292513295f16a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af08b4b3c84c671efcac292513295f16a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>start</b> ()</td></tr>
+<tr class="separator:af08b4b3c84c671efcac292513295f16a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7392fad62c9d1b94c63a1b74fa6794c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac7392fad62c9d1b94c63a1b74fa6794c"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>started</b> () const </td></tr>
 <tr class="separator:ac7392fad62c9d1b94c63a1b74fa6794c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d67373d205f88dace302f54a340027a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2d67373d205f88dace302f54a340027a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>stop</b> ()</td></tr>
+<tr class="separator:a2d67373d205f88dace302f54a340027a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae73686ee86d750615aaeef087480a117"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae73686ee86d750615aaeef087480a117"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>stopped</b> () const </td></tr>
+<tr class="separator:ae73686ee86d750615aaeef087480a117"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae33d232f8b8129c058484dc10f590d4c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae33d232f8b8129c058484dc10f590d4c"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>load</b> (const std::string &amp;path)</td></tr>
 <tr class="separator:ae33d232f8b8129c058484dc10f590d4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40ac7932a1436633fd9a1c00656a58b9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a40ac7932a1436633fd9a1c00656a58b9"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>loadString</b> (const std::string &amp;script)</td></tr>
 <tr class="separator:a40ac7932a1436633fd9a1c00656a58b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af08b4b3c84c671efcac292513295f16a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af08b4b3c84c671efcac292513295f16a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>start</b> ()</td></tr>
-<tr class="separator:af08b4b3c84c671efcac292513295f16a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab38716685317d7d22233d6d9f74ee238"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab38716685317d7d22233d6d9f74ee238"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>update</b> (float deltaSec)</td></tr>
+<tr class="separator:ab38716685317d7d22233d6d9f74ee238"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a890a752938183494179ae21ba681ec4c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a890a752938183494179ae21ba681ec4c"></a>
 const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>debugStatus</b> ()</td></tr>
 <tr class="separator:a890a752938183494179ae21ba681ec4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e9f244b762759574a3848fae56cccb0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0e9f244b762759574a3848fae56cccb0"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>apiSetDebugStatus</b> (const std::string &amp;string)</td></tr>
 <tr class="separator:a0e9f244b762759574a3848fae56cccb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:aff22e5b8575d2864c1b2d9f703554a33"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aff22e5b8575d2864c1b2d9f703554a33"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>addBindings</b> (<a class="el" href="class_bindings.html">Bindings</a> *bindings)</td></tr>
+<tr class="separator:aff22e5b8575d2864c1b2d9f703554a33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -155,9 +172,16 @@ std::unique_ptr&lt; <a class="el" href="class_lua_wrapper.html">LuaWrapper</a> &
 <tr class="memitem:ac7c6aa27d4fd17591cea1a377af84ab4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac7c6aa27d4fd17591cea1a377af84ab4"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_started</b></td></tr>
 <tr class="separator:ac7c6aa27d4fd17591cea1a377af84ab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6f779a5f1b7269aa484aa8d33fad118"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac6f779a5f1b7269aa484aa8d33fad118"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_stopped</b></td></tr>
+<tr class="separator:ac6f779a5f1b7269aa484aa8d33fad118"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a523e3645d9da90e5839688cbf5969aee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a523e3645d9da90e5839688cbf5969aee"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>m_debugStatus</b></td></tr>
 <tr class="separator:a523e3645d9da90e5839688cbf5969aee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a1a0882faeda7ef3cc8d2c80c16e36c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6a1a0882faeda7ef3cc8d2c80c16e36c"></a>
+std::vector&lt; std::unique_ptr<br class="typebreak"/>
+&lt; <a class="el" href="class_bindings.html">Bindings</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_bindings</b></td></tr>
+<tr class="separator:a6a1a0882faeda7ef3cc8d2c80c16e36c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/scripting/<a class="el" href="script_8h_source.html">script.h</a></li>
@@ -169,7 +193,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>m_debugStatus<
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_script.html">Script</a></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:23 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:58 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

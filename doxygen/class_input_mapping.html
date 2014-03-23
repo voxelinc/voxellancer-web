@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_input_mapping.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -118,18 +119,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2663f4753fbb59b0dea713122017e8c0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2663f4753fbb59b0dea713122017e8c0"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>InputMapping</b> (InputType type, int index, float maxValue, float idleValue)</td></tr>
 <tr class="separator:a2663f4753fbb59b0dea713122017e8c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a642c1274d7b51b2350ce983619ef311f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a642c1274d7b51b2350ce983619ef311f"></a>
-InputType&#160;</td><td class="memItemRight" valign="bottom"><b>type</b> ()</td></tr>
-<tr class="separator:a642c1274d7b51b2350ce983619ef311f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af40593f3f894bc1b79c7e8523e9d3770"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af40593f3f894bc1b79c7e8523e9d3770"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>index</b> ()</td></tr>
-<tr class="separator:af40593f3f894bc1b79c7e8523e9d3770"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6933de5869becd07eb8dbde2b37f3e7a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6933de5869becd07eb8dbde2b37f3e7a"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>maxValue</b> ()</td></tr>
-<tr class="separator:a6933de5869becd07eb8dbde2b37f3e7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6be93339bdb7a54ee42085a53cdc8001"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6be93339bdb7a54ee42085a53cdc8001"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>idleValue</b> ()</td></tr>
-<tr class="separator:a6be93339bdb7a54ee42085a53cdc8001"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d046c3c67d17e7e693be0087248e6e9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1d046c3c67d17e7e693be0087248e6e9"></a>
+InputType&#160;</td><td class="memItemRight" valign="bottom"><b>type</b> () const </td></tr>
+<tr class="separator:a1d046c3c67d17e7e693be0087248e6e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e527b3cbb888eef603300e54f0d24df"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4e527b3cbb888eef603300e54f0d24df"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>index</b> () const </td></tr>
+<tr class="separator:a4e527b3cbb888eef603300e54f0d24df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a877eaf10768f06c6fd750709a1325e26"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a877eaf10768f06c6fd750709a1325e26"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>maxValue</b> () const </td></tr>
+<tr class="separator:a877eaf10768f06c6fd750709a1325e26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fbd505e104f1b158ec77986345d55ae"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1fbd505e104f1b158ec77986345d55ae"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>idleValue</b> () const </td></tr>
+<tr class="separator:a1fbd505e104f1b158ec77986345d55ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/input/<a class="el" href="inputmapping_8h_source.html">inputmapping.h</a></li>
@@ -141,7 +142,7 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>idleValue</b> ()</td
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_input_mapping.html">InputMapping</a></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:22 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:56 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

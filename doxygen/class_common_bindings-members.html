@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_common_bindings.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -114,22 +115,23 @@ $(document).ready(function(){initNavTree('class_common_bindings.html','');});
 <table class="directory">
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>apiCreateLoopingTimer</b>(const std::string &amp;callback, float delta) (defined in <a class="el" href="class_common_bindings.html">CommonBindings</a>)</td><td class="entry"><a class="el" href="class_common_bindings.html">CommonBindings</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>apiCreateSingleShotTimer</b>(const std::string &amp;callback, float delta) (defined in <a class="el" href="class_common_bindings.html">CommonBindings</a>)</td><td class="entry"><a class="el" href="class_common_bindings.html">CommonBindings</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>apiIsKeyValid</b>(apikey key) (defined in <a class="el" href="class_common_bindings.html">CommonBindings</a>)</td><td class="entry"><a class="el" href="class_common_bindings.html">CommonBindings</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>apiOnAABBEntered</b>(apikey worldObject, const glm::vec3 &amp;llf, const glm::vec3 &amp;urb, const std::string &amp;callback) (defined in <a class="el" href="class_common_bindings.html">CommonBindings</a>)</td><td class="entry"><a class="el" href="class_common_bindings.html">CommonBindings</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>apiSetEventActive</b>(apikey eventPoll, bool active) (defined in <a class="el" href="class_common_bindings.html">CommonBindings</a>)</td><td class="entry"><a class="el" href="class_common_bindings.html">CommonBindings</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>apiShowText</b>(const std::string &amp;string) (defined in <a class="el" href="class_common_bindings.html">CommonBindings</a>)</td><td class="entry"><a class="el" href="class_common_bindings.html">CommonBindings</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>apiShowTextFor</b>(const std::string &amp;string, int seconds) (defined in <a class="el" href="class_common_bindings.html">CommonBindings</a>)</td><td class="entry"><a class="el" href="class_common_bindings.html">CommonBindings</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>Bindings</b>(GamePlayScript &amp;gamePlayScript) (defined in <a class="el" href="class_bindings.html">Bindings</a>)</td><td class="entry"><a class="el" href="class_bindings.html">Bindings</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>CommonBindings</b>(GamePlayScript &amp;script) (defined in <a class="el" href="class_common_bindings.html">CommonBindings</a>)</td><td class="entry"><a class="el" href="class_common_bindings.html">CommonBindings</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>initialize</b>() (defined in <a class="el" href="class_common_bindings.html">CommonBindings</a>)</td><td class="entry"><a class="el" href="class_common_bindings.html">CommonBindings</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">virtual</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>apiPlayVoice</b>(const std::string &amp;soundFile) (defined in <a class="el" href="class_common_bindings.html">CommonBindings</a>)</td><td class="entry"><a class="el" href="class_common_bindings.html">CommonBindings</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>apiSetEventActive</b>(apikey eventPoll, bool active) (defined in <a class="el" href="class_common_bindings.html">CommonBindings</a>)</td><td class="entry"><a class="el" href="class_common_bindings.html">CommonBindings</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>apiShowText</b>(const std::string &amp;string) (defined in <a class="el" href="class_common_bindings.html">CommonBindings</a>)</td><td class="entry"><a class="el" href="class_common_bindings.html">CommonBindings</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>apiShowTextFor</b>(const std::string &amp;string, int seconds) (defined in <a class="el" href="class_common_bindings.html">CommonBindings</a>)</td><td class="entry"><a class="el" href="class_common_bindings.html">CommonBindings</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>apiValid</b>(apikey key) (defined in <a class="el" href="class_common_bindings.html">CommonBindings</a>)</td><td class="entry"><a class="el" href="class_common_bindings.html">CommonBindings</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>bind</b>() override (defined in <a class="el" href="class_common_bindings.html">CommonBindings</a>)</td><td class="entry"><a class="el" href="class_common_bindings.html">CommonBindings</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">virtual</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>Bindings</b>(GamePlayScript &amp;gamePlayScript) (defined in <a class="el" href="class_bindings.html">Bindings</a>)</td><td class="entry"><a class="el" href="class_bindings.html">Bindings</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>CommonBindings</b>(GamePlayScript &amp;script) (defined in <a class="el" href="class_common_bindings.html">CommonBindings</a>)</td><td class="entry"><a class="el" href="class_common_bindings.html">CommonBindings</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>m_lua</b> (defined in <a class="el" href="class_bindings.html">Bindings</a>)</td><td class="entry"><a class="el" href="class_bindings.html">Bindings</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>m_scriptEngine</b> (defined in <a class="el" href="class_bindings.html">Bindings</a>)</td><td class="entry"><a class="el" href="class_bindings.html">Bindings</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>m_script</b> (defined in <a class="el" href="class_bindings.html">Bindings</a>)</td><td class="entry"><a class="el" href="class_bindings.html">Bindings</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>m_scriptEngine</b> (defined in <a class="el" href="class_bindings.html">Bindings</a>)</td><td class="entry"><a class="el" href="class_bindings.html">Bindings</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:20 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:54 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

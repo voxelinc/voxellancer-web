@@ -1,5 +1,7 @@
 <map id="Bindings" name="Bindings">
-<area shape="rect" id="node2" href="$class_lua_wrapper.html" title="LuaWrapper" alt="" coords="391,71,483,97"/>
-<area shape="rect" id="node6" href="$class_script_engine.html" title="ScriptEngine" alt="" coords="389,192,485,219"/>
-<area shape="rect" id="node9" href="$class_world.html" title="World" alt="" coords="103,292,159,319"/>
+<area shape="rect" id="node2" href="$class_lua_wrapper.html" title="LuaWrapper" alt="" coords="722,71,814,97"/>
+<area shape="rect" id="node6" href="$class_script_engine.html" title="ScriptEngine" alt="" coords="392,247,488,273"/>
+<area shape="rect" id="node10" href="$class_game_play_script.html" title="GamePlayScript" alt="" coords="709,171,827,197"/>
+<area shape="rect" id="node9" href="$class_world.html" title="World" alt="" coords="65,344,121,371"/>
+<area shape="rect" id="node11" href="$class_script.html" title="Script" alt="" coords="412,121,468,148"/>
 </map>

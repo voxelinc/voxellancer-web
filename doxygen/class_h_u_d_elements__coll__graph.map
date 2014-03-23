@@ -1,0 +1,8 @@
+<map id="HUDElements" name="HUDElements">
+<area shape="rect" id="node4" href="$class_hudget_animation.html" title="HudgetAnimation" alt="" coords="458,99,579,125"/>
+<area shape="rect" id="node7" href="$class_hudget_hide_animation.html" title="HudgetHideAnimation" alt="" coords="968,36,1115,63"/>
+<area shape="rect" id="node5" href="$class_hudget.html" title="Hudget" alt="" coords="205,157,267,184"/>
+<area shape="rect" id="node8" href="$class_text_field_hudget.html" title="TextFieldHudget" alt="" coords="461,293,577,320"/>
+<area shape="rect" id="node6" href="$class_h_u_d.html" title="HUD" alt="" coords="6,195,55,221"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="196,283,276,309"/>
+</map>

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['d',['D',['../class_d.html',1,'']]],
   ['damageforwarder',['DamageForwarder',['../class_damage_forwarder.html',1,'']]],
   ['damageimpact',['DamageImpact',['../class_damage_impact.html',1,'']]],
   ['damageimpactgenerator',['DamageImpactGenerator',['../class_damage_impact_generator.html',1,'']]],

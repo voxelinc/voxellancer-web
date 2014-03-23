@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -95,7 +96,7 @@ $(document).ready(function(){initNavTree('class_game_play.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -150,9 +151,6 @@ virtual const <a class="el" href="class_scene.html">Scene</a> &amp;&#160;</td><t
 <tr class="memitem:a7ef84632eb5d57ed2bb98c8c3ecb0a7d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7ef84632eb5d57ed2bb98c8c3ecb0a7d"></a>
 virtual const <a class="el" href="class_camera_head.html">CameraHead</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>cameraHead</b> () const override</td></tr>
 <tr class="separator:a7ef84632eb5d57ed2bb98c8c3ecb0a7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1558fbc6b2f8dd90033305d81771bb3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab1558fbc6b2f8dd90033305d81771bb3"></a>
-<a class="el" href="class_player.html">Player</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>player</b> ()</td></tr>
-<tr class="separator:ab1558fbc6b2f8dd90033305d81771bb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea34c61c336c6399da60724e25643315"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea34c61c336c6399da60724e25643315"></a>
 <a class="el" href="class_sound_manager.html">SoundManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>soundManager</b> ()</td></tr>
 <tr class="separator:aea34c61c336c6399da60724e25643315"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -251,9 +249,6 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ab97339c27cdf726d0c89732f2d861e58"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab97339c27cdf726d0c89732f2d861e58"></a>
 <a class="el" href="class_game.html">Game</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>m_game</b></td></tr>
 <tr class="separator:ab97339c27cdf726d0c89732f2d861e58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba4245bdbcaefac7ee01e0492b5385c9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aba4245bdbcaefac7ee01e0492b5385c9"></a>
-std::unique_ptr&lt; <a class="el" href="class_player.html">Player</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_player</b></td></tr>
-<tr class="separator:aba4245bdbcaefac7ee01e0492b5385c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44bdeb45533c826a4ac139ecaba20e7e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a44bdeb45533c826a4ac139ecaba20e7e"></a>
 std::unique_ptr&lt; <a class="el" href="class_game_play_scene.html">GamePlayScene</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_scene</b></td></tr>
 <tr class="separator:a44bdeb45533c826a4ac139ecaba20e7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -399,7 +394,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>leave</b> ()</td></tr
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_game_play.html">GamePlay</a></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:21 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:55 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

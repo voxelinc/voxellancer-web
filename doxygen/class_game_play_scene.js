@@ -1,6 +1,6 @@
 var class_game_play_scene =
 [
-    [ "GamePlayScene", "class_game_play_scene.html#afec34a2d7f095575f064ef00d664bc75", null ],
+    [ "GamePlayScene", "class_game_play_scene.html#a6980737bee636de8335b46132107cf9e", null ],
     [ "~GamePlayScene", "class_game_play_scene.html#a417d405f34bb176fbe6d92ebef7adbdc", null ],
     [ "draw", "class_game_play_scene.html#aea376780ff7047c63c29c6cac355f44a", null ],
     [ "drawGame", "class_game_play_scene.html#a0097659ba689dfb98e5fc54edff69615", null ],
@@ -11,7 +11,6 @@ var class_game_play_scene =
     [ "m_framebuffer", "class_game_play_scene.html#ad720212a0b133f06052027ce803f774f", null ],
     [ "m_gamePlay", "class_game_play_scene.html#a6d2ed04e503d252091a073fac8fbdfcc", null ],
     [ "m_outputBlitter", "class_game_play_scene.html#a650e9fc736ee86b323444e8e2e658015", null ],
-    [ "m_player", "class_game_play_scene.html#a4d8d3242ef88ee2ea5c4333f47bb6028", null ],
     [ "m_renderPipeline", "class_game_play_scene.html#af0ab54441d20092c0ce6a08079c0761c", null ],
     [ "m_starField", "class_game_play_scene.html#af643861dc286156f03f05208a4b09135", null ],
     [ "m_voxelRenderer", "class_game_play_scene.html#a931733d8fa1c42ad372b8e781e360ac1", null ]

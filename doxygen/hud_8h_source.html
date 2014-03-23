@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -92,7 +93,7 @@ $(document).ready(function(){initNavTree('hud_8h_source.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -117,98 +118,107 @@ $(document).ready(function(){initNavTree('hud_8h_source.html','');});
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;geometry/sphere.h&quot;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;property/property.h&quot;</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;utils/handle/handle.h&quot;</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">enum class</span> ClickType {</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    None,</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    Selection</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;};</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">class </span><a class="code" href="class_player.html">Player</a>;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">class </span><a class="code" href="class_hudget.html">Hudget</a>;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">class </span><a class="code" href="class_world_object.html">WorldObject</a>;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">class </span><a class="code" href="class_h_u_d_object_delegate.html">HUDObjectDelegate</a>;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">class </span><a class="code" href="class_aim_helper_hudget.html">AimHelperHudget</a>;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">class </span><a class="code" href="class_viewer.html">Viewer</a>;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">class </span><a class="code" href="class_world_tree_scanner.html">WorldTreeScanner</a>;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">class </span><a class="code" href="class_cross_hair.html">CrossHair</a>;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">class </span><a class="code" href="class_text_field_hudget.html">TextFieldHudget</a>;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="class_h_u_d.html">   30</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_h_u_d.html">HUD</a> {</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="class_h_u_d.html">HUD</a>(<a class="code" href="class_player.html">Player</a>* player);</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    ~<a class="code" href="class_h_u_d.html">HUD</a>();</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="class_player.html">Player</a>* player();</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keyword">const</span> <a class="code" href="class_sphere.html">Sphere</a>&amp; sphere() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="class_cross_hair.html">CrossHair</a>&amp; crossHair();</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="class_aim_helper_hudget.html">AimHelperHudget</a>&amp; aimHelper();</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    glm::vec3 centerOfView() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    glm::vec3 position() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    glm::quat orientation() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;utils/handle/handle.h&quot;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">enum class</span> ClickType {</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    None,</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    Selection</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;};</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">class </span><a class="code" href="class_player.html">Player</a>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">class </span><a class="code" href="class_hudget.html">Hudget</a>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">class </span><a class="code" href="class_world_object.html">WorldObject</a>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">class </span><a class="code" href="class_h_u_d_elements.html">HUDElements</a>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">class </span><a class="code" href="class_h_u_d_object_delegate.html">HUDObjectDelegate</a>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">class </span><a class="code" href="class_hudget_animation.html">HudgetAnimation</a>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">class </span><a class="code" href="class_hudget_hide_animation.html">HudgetHideAnimation</a>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">class </span><a class="code" href="class_aim_helper_hudget.html">AimHelperHudget</a>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">class </span><a class="code" href="class_viewer.html">Viewer</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">class </span><a class="code" href="class_world_tree_scanner.html">WorldTreeScanner</a>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">class </span><a class="code" href="class_cross_hair.html">CrossHair</a>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">class </span><a class="code" href="class_text_field_hudget.html">TextFieldHudget</a>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="class_h_u_d.html">   34</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_h_u_d.html">HUD</a> {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="class_h_u_d.html">HUD</a>(<a class="code" href="class_player.html">Player</a>* player);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    ~<a class="code" href="class_h_u_d.html">HUD</a>();</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="class_player.html">Player</a>* player();</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">const</span> <a class="code" href="class_sphere.html">Sphere</a>&amp; sphere() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="class_cross_hair.html">CrossHair</a>&amp; crossHair();</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="class_aim_helper_hudget.html">AimHelperHudget</a>&amp; aimHelper();</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span> addHudget(<a class="code" href="class_hudget.html">Hudget</a>* hudget);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">void</span> removeHudget(<a class="code" href="class_hudget.html">Hudget</a>* hudget);</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">void</span> addObjectDelegate(<a class="code" href="class_h_u_d_object_delegate.html">HUDObjectDelegate</a>* objectDelegate);</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">void</span> removeObjectDelegate(<a class="code" href="class_h_u_d_object_delegate.html">HUDObjectDelegate</a>* objectDelegate);</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="class_h_u_d_object_delegate.html">HUDObjectDelegate</a>* objectDelegate(<a class="code" href="class_world_object.html">WorldObject</a>* worldObject);</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">void</span> setCrossHairOffset(<span class="keyword">const</span> glm::vec2&amp; mousePosition);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    glm::vec3 centerOfView() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    glm::vec3 position() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    glm::quat orientation() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">void</span> addHudget(<a class="code" href="class_hudget.html">Hudget</a>* hudget);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">void</span> removeHudget(<a class="code" href="class_hudget.html">Hudget</a>* hudget);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">void</span> addObjectDelegate(<a class="code" href="class_h_u_d_object_delegate.html">HUDObjectDelegate</a>* objectDelegate);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">void</span> removeObjectDelegate(<a class="code" href="class_h_u_d_object_delegate.html">HUDObjectDelegate</a>* objectDelegate);</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">void</span> setTarget(<a class="code" href="class_world_object.html">WorldObject</a>* target);</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <a class="code" href="class_world_object.html">WorldObject</a>* target();</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <a class="code" href="class_h_u_d_object_delegate.html">HUDObjectDelegate</a>* objectDelegate(<a class="code" href="class_world_object.html">WorldObject</a>* worldObject);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">void</span> setCrossHairOffset(<span class="keyword">const</span> glm::vec2&amp; mousePosition);</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">void</span> onClick(ClickType clickType);</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">void</span> update(<span class="keywordtype">float</span> deltaSec);</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">void</span> draw();</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">void</span> setTarget(<a class="code" href="class_world_object.html">WorldObject</a>* target);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <a class="code" href="class_world_object.html">WorldObject</a>* target();</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">void</span> onClick(ClickType clickType);</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    glm::vec3 applyTo(<span class="keyword">const</span> glm::vec3 &amp;vertex) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    </div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <a class="code" href="class_viewer.html">Viewer</a>* viewer() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">void</span> setViewer(<a class="code" href="class_viewer.html">Viewer</a>&amp; viewer);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">void</span> update(<span class="keywordtype">float</span> deltaSec);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">void</span> draw();</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    glm::vec3 applyTo(<span class="keyword">const</span> glm::vec3 &amp;vertex) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordtype">float</span> fovy() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">float</span> fovx() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <a class="code" href="class_player.html">Player</a>* m_player;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <a class="code" href="class_viewer.html">Viewer</a>* m_viewer;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <a class="code" href="class_sphere.html">Sphere</a> m_sphere;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <a class="code" href="class_handle.html">Handle&lt;WorldObject&gt;</a> m_target;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordtype">float</span> m_fovy, m_fovx;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    std::unique_ptr&lt;AimHelperHudget&gt; m_aimHelper;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    std::unique_ptr&lt;CrossHair&gt; m_crossHair;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    std::unique_ptr&lt;WorldTreeScanner&gt; m_scanner;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    std::unique_ptr&lt;TextFieldHudget&gt; m_speedLabel;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    std::unique_ptr&lt;TextFieldHudget&gt; m_targetName;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordtype">void</span> showMissionInfo(<span class="keyword">const</span> std::string&amp; title, <span class="keyword">const</span> std::string&amp; caption);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordtype">void</span> showMissionMessage(<span class="keyword">const</span> std::string&amp; message);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="code" href="class_player.html">Player</a>* m_player;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <a class="code" href="class_viewer.html">Viewer</a>* m_viewer;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <a class="code" href="class_sphere.html">Sphere</a> m_sphere;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <a class="code" href="class_handle.html">Handle&lt;WorldObject&gt;</a> m_target;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <a class="code" href="class_property.html">Property&lt;bool&gt;</a> m_drawHud;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordtype">float</span> m_fovy;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordtype">float</span> m_fovx;</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    std::list&lt;Hudget*&gt; m_hudgets;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    std::map&lt;WorldObject*, HUDObjectDelegate*&gt; m_objectDelegates;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordtype">void</span> updateScanner(<span class="keywordtype">float</span> deltaSec);</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordtype">void</span> updateFov();</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;};</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <a class="code" href="class_cross_hair.html">CrossHair</a>* m_crossHair;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <a class="code" href="class_aim_helper_hudget.html">AimHelperHudget</a>* m_aimHelper;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    std::unique_ptr&lt;WorldTreeScanner&gt; m_scanner;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    std::unique_ptr&lt;HUDElements&gt; m_elements;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    std::map&lt;WorldObject*, HUDObjectDelegate*&gt; m_objectDelegates;</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordtype">void</span> updateScanner(<span class="keywordtype">float</span> deltaSec);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordtype">void</span> updateFov();</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;};</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
 <div class="ttc" id="class_hudget_html"><div class="ttname"><a href="class_hudget.html">Hudget</a></div><div class="ttdef"><b>Definition:</b> hudget.h:15</div></div>
 <div class="ttc" id="class_world_object_html"><div class="ttname"><a href="class_world_object.html">WorldObject</a></div><div class="ttdef"><b>Definition:</b> worldobject.h:38</div></div>
 <div class="ttc" id="class_aim_helper_hudget_html"><div class="ttname"><a href="class_aim_helper_hudget.html">AimHelperHudget</a></div><div class="ttdef"><b>Definition:</b> aimhelperhudget.h:21</div></div>
+<div class="ttc" id="class_hudget_hide_animation_html"><div class="ttname"><a href="class_hudget_hide_animation.html">HudgetHideAnimation</a></div><div class="ttdef"><b>Definition:</b> hudgethideanimation.h:8</div></div>
 <div class="ttc" id="class_h_u_d_object_delegate_html"><div class="ttname"><a href="class_h_u_d_object_delegate.html">HUDObjectDelegate</a></div><div class="ttdef"><b>Definition:</b> hudobjectdelegate.h:15</div></div>
 <div class="ttc" id="class_handle_html"><div class="ttname"><a href="class_handle.html">Handle&lt; WorldObject &gt;</a></div></div>
-<div class="ttc" id="class_h_u_d_html"><div class="ttname"><a href="class_h_u_d.html">HUD</a></div><div class="ttdef"><b>Definition:</b> hud.h:30</div></div>
+<div class="ttc" id="class_hudget_animation_html"><div class="ttname"><a href="class_hudget_animation.html">HudgetAnimation</a></div><div class="ttdef"><b>Definition:</b> hudgetanimation.h:9</div></div>
+<div class="ttc" id="class_h_u_d_html"><div class="ttname"><a href="class_h_u_d.html">HUD</a></div><div class="ttdef"><b>Definition:</b> hud.h:34</div></div>
 <div class="ttc" id="class_cross_hair_html"><div class="ttname"><a href="class_cross_hair.html">CrossHair</a></div><div class="ttdef"><b>Definition:</b> crosshair.h:14</div></div>
+<div class="ttc" id="class_property_html"><div class="ttname"><a href="class_property.html">Property&lt; bool &gt;</a></div></div>
 <div class="ttc" id="class_world_tree_scanner_html"><div class="ttname"><a href="class_world_tree_scanner.html">WorldTreeScanner</a></div><div class="ttdef"><b>Definition:</b> worldtreescanner.h:11</div></div>
 <div class="ttc" id="class_sphere_html"><div class="ttname"><a href="class_sphere.html">Sphere</a></div><div class="ttdef"><b>Definition:</b> sphere.h:11</div></div>
-<div class="ttc" id="class_player_html"><div class="ttname"><a href="class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> player.h:20</div></div>
+<div class="ttc" id="class_player_html"><div class="ttname"><a href="class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> player.h:22</div></div>
+<div class="ttc" id="class_h_u_d_elements_html"><div class="ttname"><a href="class_h_u_d_elements.html">HUDElements</a></div><div class="ttdef"><b>Definition:</b> hudelements.h:18</div></div>
 <div class="ttc" id="class_viewer_html"><div class="ttname"><a href="class_viewer.html">Viewer</a></div><div class="ttdef"><b>Definition:</b> viewer.h:12</div></div>
 <div class="ttc" id="class_text_field_hudget_html"><div class="ttname"><a href="class_text_field_hudget.html">TextFieldHudget</a></div><div class="ttdef"><b>Definition:</b> textfieldhudget.h:12</div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -217,7 +227,7 @@ $(document).ready(function(){initNavTree('hud_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_da5c6b39c0a2f54e57df6799511cd3ab.html">ui</a></li><li class="navelem"><a class="el" href="dir_25e9d68b73ae392458eda5ed543651fa.html">hud</a></li><li class="navelem"><b>hud.h</b></li>
-    <li class="footer">Generated on Sun Mar 16 2014 23:43:18 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 23 2014 17:58:52 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
