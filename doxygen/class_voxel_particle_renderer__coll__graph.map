@@ -1,7 +1,7 @@
 <map id="VoxelParticleRenderer" name="VoxelParticleRenderer">
-<area shape="rect" id="node2" href="$class_context_dependant.html" title="ContextDependant" alt="" coords="6,204,135,231"/>
-<area shape="rect" id="node9" href="$class_voxel_mesh.html" title="VoxelMesh" alt="" coords="211,233,298,260"/>
-<area shape="rect" id="node3" href="$class_voxel_particle_engine.html" title="VoxelParticleEngine" alt="" coords="1400,129,1539,156"/>
-<area shape="rect" id="node10" href="$class_property.html" title="Property\&lt; glm::vec3 \&gt;" alt="" coords="442,288,593,315"/>
-<area shape="rect" id="node11" href="$class_property_impl.html" title="PropertyImpl\&lt; glm::\lvec3 \&gt;" alt="" coords="187,285,323,326"/>
+<area shape="rect" id="node2" href="$class_context_dependant.html" title="ContextDependant" alt="" coords="6,44,135,71"/>
+<area shape="rect" id="node3" href="$class_voxel_particle_engine.html" title="VoxelParticleEngine" alt="" coords="1400,143,1539,169"/>
+<area shape="rect" id="node9" href="$class_voxel_mesh.html" title="VoxelMesh" alt="" coords="211,161,298,188"/>
+<area shape="rect" id="node10" href="$class_property.html" title="Property\&lt; glm::vec3 \&gt;" alt="" coords="442,103,593,129"/>
+<area shape="rect" id="node11" href="$class_property_impl.html" title="PropertyImpl\&lt; glm::\lvec3 \&gt;" alt="" coords="187,95,323,137"/>
 </map>

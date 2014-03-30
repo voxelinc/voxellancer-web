@@ -30,9 +30,9 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Voxellancer
-   &#160;<span id="projectnumber">0.2</span>
+   &#160;<span id="projectnumber">0.3</span>
    </div>
-   <div id="projectbrief">a game about voxels in space</div>
+   <div id="projectbrief">A game about voxels in space</div>
   </td>
  </tr>
  </tbody>
@@ -47,7 +47,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -96,7 +95,7 @@ $(document).ready(function(){initNavTree('class_damager.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -114,13 +113,15 @@ $(document).ready(function(){initNavTree('class_damager.html','');});
 <p>This is the complete list of members for <a class="el" href="class_damager.html">Damager</a>, including all inherited members.</p>
 <table class="directory">
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>applyDamages</b>(std::list&lt; DamageImpact &gt; &amp;damageImpacts) (defined in <a class="el" href="class_damager.html">Damager</a>)</td><td class="entry"><a class="el" href="class_damager.html">Damager</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>dampDamageImpact</b>(DamageImpact &amp;undamped, float factor) (defined in <a class="el" href="class_damager.html">Damager</a>)</td><td class="entry"><a class="el" href="class_damager.html">Damager</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>dampedDeadlyDamageImpacts</b>() (defined in <a class="el" href="class_damager.html">Damager</a>)</td><td class="entry"><a class="el" href="class_damager.html">Damager</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>deadlyDamageImpacts</b>() (defined in <a class="el" href="class_damager.html">Damager</a>)</td><td class="entry"><a class="el" href="class_damager.html">Damager</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>deadVoxels</b>() (defined in <a class="el" href="class_damager.html">Damager</a>)</td><td class="entry"><a class="el" href="class_damager.html">Damager</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>m_dampedDeadlyDamageImpacts</b> (defined in <a class="el" href="class_damager.html">Damager</a>)</td><td class="entry"><a class="el" href="class_damager.html">Damager</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>m_deadlyDamageImpacts</b> (defined in <a class="el" href="class_damager.html">Damager</a>)</td><td class="entry"><a class="el" href="class_damager.html">Damager</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>m_deadVoxels</b> (defined in <a class="el" href="class_damager.html">Damager</a>)</td><td class="entry"><a class="el" href="class_damager.html">Damager</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>Damager</b>() (defined in <a class="el" href="class_damager.html">Damager</a>)</td><td class="entry"><a class="el" href="class_damager.html">Damager</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>dampDamageImpact</b>(DamageImpact &amp;undamped, float factor) (defined in <a class="el" href="class_damager.html">Damager</a>)</td><td class="entry"><a class="el" href="class_damager.html">Damager</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>dampedDeadlyDamageImpacts</b>() (defined in <a class="el" href="class_damager.html">Damager</a>)</td><td class="entry"><a class="el" href="class_damager.html">Damager</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>deadlyDamageImpacts</b>() (defined in <a class="el" href="class_damager.html">Damager</a>)</td><td class="entry"><a class="el" href="class_damager.html">Damager</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>deadVoxels</b>() (defined in <a class="el" href="class_damager.html">Damager</a>)</td><td class="entry"><a class="el" href="class_damager.html">Damager</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>m_dampedDeadlyDamageImpacts</b> (defined in <a class="el" href="class_damager.html">Damager</a>)</td><td class="entry"><a class="el" href="class_damager.html">Damager</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>m_deadlyDamageImpacts</b> (defined in <a class="el" href="class_damager.html">Damager</a>)</td><td class="entry"><a class="el" href="class_damager.html">Damager</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>m_deadVoxels</b> (defined in <a class="el" href="class_damager.html">Damager</a>)</td><td class="entry"><a class="el" href="class_damager.html">Damager</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>m_playerShipUndestroyable</b> (defined in <a class="el" href="class_damager.html">Damager</a>)</td><td class="entry"><a class="el" href="class_damager.html">Damager</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>m_worldObjectModificationMap</b> (defined in <a class="el" href="class_damager.html">Damager</a>)</td><td class="entry"><a class="el" href="class_damager.html">Damager</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>m_worldObjectModifications</b> (defined in <a class="el" href="class_damager.html">Damager</a>)</td><td class="entry"><a class="el" href="class_damager.html">Damager</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>reset</b>() (defined in <a class="el" href="class_damager.html">Damager</a>)</td><td class="entry"><a class="el" href="class_damager.html">Damager</a></td><td class="entry"></td></tr>
@@ -130,7 +131,7 @@ $(document).ready(function(){initNavTree('class_damager.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Mar 23 2014 17:58:54 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 30 2014 13:32:34 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

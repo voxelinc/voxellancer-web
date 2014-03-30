@@ -1,5 +1,6 @@
 var class_damager =
 [
+    [ "Damager", "class_damager.html#ab55b02e1c7acf254bbe16ebd40428c06", null ],
     [ "applyDamages", "class_damager.html#a13b0f7706ae2626bba9be9a1de8ac804", null ],
     [ "dampDamageImpact", "class_damager.html#a43810762b176e5da89067f2e90d076d1", null ],
     [ "dampedDeadlyDamageImpacts", "class_damager.html#aee53a5870f1b5cf9a93d4a5d843e3c14", null ],
@@ -10,6 +11,7 @@ var class_damager =
     [ "m_dampedDeadlyDamageImpacts", "class_damager.html#a53060e7e422eeb3f602c9d080929b81b", null ],
     [ "m_deadlyDamageImpacts", "class_damager.html#a17822eb5915ddea67eeb1819ce325785", null ],
     [ "m_deadVoxels", "class_damager.html#a0a8d8c82911bf0d8bb45c29dd2765a2a", null ],
+    [ "m_playerShipUndestroyable", "class_damager.html#a248c0e1278c260b3fe0ec6f3a2ac846d", null ],
     [ "m_worldObjectModificationMap", "class_damager.html#a8dd8fd6b8a1160838fa837a0bea0dab2", null ],
     [ "m_worldObjectModifications", "class_damager.html#a15547abb57c6647e9694f95ce5e3ed96", null ]
 ];

@@ -1,5 +1,6 @@
 <map id="VoxelParticleEngine" name="VoxelParticleEngine">
-<area shape="rect" id="node6" href="$class_voxel_particle_renderer.html" title="VoxelParticleRenderer" alt="" coords="915,5,1066,32"/>
-<area shape="rect" id="node8" href="$class_voxel_particle_remover.html" title="VoxelParticleRemover" alt="" coords="916,181,1065,208"/>
-<area shape="rect" id="node4" href="$struct_voxel_particle_data.html" title="VoxelParticleData" alt="" coords="6,121,133,148"/>
+<area shape="rect" id="node7" href="$class_voxel_particle_renderer.html" title="VoxelParticleRenderer" alt="" coords="915,27,1066,53"/>
+<area shape="rect" id="node9" href="$class_voxel_particle_remover.html" title="VoxelParticleRemover" alt="" coords="916,203,1065,229"/>
+<area shape="rect" id="node2" href="$class_context_dependant.html" title="ContextDependant" alt="" coords="261,5,390,32"/>
+<area shape="rect" id="node5" href="$struct_voxel_particle_data.html" title="VoxelParticleData" alt="" coords="6,68,133,95"/>
 </map>

@@ -20,6 +20,7 @@ var class_h_u_d =
     [ "removeObjectDelegate", "class_h_u_d.html#ac9ae97f34c6918aadebd8b9ed20bd6a3", null ],
     [ "setCrossHairOffset", "class_h_u_d.html#a280e242ca032f87e8bbb9523bd2db607", null ],
     [ "setTarget", "class_h_u_d.html#ac659b3061a62dcab6be28f7b67f24209", null ],
+    [ "showMessage", "class_h_u_d.html#a0d5407228531f98bed18a9a5f2edd1b1", null ],
     [ "showMissionInfo", "class_h_u_d.html#a74f046edaa81fb630aaa25e4d0f9cef2", null ],
     [ "showMissionMessage", "class_h_u_d.html#ac4efd3f75206218cf559f3719317047f", null ],
     [ "sphere", "class_h_u_d.html#ae679f9fedc264574c921595745b94d8d", null ],

@@ -1,18 +1,19 @@
 <map id="WorldLogic" name="WorldLogic">
-<area shape="rect" id="node2" href="$class_wrecker.html" title="Wrecker" alt="" coords="865,355,935,381"/>
-<area shape="rect" id="node6" href="$class_splitter.html" title="Splitter" alt="" coords="869,253,931,280"/>
-<area shape="rect" id="node16" href="$class_voxel_collision_accumulator.html" title="VoxelCollisionAccumulator" alt="" coords="811,405,989,432"/>
-<area shape="rect" id="node26" href="$class_garbage_collector.html" title="GarbageCollector" alt="" coords="839,304,961,331"/>
-<area shape="rect" id="node4" href="$class_world_object.html" title="WorldObject" alt="" coords="46,449,141,476"/>
-<area shape="rect" id="node24" href="$class_damage_forwarder.html" title="DamageForwarder" alt="" coords="837,528,963,555"/>
-<area shape="rect" id="node5" href="$class_voxel_hangman.html" title="VoxelHangman" alt="" coords="845,203,955,229"/>
-<area shape="rect" id="node7" href="$class_split_detector.html" title="SplitDetector" alt="" coords="851,136,949,163"/>
-<area shape="rect" id="node11" href="$class_damager.html" title="Damager" alt="" coords="863,680,937,707"/>
-<area shape="rect" id="node25" href="$class_voxel_accumulator.html" title="VoxelAccumulator\&lt; Damage\lImpact \&gt;" alt="" coords="366,739,554,781"/>
-<area shape="rect" id="node18" href="$class_elastic_impulsor.html" title="ElasticImpulsor" alt="" coords="845,461,955,488"/>
-<area shape="rect" id="node19" href="$class_property.html" title="Property\&lt; float \&gt;" alt="" coords="401,457,519,484"/>
-<area shape="rect" id="node20" href="$class_elastic_impulse_generator.html" title="ElasticImpulseGenerator" alt="" coords="818,816,982,843"/>
-<area shape="rect" id="node22" href="$class_mover.html" title="Mover" alt="" coords="872,897,928,924"/>
-<area shape="rect" id="node40" href="$class_damage_impact_generator.html" title="DamageImpactGenerator" alt="" coords="817,751,983,777"/>
-<area shape="rect" id="node27" href="$class_world.html" title="World" alt="" coords="1749,523,1805,549"/>
+<area shape="rect" id="node2" href="$class_wrecker.html" title="Wrecker" alt="" coords="865,271,935,297"/>
+<area shape="rect" id="node6" href="$class_splitter.html" title="Splitter" alt="" coords="869,372,931,399"/>
+<area shape="rect" id="node17" href="$class_voxel_collision_accumulator.html" title="VoxelCollisionAccumulator" alt="" coords="811,321,989,348"/>
+<area shape="rect" id="node27" href="$class_garbage_collector.html" title="GarbageCollector" alt="" coords="839,423,961,449"/>
+<area shape="rect" id="node4" href="$class_world_object.html" title="WorldObject" alt="" coords="46,491,141,517"/>
+<area shape="rect" id="node25" href="$class_damage_forwarder.html" title="DamageForwarder" alt="" coords="837,543,963,569"/>
+<area shape="rect" id="node5" href="$class_voxel_hangman.html" title="VoxelHangman" alt="" coords="845,736,955,763"/>
+<area shape="rect" id="node7" href="$class_split_detector.html" title="SplitDetector" alt="" coords="851,959,949,985"/>
+<area shape="rect" id="node11" href="$class_damager.html" title="Damager" alt="" coords="863,685,937,712"/>
+<area shape="rect" id="node26" href="$class_voxel_accumulator.html" title="VoxelAccumulator\&lt; Damage\lImpact \&gt;" alt="" coords="366,493,554,534"/>
+<area shape="rect" id="node13" href="$class_property.html" title="Property\&lt; bool \&gt;" alt="" coords="401,621,519,648"/>
+<area shape="rect" id="node19" href="$class_elastic_impulsor.html" title="ElasticImpulsor" alt="" coords="845,220,955,247"/>
+<area shape="rect" id="node20" href="$class_property.html" title="Property\&lt; float \&gt;" alt="" coords="401,184,519,211"/>
+<area shape="rect" id="node21" href="$class_elastic_impulse_generator.html" title="ElasticImpulseGenerator" alt="" coords="818,169,982,196"/>
+<area shape="rect" id="node23" href="$class_mover.html" title="Mover" alt="" coords="872,119,928,145"/>
+<area shape="rect" id="node41" href="$class_damage_impact_generator.html" title="DamageImpactGenerator" alt="" coords="817,473,983,500"/>
+<area shape="rect" id="node28" href="$class_world.html" title="World" alt="" coords="1749,448,1805,475"/>
 </map>

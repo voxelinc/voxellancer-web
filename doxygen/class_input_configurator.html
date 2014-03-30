@@ -30,9 +30,9 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Voxellancer
-   &#160;<span id="projectnumber">0.2</span>
+   &#160;<span id="projectnumber">0.3</span>
    </div>
-   <div id="projectbrief">a game about voxels in space</div>
+   <div id="projectbrief">A game about voxels in space</div>
   </td>
  </tr>
  </tbody>
@@ -47,7 +47,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -96,7 +95,7 @@ $(document).ready(function(){initNavTree('class_input_configurator.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -134,12 +133,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setActions</b> (std::
 <tr class="memitem:a5184c9e7e5a44d79dca59a5f8f60d07c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5184c9e7e5a44d79dca59a5f8f60d07c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setSecondaryInputValues</b> (<a class="el" href="struct_secondary_input_values.html">SecondaryInputValues</a> *values)</td></tr>
 <tr class="separator:a5184c9e7e5a44d79dca59a5f8f60d07c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7745526fe7cc3df06eb28a229433656b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7745526fe7cc3df06eb28a229433656b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setLastInput</b> (<a class="el" href="class_input_mapping.html">InputMapping</a> lastInput, InputClass inputClass)</td></tr>
-<tr class="separator:a7745526fe7cc3df06eb28a229433656b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade83356a97b78c2351fa980d8ed3c636"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ade83356a97b78c2351fa980d8ed3c636"></a>
-<a class="el" href="class_input_mapping.html">InputMapping</a>&#160;</td><td class="memItemRight" valign="bottom"><b>lastInput</b> (InputClass inputClass)</td></tr>
-<tr class="separator:ade83356a97b78c2351fa980d8ed3c636"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a166a260646e6c4d4cf626ffe3e2ba452"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a166a260646e6c4d4cf626ffe3e2ba452"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setLastInput</b> (InputClass inputClass, <a class="el" href="class_input_mapping.html">InputMapping</a> lastInput)</td></tr>
+<tr class="separator:a166a260646e6c4d4cf626ffe3e2ba452"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1761cdcda8f2339c683f7a6a26fb32c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa1761cdcda8f2339c683f7a6a26fb32c"></a>
+const <a class="el" href="class_input_mapping.html">InputMapping</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>lastInput</b> (InputClass inputClass)</td></tr>
+<tr class="separator:aa1761cdcda8f2339c683f7a6a26fb32c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/ui/<a class="el" href="inputconfigurator_8h_source.html">inputconfigurator.h</a></li>
@@ -151,7 +150,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setLastInput</b> (<a 
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_input_configurator.html">InputConfigurator</a></li>
-    <li class="footer">Generated on Sun Mar 23 2014 17:58:56 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 30 2014 13:32:36 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

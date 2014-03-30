@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_voxel_particle_future_check.html" title="VoxelParticleFutureCheck" alt="" coords="5,5,179,32"/>
+<area shape="rect" id="node1" href="$class_voxel_particle_remove_check.html" title="VoxelParticleRemoveCheck" alt="" coords="6,35,189,61"/>
+<area shape="rect" id="node2" href="$class_voxel_particle_expire_check.html" title="VoxelParticleExpireCheck" alt="" coords="237,5,411,32"/>
+<area shape="rect" id="node3" href="$class_voxel_particle_intersection_check.html" title="VoxelParticleIntersection\lCheck" alt="" coords="241,57,407,98"/>
 </map>

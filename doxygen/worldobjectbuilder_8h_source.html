@@ -30,9 +30,9 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Voxellancer
-   &#160;<span id="projectnumber">0.2</span>
+   &#160;<span id="projectnumber">0.3</span>
    </div>
-   <div id="projectbrief">a game about voxels in space</div>
+   <div id="projectbrief">A game about voxels in space</div>
   </td>
  </tr>
  </tbody>
@@ -47,7 +47,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -93,7 +92,7 @@ $(document).ready(function(){initNavTree('worldobjectbuilder_8h_source.html','')
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -119,9 +118,6 @@ $(document).ready(function(){initNavTree('worldobjectbuilder_8h_source.html','')
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">class </span><a class="code" href="class_world_object.html">WorldObject</a>;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">class </span><a class="code" href="class_world_object_components.html">WorldObjectComponents</a>;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">    Sets up WorldObject by the settinsg provided by properties</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="class_world_object_builder.html">   16</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_world_object_builder.html">WorldObjectBuilder</a> {</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="class_world_object_builder.html">WorldObjectBuilder</a>(<span class="keyword">const</span> std::string&amp; name);</div>
@@ -154,20 +150,20 @@ $(document).ready(function(){initNavTree('worldobjectbuilder_8h_source.html','')
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span> equipSomehow(<a class="code" href="class_world_object.html">WorldObject</a>* worldObject);</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;};</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
-<div class="ttc" id="class_world_object_html"><div class="ttname"><a href="class_world_object.html">WorldObject</a></div><div class="ttdef"><b>Definition:</b> worldobject.h:38</div></div>
-<div class="ttc" id="class_voxel_cluster_html"><div class="ttname"><a href="class_voxel_cluster.html">VoxelCluster</a></div><div class="ttdef"><b>Definition:</b> voxelcluster.h:18</div></div>
+<div class="ttc" id="class_world_object_html"><div class="ttname"><a href="class_world_object.html">WorldObject</a></div><div class="ttdef"><b>Definition:</b> worldobject.h:43</div></div>
+<div class="ttc" id="class_voxel_cluster_html"><div class="ttname"><a href="class_voxel_cluster.html">VoxelCluster</a></div><div class="ttdef"><b>Definition:</b> voxelcluster.h:21</div></div>
 <div class="ttc" id="class_rocket_html"><div class="ttname"><a href="class_rocket.html">Rocket</a></div><div class="ttdef"><b>Definition:</b> rocket.h:22</div></div>
 <div class="ttc" id="class_world_object_builder_html"><div class="ttname"><a href="class_world_object_builder.html">WorldObjectBuilder</a></div><div class="ttdef"><b>Definition:</b> worldobjectbuilder.h:16</div></div>
 <div class="ttc" id="class_world_object_components_html"><div class="ttname"><a href="class_world_object_components.html">WorldObjectComponents</a></div><div class="ttdef"><b>Definition:</b> worldobjectcomponents.h:22</div></div>
 <div class="ttc" id="class_bullet_html"><div class="ttname"><a href="class_bullet.html">Bullet</a></div><div class="ttdef"><b>Definition:</b> bullet.h:12</div></div>
-<div class="ttc" id="class_ship_html"><div class="ttname"><a href="class_ship.html">Ship</a></div><div class="ttdef"><b>Definition:</b> ship.h:19</div></div>
+<div class="ttc" id="class_ship_html"><div class="ttname"><a href="class_ship.html">Ship</a></div><div class="ttdef"><b>Definition:</b> ship.h:23</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_b8641f383bb3a55bd12c64e8208632c3.html">resource</a></li><li class="navelem"><b>worldobjectbuilder.h</b></li>
-    <li class="footer">Generated on Sun Mar 23 2014 17:58:52 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 30 2014 13:32:31 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

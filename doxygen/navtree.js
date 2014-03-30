@@ -1,16 +1,9 @@
 var NAVTREE =
 [
   [ "Voxellancer", "index.html", [
-    [ "build instructions", "md_doc_buildinstructions.html", null ],
-    [ "How to play", "md_doc_howto.html", null ],
-    [ "Lua API bindings", "md_doc_luaapi.html", null ],
-    [ "Namespaces", null, [
-      [ "Namespace List", "namespaces.html", "namespaces" ],
-      [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Functions", "namespacemembers_func.html", null ]
-      ] ]
-    ] ],
+    [ "How to play", "md_doc_1_howto.html", null ],
+    [ "Lua API bindings", "md_doc_2_luaapi.html", null ],
+    [ "Build instructions", "md_doc_3_buildinstructions.html", null ],
     [ "Classes", null, [
       [ "Class List", "annotated.html", "annotated" ],
       [ "Class Index", "classes.html", null ],
@@ -30,18 +23,18 @@ var NAVTREEINDEX =
 [
 ".html",
 "class_camera.html#adc0fcd809689e2702d6eb72703e6f6d2",
-"class_default_render_pipeline.html#af12289586658661ff3b79bfaae5e3f7d",
-"class_game.html#a6d54497ce3a66f6dd45eacfdccc8d0bd",
-"class_h_m_d.html#aaee8bec0a80ee5ec152b373552333914",
-"class_internal_mission_bindings.html#a2bbb3ba3d06be8fb21ad4512caf05262",
-"class_physics.html#a6d4f163940bfed12cd96f56035afc755",
-"class_scripted_scenario.html",
-"class_state.html#ac53e6ae6bceae99bd731a9b8131c7b5f",
-"class_triggered_transition.html#ac90af4f4f0272d7992ff0fbbdacf39f4",
-"class_voxel_particle_renderer.html#a94d4e5d1732e27969f9bb1384cab3457",
-"class_world_object_bindings.html#aee95d98adbddded5036c2073da089451",
-"dir_ff517cd1175282955b4121bca7738c63.html",
-"voxelparticledata_8h_source.html"
+"class_default_render_pipeline.html#adf69507ab180b9fa02fdc4b0c00da56e",
+"class_game.html#a20acf04822ab64e2aacccff9bbd1021b",
+"class_h_m_d.html#a76aa8123f18ca250a523b15278635579",
+"class_input_mapping.html#a4e527b3cbb888eef603300e54f0d24df",
+"class_physics.html#a403e10a4e1342c8b208c9130551c5455",
+"class_scriptable.html#ae1dd9f99a986bb1f7c48cc9cd962186c",
+"class_state.html#abca7acf3d6872d625b52c37d0f75d20a",
+"class_triggered_transition.html",
+"class_voxel_particle_renderer.html#a61fa3c10777c731ae0a90e6cc297802d",
+"class_world_object_bindings.html#a36518cd9161741becfbfe9f9c633f344",
+"dir_b8f442819b2e1860b340bcd11145f31b.html",
+"voxelfontconstants_8h_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

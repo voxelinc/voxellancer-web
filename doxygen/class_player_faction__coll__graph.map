@@ -1,5 +1,0 @@
-<map id="PlayerFaction" name="PlayerFaction">
-<area shape="rect" id="node5" href="$class_faction_matrix.html" title="FactionMatrix" alt="" coords="259,5,360,32"/>
-<area shape="rect" id="node2" href="$class_faction.html" title="Faction" alt="" coords="507,56,573,83"/>
-<area shape="rect" id="node3" title="STL class. " alt="" coords="269,107,349,133"/>
-</map>

@@ -30,9 +30,9 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Voxellancer
-   &#160;<span id="projectnumber">0.2</span>
+   &#160;<span id="projectnumber">0.3</span>
    </div>
-   <div id="projectbrief">a game about voxels in space</div>
+   <div id="projectbrief">A game about voxels in space</div>
   </td>
  </tr>
  </tbody>
@@ -47,7 +47,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -93,7 +92,7 @@ $(document).ready(function(){initNavTree('gameplayrunninginput_8h_source.html','
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -134,7 +133,7 @@ $(document).ready(function(){initNavTree('gameplayrunninginput_8h_source.html','
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">void</span> resizeEvent(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> width, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> height);</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">void</span> keyCallback(<span class="keywordtype">int</span> key, <span class="keywordtype">int</span> scancode, <span class="keywordtype">int</span> action, <span class="keywordtype">int</span> mods);</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">void</span> mouseButtonCallback(<span class="keywordtype">int</span> button, <span class="keywordtype">int</span> action, <span class="keywordtype">int</span> mods);</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">void</span> update(<span class="keywordtype">float</span> deltaSec);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_game_play_running_input.html#a5a416da9053871650041f8cd6bcd8401">update</a>(<span class="keywordtype">float</span> deltaSec);</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">protected</span>:</div>
@@ -199,7 +198,7 @@ $(document).ready(function(){initNavTree('gameplayrunninginput_8h_source.html','
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordtype">void</span> placeCrossHair(<span class="keywordtype">double</span> winX, <span class="keywordtype">double</span> winY);</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;};</div>
-<div class="ttc" id="class_world_object_html"><div class="ttname"><a href="class_world_object.html">WorldObject</a></div><div class="ttdef"><b>Definition:</b> worldobject.h:38</div></div>
+<div class="ttc" id="class_world_object_html"><div class="ttname"><a href="class_world_object.html">WorldObject</a></div><div class="ttdef"><b>Definition:</b> worldobject.h:43</div></div>
 <div class="ttc" id="class_game_state_html"><div class="ttname"><a href="class_game_state.html">GameState</a></div><div class="ttdef"><b>Definition:</b> gamestate.h:20</div></div>
 <div class="ttc" id="class_input_mapping_html"><div class="ttname"><a href="class_input_mapping.html">InputMapping</a></div><div class="ttdef"><b>Definition:</b> inputmapping.h:16</div></div>
 <div class="ttc" id="class_h_m_d_html"><div class="ttname"><a href="class_h_m_d.html">HMD</a></div><div class="ttdef"><b>Definition:</b> hmd.h:19</div></div>
@@ -209,6 +208,7 @@ $(document).ready(function(){initNavTree('gameplayrunninginput_8h_source.html','
 <div class="ttc" id="class_property_html"><div class="ttname"><a href="class_property.html">Property&lt; float &gt;</a></div></div>
 <div class="ttc" id="class_player_html"><div class="ttname"><a href="class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> player.h:22</div></div>
 <div class="ttc" id="class_game_play_running_input_html"><div class="ttname"><a href="class_game_play_running_input.html">GamePlayRunningInput</a></div><div class="ttdef"><b>Definition:</b> gameplayrunninginput.h:21</div></div>
+<div class="ttc" id="class_game_play_running_input_html_a5a416da9053871650041f8cd6bcd8401"><div class="ttname"><a href="class_game_play_running_input.html#a5a416da9053871650041f8cd6bcd8401">GamePlayRunningInput::update</a></div><div class="ttdeci">void update(float deltaSec)</div><div class="ttdef"><b>Definition:</b> gameplayrunninginput.cpp:155</div></div>
 <div class="ttc" id="class_input_configurator_html"><div class="ttname"><a href="class_input_configurator.html">InputConfigurator</a></div><div class="ttdef"><b>Definition:</b> inputconfigurator.h:14</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -216,7 +216,7 @@ $(document).ready(function(){initNavTree('gameplayrunninginput_8h_source.html','
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_31d4ea8148997abe7a56a5b07f2fed83.html">gamestate</a></li><li class="navelem"><a class="el" href="dir_422bd17afd8af33f87433e9d028687af.html">gameplay</a></li><li class="navelem"><a class="el" href="dir_16c1766995e8f68dc277f8c93f55d718.html">running</a></li><li class="navelem"><b>gameplayrunninginput.h</b></li>
-    <li class="footer">Generated on Sun Mar 23 2014 17:58:51 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 30 2014 13:32:31 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -30,9 +30,9 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Voxellancer
-   &#160;<span id="projectnumber">0.2</span>
+   &#160;<span id="projectnumber">0.3</span>
    </div>
-   <div id="projectbrief">a game about voxels in space</div>
+   <div id="projectbrief">A game about voxels in space</div>
   </td>
  </tr>
  </tbody>
@@ -47,7 +47,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -96,7 +95,7 @@ $(document).ready(function(){initNavTree('class_world_object_bindings.html','');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -122,8 +121,7 @@ Inheritance diagram for WorldObjectBindings:</div>
 <div class="dynheader">
 Collaboration diagram for WorldObjectBindings:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_world_object_bindings__coll__graph.svg" width="387" height="296"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_world_object_bindings__coll__graph.svg" width="387" height="296"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -168,6 +166,12 @@ glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><b>apiPosition</b> 
 <tr class="memitem:ad8070fb97fd9abf90f7ffeb97046d376"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad8070fb97fd9abf90f7ffeb97046d376"></a>
 glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><b>apiOrientation</b> (apikey worldObject)</td></tr>
 <tr class="separator:ad8070fb97fd9abf90f7ffeb97046d376"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe2e7575ed8d54ad925705f454aa87de"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abe2e7575ed8d54ad925705f454aa87de"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>apiSetShowOnHud</b> (apikey worldObject, bool show)</td></tr>
+<tr class="separator:abe2e7575ed8d54ad925705f454aa87de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9686f0c0b6d265170c413187642eb291"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9686f0c0b6d265170c413187642eb291"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>apiSetCanLockOn</b> (apikey worldObject, bool lockon)</td></tr>
+<tr class="separator:a9686f0c0b6d265170c413187642eb291"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee95d98adbddded5036c2073da089451"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aee95d98adbddded5036c2073da089451"></a>
 apikey&#160;</td><td class="memItemRight" valign="bottom"><b>apiOnWorldObjectDestroyed</b> (apikey worldObject, const std::string &amp;callback)</td></tr>
 <tr class="separator:aee95d98adbddded5036c2073da089451"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -198,7 +202,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_world_object_bindings.html">WorldObjectBindings</a></li>
-    <li class="footer">Generated on Sun Mar 23 2014 17:59:01 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 30 2014 13:32:41 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

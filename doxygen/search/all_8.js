@@ -20,5 +20,5 @@ var searchData=
   ['hudgetanimation',['HudgetAnimation',['../class_hudget_animation.html',1,'']]],
   ['hudgethideanimation',['HudgetHideAnimation',['../class_hudget_hide_animation.html',1,'']]],
   ['hudobjectdelegate',['HUDObjectDelegate',['../class_h_u_d_object_delegate.html',1,'']]],
-  ['how_20to_20play',['How to play',['../md_doc_howto.html',1,'']]]
+  ['how_20to_20play',['How to play',['../md_doc_1_howto.html',1,'']]]
 ];

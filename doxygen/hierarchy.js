@@ -75,6 +75,7 @@ var hierarchy =
       [ "Starfield", "class_starfield.html", null ],
       [ "StereoView", "class_stereo_view.html", null ],
       [ "VoxelMesh", "class_voxel_mesh.html", null ],
+      [ "VoxelParticleEngine", "class_voxel_particle_engine.html", null ],
       [ "VoxelParticleRenderer", "class_voxel_particle_renderer.html", null ],
       [ "VoxelRenderData", "class_voxel_render_data.html", null ],
       [ "VoxelRenderer", "class_voxel_renderer.html", null ]
@@ -319,7 +320,6 @@ var hierarchy =
     [ "VoxelHangman", "class_voxel_hangman.html", null ],
     [ "VoxelNeighbourHelper", "class_voxel_neighbour_helper.html", null ],
     [ "VoxelParticleData", "struct_voxel_particle_data.html", null ],
-    [ "VoxelParticleEngine", "class_voxel_particle_engine.html", null ],
     [ "VoxelParticleFutureCheck", "class_voxel_particle_future_check.html", null ],
     [ "VoxelParticleRemoveCheck", "class_voxel_particle_remove_check.html", [
       [ "VoxelParticleExpireCheck", "class_voxel_particle_expire_check.html", null ],

@@ -30,9 +30,9 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Voxellancer
-   &#160;<span id="projectnumber">0.2</span>
+   &#160;<span id="projectnumber">0.3</span>
    </div>
-   <div id="projectbrief">a game about voxels in space</div>
+   <div id="projectbrief">A game about voxels in space</div>
   </td>
  </tr>
  </tbody>
@@ -47,7 +47,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -93,7 +92,7 @@ $(document).ready(function(){initNavTree('god_8h_source.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -117,14 +116,6 @@ $(document).ready(function(){initNavTree('god_8h_source.html','');});
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">class </span><a class="code" href="class_world_object.html">WorldObject</a>;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">class </span><a class="code" href="class_world.html">World</a>;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">    Responsible for safely inserting object into the World, preventing overlappings</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">    * to spawn an object, first call scheduleSpawn() and then spawn()</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">    * to remove an object, first call scheduleRemoval and then remove()</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">    The World will be given full ownership of spawned object, rejected objects however</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment">    will have to be managed by the caller.</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="class_god.html">   19</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_god.html">God</a> {</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <a class="code" href="class_god.html">God</a>(<a class="code" href="class_world.html">World</a>&amp; world);</div>
@@ -144,7 +135,7 @@ $(document).ready(function(){initNavTree('god_8h_source.html','');});
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    std::list&lt;SpawnRequest&gt; m_spawnRequests;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    std::list&lt;WorldObject*&gt; m_scheduledRemovals;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;};</div>
-<div class="ttc" id="class_world_object_html"><div class="ttname"><a href="class_world_object.html">WorldObject</a></div><div class="ttdef"><b>Definition:</b> worldobject.h:38</div></div>
+<div class="ttc" id="class_world_object_html"><div class="ttname"><a href="class_world_object.html">WorldObject</a></div><div class="ttdef"><b>Definition:</b> worldobject.h:43</div></div>
 <div class="ttc" id="class_world_html"><div class="ttname"><a href="class_world.html">World</a></div><div class="ttdef"><b>Definition:</b> world.h:20</div></div>
 <div class="ttc" id="class_god_html"><div class="ttname"><a href="class_god.html">God</a></div><div class="ttdef"><b>Definition:</b> god.h:19</div></div>
 <div class="ttc" id="class_spawn_request_html"><div class="ttname"><a href="class_spawn_request.html">SpawnRequest</a></div><div class="ttdef"><b>Definition:</b> spawnrequest.h:14</div></div>
@@ -154,7 +145,7 @@ $(document).ready(function(){initNavTree('god_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_6826d79532171ff2338799cfd298b875.html">world</a></li><li class="navelem"><b>god.h</b></li>
-    <li class="footer">Generated on Sun Mar 23 2014 17:58:52 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 30 2014 13:32:32 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

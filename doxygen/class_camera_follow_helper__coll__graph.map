@@ -1,3 +1,5 @@
 <map id="CameraFollowHelper" name="CameraFollowHelper">
-<area shape="rect" id="node2" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="5,5,163,32"/>
+<area shape="rect" id="node2" href="$class_handle.html" title="Handle\&lt; WorldObject \&gt;" alt="" coords="5,112,163,139"/>
+<area shape="rect" id="node3" href="$class_property.html" title="Property\&lt; glm::vec3 \&gt;" alt="" coords="187,112,337,139"/>
+<area shape="rect" id="node4" href="$class_property_impl.html" title="PropertyImpl\&lt; glm::\lvec3 \&gt;" alt="" coords="195,6,331,47"/>
 </map>

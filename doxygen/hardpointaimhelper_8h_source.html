@@ -30,9 +30,9 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Voxellancer
-   &#160;<span id="projectnumber">0.2</span>
+   &#160;<span id="projectnumber">0.3</span>
    </div>
-   <div id="projectbrief">a game about voxels in space</div>
+   <div id="projectbrief">A game about voxels in space</div>
   </td>
  </tr>
  </tbody>
@@ -47,7 +47,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -93,7 +92,7 @@ $(document).ready(function(){initNavTree('hardpointaimhelper_8h_source.html','')
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -116,11 +115,6 @@ $(document).ready(function(){initNavTree('hardpointaimhelper_8h_source.html','')
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">class </span>Vpxel;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">class </span><a class="code" href="class_world_object.html">WorldObject</a>;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">    Identifies the direction a hardpoint must shoot to hit a moving WorldObject</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">    given the direction and the speed of this other WorldObject doesn&#39;t change too</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">    much</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="class_hardpoint_aim_helper.html">   15</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_hardpoint_aim_helper.html">HardpointAimHelper</a> {</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="class_hardpoint_aim_helper.html">HardpointAimHelper</a>(<a class="code" href="class_hardpoint.html">Hardpoint</a>* hardpoint, <a class="code" href="class_world_object.html">WorldObject</a>* targetObject);</div>
@@ -163,7 +157,7 @@ $(document).ready(function(){initNavTree('hardpointaimhelper_8h_source.html','')
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">float</span> bulletSpeedInDirection(<span class="keyword">const</span> glm::vec3&amp; direction);</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;};</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
-<div class="ttc" id="class_world_object_html"><div class="ttname"><a href="class_world_object.html">WorldObject</a></div><div class="ttdef"><b>Definition:</b> worldobject.h:38</div></div>
+<div class="ttc" id="class_world_object_html"><div class="ttname"><a href="class_world_object.html">WorldObject</a></div><div class="ttdef"><b>Definition:</b> worldobject.h:43</div></div>
 <div class="ttc" id="class_hardpoint_aim_helper_html"><div class="ttname"><a href="class_hardpoint_aim_helper.html">HardpointAimHelper</a></div><div class="ttdef"><b>Definition:</b> hardpointaimhelper.h:15</div></div>
 <div class="ttc" id="class_hardpoint_html"><div class="ttname"><a href="class_hardpoint.html">Hardpoint</a></div><div class="ttdef"><b>Definition:</b> hardpoint.h:18</div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -172,7 +166,7 @@ $(document).ready(function(){initNavTree('hardpointaimhelper_8h_source.html','')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_b8b87a3ff4d0369902fe7a86e04ac30b.html">worldobject</a></li><li class="navelem"><a class="el" href="dir_957536e92b5c5238a11873e0c5e7b145.html">helper</a></li><li class="navelem"><b>hardpointaimhelper.h</b></li>
-    <li class="footer">Generated on Sun Mar 23 2014 17:58:52 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 30 2014 13:32:32 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

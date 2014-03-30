@@ -30,9 +30,9 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Voxellancer
-   &#160;<span id="projectnumber">0.2</span>
+   &#160;<span id="projectnumber">0.3</span>
    </div>
-   <div id="projectbrief">a game about voxels in space</div>
+   <div id="projectbrief">A game about voxels in space</div>
   </td>
  </tr>
  </tbody>
@@ -47,7 +47,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -96,7 +95,7 @@ $(document).ready(function(){initNavTree('class_world_object_components.html',''
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -114,6 +113,8 @@ $(document).ready(function(){initNavTree('class_world_object_components.html',''
 <div class="title">WorldObjectComponents Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="worldobjectcomponents_8h_source.html">worldobjectcomponents.h</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for WorldObjectComponents:</div>
 <div class="dyncontent">
@@ -196,7 +197,9 @@ std::list&lt; std::shared_ptr<br class="typebreak"/>
 <a class="el" href="class_abstract_move.html">EngineState</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_engineState</b></td></tr>
 <tr class="separator:ae2f109d74c09ed98c9e6e81979287b4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/>The documentation for this class was generated from the following files:<ul>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Module of the <a class="el" href="class_world_object.html">WorldObject</a> that is responsible for managing all the components of a <a class="el" href="class_world_object.html">WorldObject</a> (Engines, Weapons) and their respective slots. Also provides functions to trigger actions or retrieve values from a whole category of components. (like, fire all weapons, set all engines) </p>
+</div><hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/worldobject/<a class="el" href="worldobjectcomponents_8h_source.html">worldobjectcomponents.h</a></li>
 <li>src/worldobject/worldobjectcomponents.cpp</li>
 </ul>
@@ -206,7 +209,7 @@ std::list&lt; std::shared_ptr<br class="typebreak"/>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_world_object_components.html">WorldObjectComponents</a></li>
-    <li class="footer">Generated on Sun Mar 23 2014 17:59:01 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 30 2014 13:32:41 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -8,5 +8,5 @@ var searchData=
   ['blitter',['Blitter',['../class_blitter.html',1,'']]],
   ['boardcomputer',['BoardComputer',['../class_board_computer.html',1,'']]],
   ['bullet',['Bullet',['../class_bullet.html',1,'']]],
-  ['build_20instructions',['build instructions',['../md_doc_buildinstructions.html',1,'']]]
+  ['build_20instructions',['Build instructions',['../md_doc_3_buildinstructions.html',1,'']]]
 ];

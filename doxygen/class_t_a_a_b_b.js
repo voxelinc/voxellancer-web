@@ -1,7 +1,7 @@
 var class_t_a_a_b_b =
 [
     [ "TAABB", "class_t_a_a_b_b.html#a75d3ab8d4f22c759aad7e8cd9366a085", null ],
-    [ "TAABB", "class_t_a_a_b_b.html#aafb17ff38b5a19bcfa97ec1c59154a4e", null ],
+    [ "TAABB", "class_t_a_a_b_b.html#a00abbc420366eaeba6cc586dae0db0d2", null ],
     [ "TAABB", "class_t_a_a_b_b.html#a26b6709dd7ab74dff0833fe682063c0f", null ],
     [ "axisMax", "class_t_a_a_b_b.html#aa2d585daa88cd013fee289b582a76f3c", null ],
     [ "axisMin", "class_t_a_a_b_b.html#a207dad38a48815f5a3b6e645e7497041", null ],
@@ -24,13 +24,13 @@ var class_t_a_a_b_b =
     [ "nearTo", "class_t_a_a_b_b.html#a3d80a68e6e0a75be6c40cbd76212aa46", null ],
     [ "operator==", "class_t_a_a_b_b.html#a32ca049ec325c42383684f44b2d39158", null ],
     [ "recursiveSplit", "class_t_a_a_b_b.html#a44ca8c2f8ba285f58b0cb8e388ca7dfe", null ],
-    [ "rub", "class_t_a_a_b_b.html#a6c058e0c57b04ce5924bc7bbab898b92", null ],
     [ "setLLF", "class_t_a_a_b_b.html#a13e0f2f7618a445a0a6b89a6cc31c345", null ],
-    [ "setRUB", "class_t_a_a_b_b.html#af11f631a4e45815c9e288e6eaea978f8", null ],
+    [ "setURB", "class_t_a_a_b_b.html#a7ab402d8fcb41027426784543e1b7e91", null ],
     [ "split", "class_t_a_a_b_b.html#a11296107d2c7d9c4c8c15f1eae135e0f", null ],
     [ "split", "class_t_a_a_b_b.html#af942231a763997bf4dcdef6330280d32", null ],
     [ "unite", "class_t_a_a_b_b.html#a3ac33914a851c81e0152488a3b9842e5", null ],
     [ "united", "class_t_a_a_b_b.html#a6cfe6a56cce5d31f487ffaeee96062d7", null ],
+    [ "urb", "class_t_a_a_b_b.html#a36d5689dabf01dacec0dc19a7d4bc277", null ],
     [ "m_llf", "class_t_a_a_b_b.html#a933440cba28599bdbc693f732cc9b6f4", null ],
-    [ "m_rub", "class_t_a_a_b_b.html#accda281bd230d706318d33880eb63f51", null ]
+    [ "m_urb", "class_t_a_a_b_b.html#a4f78408ef228026801bdaee70e28dd58", null ]
 ];

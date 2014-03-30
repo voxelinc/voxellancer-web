@@ -9,6 +9,7 @@ var class_h_u_d_elements =
     [ "removeHudget", "class_h_u_d_elements.html#a135dd7ba04f477da67ffa678a609dba5", null ],
     [ "setSpeed", "class_h_u_d_elements.html#abd79638a04af546945cea3f94d637e40", null ],
     [ "setTargetName", "class_h_u_d_elements.html#a6ae0747e77d331ce4a0d41a9beb78afb", null ],
+    [ "showMessage", "class_h_u_d_elements.html#ad78f63f4345defa479ca034cf79678b3", null ],
     [ "showMissionInfo", "class_h_u_d_elements.html#a4934f2808a1cfcc26070104da5d01800", null ],
     [ "showMissionMessage", "class_h_u_d_elements.html#ae433c14c873c9703e6bef10e12b35df0", null ],
     [ "update", "class_h_u_d_elements.html#ae120fe597ab2f3baf137df9295c4a214", null ],

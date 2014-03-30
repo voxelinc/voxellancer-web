@@ -5,8 +5,7 @@ var class_common_bindings =
     [ "apiCreateSingleShotTimer", "class_common_bindings.html#acaaddff3cf9a82e9f7ade58199cb5715", null ],
     [ "apiPlayVoice", "class_common_bindings.html#a7c594c6e72ee468c2a4bd2f179fbcf67", null ],
     [ "apiSetEventActive", "class_common_bindings.html#a89faca8a4b8907ba8e0dccc3440cfaf6", null ],
-    [ "apiShowText", "class_common_bindings.html#a7fa38e11aa61ecbbbd55fe39d3275a5c", null ],
-    [ "apiShowTextFor", "class_common_bindings.html#a3acda4b385dc52ce63939f518b295a1d", null ],
+    [ "apiShowMessage", "class_common_bindings.html#abbf778cdc6e0cc0d0055f10fcc2f879b", null ],
     [ "apiValid", "class_common_bindings.html#a73ffb02b908f7d3c0ba83b06d92dfc88", null ],
     [ "bind", "class_common_bindings.html#a9289193e14255c09f3e29bf92e8a7c46", null ]
 ];

@@ -10,6 +10,7 @@ var class_world =
     [ "missionSystem", "class_world.html#a40cb2c14771b1206bbd3ffa9af8e6e25", null ],
     [ "particleEngine", "class_world.html#ab8814b69c7418f869292308cc9cc02a0", null ],
     [ "player", "class_world.html#ad1513a7fa5928fec81164d50951a8674", null ],
+    [ "printStatus", "class_world.html#a8bec125f9a289cf646e601a4af5df4d1", null ],
     [ "removeWorldObject", "class_world.html#a7ff26a07737067b9f49fa64c7086adfb", null ],
     [ "scriptEngine", "class_world.html#a4555b4179541557d64fd7ca063759e20", null ],
     [ "ships", "class_world.html#a23f044259c119f295deee390e8e3dec9", null ],

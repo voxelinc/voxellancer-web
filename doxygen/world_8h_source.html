@@ -30,9 +30,9 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Voxellancer
-   &#160;<span id="projectnumber">0.2</span>
+   &#160;<span id="projectnumber">0.3</span>
    </div>
-   <div id="projectbrief">a game about voxels in space</div>
+   <div id="projectbrief">A game about voxels in space</div>
   </td>
  </tr>
  </tbody>
@@ -47,7 +47,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -93,7 +92,7 @@ $(document).ready(function(){initNavTree('world_8h_source.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -145,41 +144,43 @@ $(document).ready(function(){initNavTree('world_8h_source.html','');});
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    std::unordered_set&lt;WorldObject*&gt;&amp; worldObjects();</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    std::unordered_set&lt;Ship*&gt;&amp; ships();</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">void</span> update(<span class="keywordtype">float</span> deltaSecs);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">void</span> printStatus();</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">float</span> deltaSec() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">void</span> update(<span class="keywordtype">float</span> deltaSecs);</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">static</span> <a class="code" href="class_world.html">World</a>* instance();</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> reset(<span class="keywordtype">bool</span> showWarning=<span class="keyword">true</span>);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="class_god.html">God</a>;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">void</span> addWorldObject(<a class="code" href="class_world_object.html">WorldObject</a>* worldObject);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">void</span> removeWorldObject(<a class="code" href="class_world_object.html">WorldObject</a>* worldObject);</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keyword">static</span> <a class="code" href="class_world.html">World</a>* s_instance;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">float</span> m_deltaSec;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">float</span> deltaSec() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keyword">static</span> <a class="code" href="class_world.html">World</a>* instance();</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> reset(<span class="keywordtype">bool</span> showWarning=<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="class_god.html">God</a>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">void</span> addWorldObject(<a class="code" href="class_world_object.html">WorldObject</a>* worldObject);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">void</span> removeWorldObject(<a class="code" href="class_world_object.html">WorldObject</a>* worldObject);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keyword">static</span> <a class="code" href="class_world.html">World</a>* s_instance;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    std::unique_ptr&lt;Player&gt; m_player;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    std::unique_ptr&lt;ScriptEngine&gt; m_scriptEngine;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    std::unique_ptr&lt;Skybox&gt; m_skybox;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    std::unique_ptr&lt;WorldTree&gt; m_worldTree;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    std::unique_ptr&lt;WorldLogic&gt; m_worldLogic;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    std::unique_ptr&lt;God&gt; m_god;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    std::unique_ptr&lt;VoxelParticleEngine&gt; m_particleEngine;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    std::unique_ptr&lt;FactionMatrix&gt; m_factionMatrix;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    std::unique_ptr&lt;EventPoller&gt; m_eventPoller;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    std::unique_ptr&lt;MissionSystem&gt; m_missionSystem;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    std::unordered_set&lt;WorldObject*&gt; m_worldObjects;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    std::unordered_set&lt;Ship*&gt; m_ships;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;};</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
-<div class="ttc" id="class_world_object_html"><div class="ttname"><a href="class_world_object.html">WorldObject</a></div><div class="ttdef"><b>Definition:</b> worldobject.h:38</div></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">float</span> m_deltaSec;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    std::unique_ptr&lt;Player&gt; m_player;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    std::unique_ptr&lt;ScriptEngine&gt; m_scriptEngine;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    std::unique_ptr&lt;Skybox&gt; m_skybox;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    std::unique_ptr&lt;WorldTree&gt; m_worldTree;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    std::unique_ptr&lt;WorldLogic&gt; m_worldLogic;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    std::unique_ptr&lt;God&gt; m_god;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    std::unique_ptr&lt;VoxelParticleEngine&gt; m_particleEngine;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    std::unique_ptr&lt;FactionMatrix&gt; m_factionMatrix;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    std::unique_ptr&lt;EventPoller&gt; m_eventPoller;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    std::unique_ptr&lt;MissionSystem&gt; m_missionSystem;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    std::unordered_set&lt;WorldObject*&gt; m_worldObjects;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    std::unordered_set&lt;Ship*&gt; m_ships;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;};</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="ttc" id="class_world_object_html"><div class="ttname"><a href="class_world_object.html">WorldObject</a></div><div class="ttdef"><b>Definition:</b> worldobject.h:43</div></div>
 <div class="ttc" id="class_voxel_particle_engine_html"><div class="ttname"><a href="class_voxel_particle_engine.html">VoxelParticleEngine</a></div><div class="ttdef"><b>Definition:</b> voxelparticleengine.h:23</div></div>
 <div class="ttc" id="class_world_html"><div class="ttname"><a href="class_world.html">World</a></div><div class="ttdef"><b>Definition:</b> world.h:20</div></div>
 <div class="ttc" id="class_skybox_html"><div class="ttname"><a href="class_skybox.html">Skybox</a></div><div class="ttdef"><b>Definition:</b> skybox.h:16</div></div>
@@ -190,7 +191,7 @@ $(document).ready(function(){initNavTree('world_8h_source.html','');});
 <div class="ttc" id="class_faction_matrix_html"><div class="ttname"><a href="class_faction_matrix.html">FactionMatrix</a></div><div class="ttdef"><b>Definition:</b> factionmatrix.h:14</div></div>
 <div class="ttc" id="class_player_html"><div class="ttname"><a href="class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> player.h:22</div></div>
 <div class="ttc" id="class_script_engine_html"><div class="ttname"><a href="class_script_engine.html">ScriptEngine</a></div><div class="ttdef"><b>Definition:</b> scriptengine.h:17</div></div>
-<div class="ttc" id="class_ship_html"><div class="ttname"><a href="class_ship.html">Ship</a></div><div class="ttdef"><b>Definition:</b> ship.h:19</div></div>
+<div class="ttc" id="class_ship_html"><div class="ttname"><a href="class_ship.html">Ship</a></div><div class="ttdef"><b>Definition:</b> ship.h:23</div></div>
 <div class="ttc" id="class_world_tree_html"><div class="ttname"><a href="class_world_tree.html">WorldTree</a></div><div class="ttdef"><b>Definition:</b> worldtree.h:13</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -198,7 +199,7 @@ $(document).ready(function(){initNavTree('world_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_6826d79532171ff2338799cfd298b875.html">world</a></li><li class="navelem"><b>world.h</b></li>
-    <li class="footer">Generated on Sun Mar 23 2014 17:58:52 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 30 2014 13:32:32 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

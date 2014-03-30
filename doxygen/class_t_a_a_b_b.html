@@ -30,9 +30,9 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Voxellancer
-   &#160;<span id="projectnumber">0.2</span>
+   &#160;<span id="projectnumber">0.3</span>
    </div>
-   <div id="projectbrief">a game about voxels in space</div>
+   <div id="projectbrief">A game about voxels in space</div>
   </td>
  </tr>
  </tbody>
@@ -47,7 +47,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -96,7 +95,7 @@ $(document).ready(function(){initNavTree('class_t_a_a_b_b.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -128,9 +127,9 @@ Collaboration diagram for TAABB&lt; T &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aafb17ff38b5a19bcfa97ec1c59154a4e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aafb17ff38b5a19bcfa97ec1c59154a4e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>TAABB</b> (const glm::detail::tvec3&lt; T &gt; &amp;llf, const glm::detail::tvec3&lt; T &gt; &amp;rub)</td></tr>
-<tr class="separator:aafb17ff38b5a19bcfa97ec1c59154a4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00abbc420366eaeba6cc586dae0db0d2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a00abbc420366eaeba6cc586dae0db0d2"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>TAABB</b> (const glm::detail::tvec3&lt; T &gt; &amp;llf, const glm::detail::tvec3&lt; T &gt; &amp;urb)</td></tr>
+<tr class="separator:a00abbc420366eaeba6cc586dae0db0d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26b6709dd7ab74dff0833fe682063c0f"><td class="memTemplParams" colspan="2"><a class="anchor" id="a26b6709dd7ab74dff0833fe682063c0f"></a>
 template&lt;typename OtherT &gt; </td></tr>
 <tr class="memitem:a26b6709dd7ab74dff0833fe682063c0f"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><b>TAABB</b> (const <a class="el" href="class_t_a_a_b_b.html">TAABB</a>&lt; OtherT &gt; &amp;other)</td></tr>
@@ -141,12 +140,12 @@ const glm::detail::tvec3&lt; T &gt; &amp;&#160;</td><td class="memItemRight" val
 <tr class="memitem:a13e0f2f7618a445a0a6b89a6cc31c345"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a13e0f2f7618a445a0a6b89a6cc31c345"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setLLF</b> (const glm::detail::tvec3&lt; T &gt; &amp;llf)</td></tr>
 <tr class="separator:a13e0f2f7618a445a0a6b89a6cc31c345"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c058e0c57b04ce5924bc7bbab898b92"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6c058e0c57b04ce5924bc7bbab898b92"></a>
-const glm::detail::tvec3&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>rub</b> () const </td></tr>
-<tr class="separator:a6c058e0c57b04ce5924bc7bbab898b92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af11f631a4e45815c9e288e6eaea978f8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af11f631a4e45815c9e288e6eaea978f8"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setRUB</b> (const glm::detail::tvec3&lt; T &gt; &amp;rub)</td></tr>
-<tr class="separator:af11f631a4e45815c9e288e6eaea978f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36d5689dabf01dacec0dc19a7d4bc277"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a36d5689dabf01dacec0dc19a7d4bc277"></a>
+const glm::detail::tvec3&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>urb</b> () const </td></tr>
+<tr class="separator:a36d5689dabf01dacec0dc19a7d4bc277"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ab402d8fcb41027426784543e1b7e91"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7ab402d8fcb41027426784543e1b7e91"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setURB</b> (const glm::detail::tvec3&lt; T &gt; &amp;urb)</td></tr>
+<tr class="separator:a7ab402d8fcb41027426784543e1b7e91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a207dad38a48815f5a3b6e645e7497041"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a207dad38a48815f5a3b6e645e7497041"></a>
 T&#160;</td><td class="memItemRight" valign="bottom"><b>axisMin</b> (Axis axis) const </td></tr>
 <tr class="separator:a207dad38a48815f5a3b6e645e7497041"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -233,9 +232,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a933440cba28599bdbc693f732cc9b6f4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a933440cba28599bdbc693f732cc9b6f4"></a>
 glm::detail::tvec3&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_llf</b></td></tr>
 <tr class="separator:a933440cba28599bdbc693f732cc9b6f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accda281bd230d706318d33880eb63f51"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="accda281bd230d706318d33880eb63f51"></a>
-glm::detail::tvec3&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_rub</b></td></tr>
-<tr class="separator:accda281bd230d706318d33880eb63f51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f78408ef228026801bdaee70e28dd58"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4f78408ef228026801bdaee70e28dd58"></a>
+glm::detail::tvec3&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_urb</b></td></tr>
+<tr class="separator:a4f78408ef228026801bdaee70e28dd58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/geometry/<a class="el" href="aabb_8h_source.html">aabb.h</a></li>
@@ -247,7 +246,7 @@ glm::detail::tvec3&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_t_a_a_b_b.html">TAABB</a></li>
-    <li class="footer">Generated on Sun Mar 23 2014 17:58:59 for Voxellancer by
+    <li class="footer">Generated on Sun Mar 30 2014 13:32:39 for Voxellancer by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

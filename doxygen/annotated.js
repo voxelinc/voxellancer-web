@@ -1,6 +1,5 @@
 var annotated =
 [
-    [ "generateluadoc", "namespacegenerateluadoc.html", null ],
     [ "glow", null, [
       [ "Uniform", "classglow_1_1_uniform.html", null ]
     ] ],
